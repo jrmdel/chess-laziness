@@ -1,0 +1,54 @@
+[
+  {
+    "result": "0-1",
+    "white": {
+      "moves": 42,
+      "distance": 66,
+      "perMove": 1.571
+    },
+    "black": {
+      "moves": 42,
+      "distance": 77.5,
+      "perMove": 1.845
+    }
+  },
+  {
+    "result": "1-0",
+    "white": {
+      "moves": 38,
+      "distance": 58.5,
+      "perMove": 1.539
+    },
+    "black": {
+      "moves": 37,
+      "distance": 64,
+      "perMove": 1.73
+    }
+  },
+  {
+    "result": "0-1",
+    "white": {
+      "moves": 50,
+      "distance": 83,
+      "perMove": 1.66
+    },
+    "black": {
+      "moves": 50,
+      "distance": 76.5,
+      "perMove": 1.53
+    }
+  },
+  {
+    "result": "1-0",
+    "white": {
+      "moves": 35,
+      "distance": 53.5,
+      "perMove": 1.529
+    },
+    "black": {
+      "moves": 34,
+      "distance": 59,
+      "perMove": 1.735
+    }
+  }
+]
