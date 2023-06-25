@@ -43,12 +43,14 @@ const parsePgn = str => {
   let variant = str.match(/(?<=variant ").*(?=")+/gi)?.[0] || "standard";
   return variant.match(/standard/i) ? {
     white: str.match(/(?<=white ").*(?=")/gi)?.[0] || "",
-      whiteElo: str.match(/(?<=whiteelo ")\d+/gi)?.[0] || "",
-      black: str.match(/(?<=white ").*(?=")/gi)?.[0] || "",
-      blackElo: str.match(/(?<=blackelo ")\d+/gi)?.[0] || "",
-      opening: str.match(/(?<=opening ").*(?=")/gi)?.[0] || "",
-      result: str.match(/(?<=result ").*(?=")/gi)?.[0] || "",
-    moves: parseMoves(str?.replace(/\[.*?\]\n/g, "")?.trim()?.replace(/\n/g, " ")),
+    whiteElo: str.match(/(?<=whiteelo ")\d+/gi)?.[0] || "",
+    black: str.match(/(?<=black ").*(?=")/gi)?.[0] || "",
+    blackElo: str.match(/(?<=blackelo ")\d+/gi)?.[0] || "",
+    opening: str.match(/(?<=opening ").*(?=")/gi)?.[0] || "",
+    result: str.match(/(?<=result ").*(?=")/gi)?.[0] || "",
+    moves: parseMoves(
+      str?.replace(/\[.*?\]\r?\n/g, "")?.trim()?.replace(/\r?\n/g, " "),
+    ),
   } : {};
 };
 
