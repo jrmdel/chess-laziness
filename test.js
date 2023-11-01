@@ -1,5 +1,5 @@
-const Util = require("./helpers/utils");
-const Board = require("./classes/Board");
+const Util = require("./src/helpers/utils");
+const Board = require("./src/classes/Board");
 
 // console.log(Util.pieceCanReachSquare(0, "N", "b8", "d7")) // expect true
 // console.log(Util.pieceCanReachSquare(1, "N", "b8", "d7")) // expect true
@@ -14,11 +14,9 @@ const Board = require("./classes/Board");
 // console.log(Util.pieceCanReachSquare(0, "K", "g1", "h2")) // expect true
 // console.log(Util.pieceCanReachSquare(0, "K", "g1", "g3")) // expect false
 
-
-
 const b = new Board();
 // console.log(b.getCurrentPosition());
-console.time("inputMoves")
+console.time("inputMoves");
 // Testing diagonal pin
 // b.setMove("d4");
 // b.setMove("e6");
@@ -76,5 +74,5 @@ b.setMove("Nc3");
 // b.setMove("Nf3")
 // b.setMove("Nb4")
 // b.setMove("c4")
-console.timeEnd("inputMoves")
-console.log(JSON.stringify(b.getPieces(), null, 2))
+console.timeEnd("inputMoves");
+console.log(JSON.stringify(b.getPieces(), null, 2));
