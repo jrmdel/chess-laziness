@@ -1,14 +1,18 @@
 {
-    "name": "chess-laziness",
-    "version": "1.0.0",
-    "description": "",
-    "main": "main.js",
-    "scripts": {
-      "start": "node ./main.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "engines": {
-      "node": "18.16.1"
-    }
+  "name": "chess-laziness",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./main.js",
+    "test": "jest --runInBand",
+    "test:config": "jest --showConfig",
+    "test:clear": "jest --clearCache"
+  },
+  "engines": {
+    "node": "18.16.1"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
   }
-  
+}
