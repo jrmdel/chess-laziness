@@ -1,9 +1,3 @@
-// const {
-//   pgnMetadataFixture,
-//   metadataObjectFromPgnFixture,
-//   pgnMetadataWithMissingValues,
-//   partialMetadataObjectFixture,
-// } = require("test/fixtures/metadata-parser.fixture");
 const { grepPgnValue, buildMetadata } = require("src/helpers/tools/metadata-parser");
 const {
   partialMetadataObjectFixture,
@@ -11,7 +5,6 @@ const {
   pgnMetadataFixture,
   metadataObjectFromPgnFixture,
 } = require("test/fixtures/metadata-parser.fixture");
-// const { grepPgnValue, buildMetadata } = require("./metadata-parser");
 
 describe("metadata parser", () => {
   describe("grepPgnValue", () => {

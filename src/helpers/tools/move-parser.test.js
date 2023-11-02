@@ -1,8 +1,8 @@
 const {
   movesFoundInPgnFilesFixture,
-  parsedMovesFromPgnFixture,
   movesAfterRemovingSuperfluousContentFixture,
-} = require("../../../test/fixtures/move-parser.fixtures");
+  parsedMovesFromPgnFixture,
+} = require("test/fixtures/move-parser.fixtures");
 const {
   removeCurly,
   removeDots,
@@ -13,7 +13,7 @@ const {
   removeNestedParentheses,
   cleanAndParseMoves,
   removeEverything,
-} = require("./move-parser");
+} = require("src/helpers/tools/move-parser");
 
 describe("pgn parser", () => {
   describe("removeCurly", () => {

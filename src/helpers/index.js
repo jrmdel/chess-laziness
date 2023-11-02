@@ -1,3 +1,7 @@
-module.exports = Object.assign({}, {
-  ...require("./utils"),
-})
+module.exports = Object.assign(
+  {},
+  {
+    ...require("./utils"),
+    ...require("./tools"),
+  }
+);
