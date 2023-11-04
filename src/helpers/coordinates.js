@@ -2,12 +2,13 @@ const { FILES_LETTER } = require("src/helpers/common.constants");
 
 /**
  * Mathematically compute the x and y coordinates of a given cell
- * @param {String} cell - Human readable cell name (eg. `"e4"`)
+ * @param {String} cell - Human readable cell name (eg. `"d4"`)
  * @returns {Number[]} x and y coordinates
  */
 function convertCellToCoordinates(cell) {
-  let x = FILES_LETTER.indexOf(cell[0]) + 1;
-  let y = +cell[1];
+  const x = FILES_LETTER.indexOf(cell[0]) + 1;
+  const y = +cell[1];
+
   return [x, y];
 }
 
@@ -37,8 +38,8 @@ function getUnitVector(vector) {
 /**
  * Sum each terms of the given vectors and return the result
  * @param {Number[]} vectorA - A 2D-vector (eg. `[3, -3]`)
- * @param {Number[]} vectorB - Another 2D-vector
- * @returns {Number[]} The addition of the 2 arguments
+ * @param {Number[]} vectorB - Another 2D-vector (eg. `[1, 1]`)
+ * @returns {Number[]} The addition of the 2 arguments (eg. `[4, -2]`)
  */
 function addVectors(vectorA, vectorB) {
   return vectorA.map((value, i) => value + vectorB[i]);
@@ -60,10 +61,18 @@ function getDistanceVector(cellCoordinatesA, cellCoordinatesB) {
  * @param {Number[]} cellCoordinatesB - Coordinates of the second cell
  * @returns {Number[]} The absolute distance between the cells as a 2D-vector
  */
-function getAbsoluteVectorDistance(cellCoordinatesA, cellCoordinatesB) {
+function getAbsoluteDistanceVector(cellCoordinatesA, cellCoordinatesB) {
   return cellCoordinatesB.map((value, i) => Math.abs(value - cellCoordinatesA[i]));
 }
 
+/**
+ * Get the list of cells between two cell coordinates
+ * @param {Number[]} cellCoordinatesA - Coordinates of the first cell
+ * @param {Number[]} cellCoordinatesB - Coordinates of the second cell
+ * @param {Number[]} distanceVector - Relative distance between cells
+ * @param {Number[]} unitVector - Vector to follow to get from cellA to cellB
+ * @returns {String[]}
+ */
 function getCellsBetween(
   cellCoordinatesA,
   cellCoordinatesB,
@@ -87,5 +96,6 @@ module.exports = {
   getUnitVector,
   addVectors,
   getDistanceVector,
-  getAbsoluteVectorDistance,
+  getAbsoluteDistanceVector,
+  getCellsBetween,
 };

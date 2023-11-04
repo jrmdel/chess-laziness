@@ -5,7 +5,8 @@ const {
   getUnitVector,
   addVectors,
   getDistanceVector,
-  getAbsoluteVectorDistance,
+  getAbsoluteDistanceVector,
+  getCellsBetween,
 } = require("src/helpers/coordinates");
 
 describe("coordinates test", () => {
@@ -105,17 +106,31 @@ describe("coordinates test", () => {
     });
   });
 
-  describe("getAbsoluteVectorDistance", () => {
+  describe("getAbsoluteDistanceVector", () => {
     it("should compute the absolute difference between two vectors", () => {
-      const resultA = getAbsoluteVectorDistance([8, 1], [1, 1]);
-      const resultB = getAbsoluteVectorDistance([1, 1], [8, 1]);
-      const resultC = getAbsoluteVectorDistance([4, 4], [1, 7]);
-      const resultD = getAbsoluteVectorDistance([4, 4], [2, 2]);
+      const resultA = getAbsoluteDistanceVector([8, 1], [1, 1]);
+      const resultB = getAbsoluteDistanceVector([1, 1], [8, 1]);
+      const resultC = getAbsoluteDistanceVector([4, 4], [1, 7]);
+      const resultD = getAbsoluteDistanceVector([4, 4], [2, 2]);
 
       expect(resultA).toEqual([7, 0]);
       expect(resultB).toEqual([7, 0]);
       expect(resultC).toEqual([3, 3]);
       expect(resultD).toEqual([2, 2]);
+    });
+  });
+
+  describe("getCellsBetween", () => {
+    it("should return the list of cells between two input cells", () => {
+      const resultA = getCellsBetween([8, 1], [1, 1]); // "a1" and "h1"
+      const resultB = getCellsBetween([8, 8], [8, 1]); // "h8" and "h1"
+      const resultC = getCellsBetween([4, 4], [1, 7]); // "d4" and "a7"
+      const resultD = getCellsBetween([3, 4], [1, 2]); // "c4" and "a2"
+
+      expect(resultA).toEqual(["g1", "f1", "e1", "d1", "c1", "b1"]);
+      expect(resultB).toEqual(["h7", "h6", "h5", "h4", "h3", "h2"]);
+      expect(resultC).toEqual(["c5", "b6"]);
+      expect(resultD).toEqual(["b3"]);
     });
   });
 });

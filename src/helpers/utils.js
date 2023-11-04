@@ -1,13 +1,23 @@
-const config = require("config");
+const {
+  getAbsoluteDistanceVector,
+  addVectors,
+  convertCoordinatesToCell,
+} = require("src/helpers/coordinates");
+const config = require("../../config");
 
-function calculateMoveEffort(cellA, cellB) {
-  let dx = Math.abs(cellA[0] - cellB[0]); // equivalent to getAbsoluteVectorDistance
-  let dy = Math.abs(cellA[1] - cellB[1]);
+/**
+ * Calculate how much effort is needed to go from one cell to another
+ * @param {Number[]} cellCoordinatesA - Starting cell
+ * @param {Number[]} cellCoordinatesB - Ending cell
+ * @returns {Number} The computed effort
+ */
+function calculateMoveEffort(cellCoordinatesA, cellCoordinatesB) {
+  const [dx, dy] = getAbsoluteDistanceVector(cellCoordinatesA, cellCoordinatesB);
 
-  if (dx != dy && Math.min(dx, dy) > 0) {
+  if (dx + dy === 3 && Math.abs(dx - dy) === 1) {
     // It's a knight move
     return config.effort.knightMove;
-  } else if (dx == dy) {
+  } else if (dx === dy) {
     // It's a diagonal move
     return dx * config.effort.diagonalMove;
   } else {
@@ -16,20 +26,46 @@ function calculateMoveEffort(cellA, cellB) {
   }
 }
 
-const pathIsEmpty = function (path = [], occupiedSquares) {
+/**
+ * Determines if none of the cells in path are occupied
+ * @param {String[]} path - A sequence of cells
+ * @param {Set<String>} occupiedSquares - All currently occupied cells on the board
+ * @returns {Boolean}
+ */
+function isPathEmpty(path = [], occupiedSquares) {
   return !path.some((cell) => occupiedSquares.has(cell));
-};
+}
 
-const getCellsFrom = function (cell, unitVect) {
-  let res = [];
+/**
+ * Determines if the given cell is outside the boundaries of the chess board
+ * @param {Number[]} cellCoordinates - The cell to check
+ * @returns {Boolean}
+ */
+function isOutsideTheBoard([x, y]) {
+  return x > 8 || y > 8 || x < 1 || y < 1;
+}
+
+/**
+ * Get the list of cells following a starting point and a direction until it reaches the edge of the board
+ * @param {Number[]} cellCoordinates - The starting cell
+ * @param {Number[]} unitVector - A direction
+ * @returns {String[]}
+ */
+function getCellsFrom(cellCoordinates, unitVector) {
+  const res = [];
+
   for (let i = 0, check = true; i < 8 && check; i++) {
-    cell = addVectors(cell, unitVect);
-    if (cell[0] > 8 || cell[0] < 1 || cell[1] > 8 || cell[1] < 1) {
+    cellCoordinates = addVectors(cellCoordinates, unitVector);
+
+    if (isOutsideTheBoard(cellCoordinates)) {
       check = false;
-    } else res.push(convertCoordinatesToCell(cell));
+    } else {
+      res.push(convertCoordinatesToCell(cellCoordinates));
+    }
   }
+
   return res;
-};
+}
 
 /**
  * Precompute useful data for handling pins
@@ -82,6 +118,9 @@ const mod = function (n, m) {
 };
 
 module.exports = {
+  calculateMoveEffort,
+  isPathEmpty,
+  getCellsFrom,
   computeEffort(from, to, withCapture) {
     return (
       calculateMoveEffort(convertCellToCoordinates(from), convertCellToCoordinates(to)) +
@@ -95,28 +134,28 @@ module.exports = {
     let vect;
     switch (type) {
       case "N":
-        vect = getAbsoluteVectorDistance(cellA, cellB).sort();
+        vect = getAbsoluteDistanceVector(cellA, cellB).sort();
         if (vect[0] == 1 && vect[1] == 2) return true;
         break;
       case "B":
-        vect = getAbsoluteVectorDistance(cellA, cellB);
-        if (vect[0] == vect[1]) return pathIsEmpty(getCellsBetween(cellA, cellB), occupiedSquares);
+        vect = getAbsoluteDistanceVector(cellA, cellB);
+        if (vect[0] == vect[1]) return isPathEmpty(getCellsBetween(cellA, cellB), occupiedSquares);
         break;
       case "R":
-        vect = getAbsoluteVectorDistance(cellA, cellB);
+        vect = getAbsoluteDistanceVector(cellA, cellB);
         if (Math.min(...vect) == 0) {
           // It can be reached, only if the path is empty
-          return pathIsEmpty(getCellsBetween(cellA, cellB), occupiedSquares);
+          return isPathEmpty(getCellsBetween(cellA, cellB), occupiedSquares);
         }
         break;
       case "K":
-        vect = getAbsoluteVectorDistance(cellA, cellB);
+        vect = getAbsoluteDistanceVector(cellA, cellB);
         if (Math.max(...vect) == 1) return true;
         break;
       case "Q":
-        vect = getAbsoluteVectorDistance(cellA, cellB);
+        vect = getAbsoluteDistanceVector(cellA, cellB);
         if (vect[0] == vect[1] || Math.min(...vect) == 0)
-          return pathIsEmpty(getCellsBetween(cellA, cellB), occupiedSquares);
+          return isPathEmpty(getCellsBetween(cellA, cellB), occupiedSquares);
         break;
       default:
         // Else we have a pawn
