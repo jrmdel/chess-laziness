@@ -1,5 +1,9 @@
 const { FILES_LETTER } = require("src/helpers/common.constants");
 
+function isValidCoordinate(digit) {
+  return digit < 9 && digit > 0;
+}
+
 /**
  * Mathematically compute the x and y coordinates of a given cell
  * @param {String} cell - Human readable cell name (eg. `"d4"`)
@@ -8,6 +12,10 @@ const { FILES_LETTER } = require("src/helpers/common.constants");
 function convertCellToCoordinates(cell) {
   const x = FILES_LETTER.indexOf(cell[0]) + 1;
   const y = +cell[1];
+
+  if (!isValidCoordinate(x) || !isValidCoordinate(y)) {
+    throw Error("Invalid coordinates");
+  }
 
   return [x, y];
 }
@@ -18,7 +26,10 @@ function convertCellToCoordinates(cell) {
  * @returns {String} Human readable cell name
  */
 function convertCoordinatesToCell([x, y]) {
-  return `${x > 0 ? FILES_LETTER[x - 1] : ""}${y}`;
+  if (!isValidCoordinate(x) || !isValidCoordinate(y)) {
+    throw Error("Invalid coordinates");
+  }
+  return `${FILES_LETTER[x - 1]}${y}`;
 }
 
 function getAbsoluteMaximumValue(list) {

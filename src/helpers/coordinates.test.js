@@ -22,6 +22,14 @@ describe("coordinates test", () => {
         }
       }
     });
+
+    it("should throw an error if at least 1 coordinate is not valid", () => {
+      const error = new Error("Invalid coordinates");
+
+      expect(() => convertCellToCoordinates("i7")).toThrowError(error);
+      expect(() => convertCellToCoordinates("a0")).toThrowError(error);
+      expect(() => convertCellToCoordinates("")).toThrowError(error);
+    });
   });
 
   describe("convertCoordinatesToCell", () => {
@@ -36,6 +44,14 @@ describe("coordinates test", () => {
           expect(result).toEqual(cell);
         }
       }
+    });
+
+    it("should throw an error if at least 1 coordinate is not valid", () => {
+      const error = new Error("Invalid coordinates");
+
+      expect(() => convertCoordinatesToCell([9, 7])).toThrowError(error);
+      expect(() => convertCoordinatesToCell([3, 0])).toThrowError(error);
+      expect(() => convertCoordinatesToCell([0, 0])).toThrowError(error);
     });
   });
 
