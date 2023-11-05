@@ -4,7 +4,7 @@ const {
   getCellsFrom,
   computePin,
   pieceCanReachSquare,
-} = require("src/helpers/utils");
+} = require("src/helpers");
 const {
   standardDiagonalPinDataFixture,
   advancedDiagonalPinDataFixture,

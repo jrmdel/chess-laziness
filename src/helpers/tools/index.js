@@ -1,1 +1,4 @@
-module.exports = Object.assign({}, ...require("./metadata-parser"), ...require("./move-parser"));
+module.exports = Object.assign(
+  {},
+  { ...require("src/helpers/tools/metadata-parser"), ...require("src/helpers/tools/move-parser") }
+);

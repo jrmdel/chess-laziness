@@ -1,7 +1,8 @@
 module.exports = Object.assign(
   {},
   {
-    ...require("./utils"),
-    ...require("./tools"),
+    ...require("src/helpers/utils"),
+    ...require("src/helpers/tools"),
+    ...require("src/helpers/coordinates"),
   }
 );

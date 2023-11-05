@@ -1,18 +1,8 @@
 const fs = require("fs");
-const Board = require("./classes/Board");
+const Board = require("src/classes/Board");
+const { cleanAndParseMoves } = require("src/helpers");
 
 let r1 = fs.readFileSync("./examples/wrc-22-r1-b1.pgn", "utf-8");
-
-const parseMoves = function (moves = "") {
-  let b = removeCurly(moves);
-  let c = removeNestedParentheses(b);
-  let d = removeDots(c);
-  let e = removeNotation(d);
-  let f = removeDuplicateSpaces(e);
-  let g = removeTermination(f);
-  let h = splitMoves(g.trim());
-  return h;
-};
 
 const parsePgn = (str) => {
   let variant = str.match(/(?<=variant ").*(?=")+/gi)?.[0] || "standard";
@@ -24,7 +14,7 @@ const parsePgn = (str) => {
         blackElo: str.match(/(?<=blackelo ")\d+/gi)?.[0] || "",
         opening: str.match(/(?<=opening ").*(?=")/gi)?.[0] || "",
         result: str.match(/(?<=result ").*(?=")/gi)?.[0] || "",
-        moves: parseMoves(
+        moves: cleanAndParseMoves(
           str
             ?.replace(/\[.*?\]\r?\n/g, "")
             ?.trim()

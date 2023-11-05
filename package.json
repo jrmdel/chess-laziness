@@ -4,8 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "node ./main.js",
+    "start": "NODE_PATH=. node ./main.js",
     "test": "jest --runInBand",
+    "test:cov": "jest --runInBand --coverage",
     "test:config": "jest --showConfig",
     "test:clear": "jest --clearCache"
   },

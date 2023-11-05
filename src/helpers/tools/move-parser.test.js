@@ -13,7 +13,7 @@ const {
   removeNestedParentheses,
   cleanAndParseMoves,
   removeEverything,
-} = require("src/helpers/tools/move-parser");
+} = require("src/helpers");
 
 describe("pgn parser", () => {
   describe("removeCurly", () => {

@@ -7,7 +7,7 @@ const {
   getDistanceVector,
   getAbsoluteDistanceVector,
   getCellsBetween,
-} = require("src/helpers/coordinates");
+} = require("src/helpers");
 
 describe("coordinates test", () => {
   describe("convertCellToCoordinates", () => {
