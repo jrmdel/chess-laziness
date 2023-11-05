@@ -166,8 +166,8 @@ class Board {
     if (piece.toLowerCase() == piece) {
       let candidateMove = canReachSquare.sort(
         (a, b) =>
-          utils.computeEffort(a.position, destination, false) -
-          utils.computeEffort(b.position, destination, false)
+          utils.computeEffort(a.position, destination) -
+          utils.computeEffort(b.position, destination)
       )[0];
       return this.applyMove(candidateMove, destination, hasCaptured);
     } else {
@@ -176,12 +176,12 @@ class Board {
       // First, check if all the pieces left can be pinned (position, no obstacles between K and piece)
       let notPinned = canReachSquare.filter((p) => {
         let data = utils.computePin(K, p.position);
-        let empty = data.mustBeEmpty.map((c) => !occupied.has(c)).every((c) => c);
-        let possibleCell = data.possibleCells.find((c) => occupied.has(c));
+        let empty = data.cellsThatMustBeEmpty.map((c) => !occupied.has(c)).every((c) => c);
+        let possibleCell = data.possibleOpponentPieceCells.find((c) => occupied.has(c));
         let found = this.#getOpponentPieces().find(
           (opp) => opp.position == possibleCell && data.pieceToLookFor.includes(opp.type)
         );
-        return !(data.aligned && empty && possibleCell && found != null);
+        return !(data.isKingAlignedWithOwnPiece && empty && possibleCell && found != null);
       });
       console.log("IT WAS A PIN !!");
       this.applyMove(notPinned[0], destination, hasCaptured);

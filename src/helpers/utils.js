@@ -2,28 +2,42 @@ const {
   getAbsoluteDistanceVector,
   addVectors,
   convertCoordinatesToCell,
+  convertCellToCoordinates,
+  getDistanceVector,
+  getUnitVector,
+  getCellsBetween,
 } = require("src/helpers/coordinates");
 const config = require("../../config");
 
 /**
  * Calculate how much effort is needed to go from one cell to another
- * @param {Number[]} cellCoordinatesA - Starting cell
- * @param {Number[]} cellCoordinatesB - Ending cell
+ * @param {Number[]} fromCell - Starting cell
+ * @param {Number[]} toCell - Ending cell
  * @returns {Number} The computed effort
  */
-function calculateMoveEffort(cellCoordinatesA, cellCoordinatesB) {
+function calculateMoveEffort(fromCell, toCell) {
+  const cellCoordinatesA = convertCellToCoordinates(fromCell);
+  const cellCoordinatesB = convertCellToCoordinates(toCell);
   const [dx, dy] = getAbsoluteDistanceVector(cellCoordinatesA, cellCoordinatesB);
 
-  if (dx + dy === 3 && Math.abs(dx - dy) === 1) {
-    // It's a knight move
+  if (isKnight([dx, dy])) {
     return config.effort.knightMove;
-  } else if (dx === dy) {
-    // It's a diagonal move
-    return dx * config.effort.diagonalMove;
-  } else {
-    // It's a linear move
-    return (dx + dy) * config.effort.linearMove;
   }
+  if (isDiagonal([dx, dy])) {
+    return dx * config.effort.diagonalMove;
+  }
+  return (dx + dy) * config.effort.linearMove;
+}
+
+/**
+ * Calculate the effort it took to do the move and its eventual capture
+ * @param {String} from - Origin cell
+ * @param {String} to - Destination cell
+ * @param {Boolean} isWithCapture - True if the move is a capture, false otherwise
+ * @returns {Number} The resulting effort
+ */
+function computeEffort(from, to, isWithCapture = false) {
+  return calculateMoveEffort(from, to) + (isWithCapture ? config.effort.capture : 0.0);
 }
 
 /**
@@ -52,7 +66,7 @@ function isOutsideTheBoard([x, y]) {
  * @returns {String[]}
  */
 function getCellsFrom(cellCoordinates, unitVector) {
-  const res = [];
+  const cells = [];
 
   for (let i = 0, check = true; i < 8 && check; i++) {
     cellCoordinates = addVectors(cellCoordinates, unitVector);
@@ -60,118 +74,168 @@ function getCellsFrom(cellCoordinates, unitVector) {
     if (isOutsideTheBoard(cellCoordinates)) {
       check = false;
     } else {
-      res.push(convertCoordinatesToCell(cellCoordinates));
+      cells.push(convertCoordinatesToCell(cellCoordinates));
     }
   }
 
-  return res;
+  return cells;
 }
 
 /**
- * Precompute useful data for handling pins
- * @param {String[]} cellA King's X and Y position
- * @param {String[]} cellB Pinnee's X and Y position
+ * Get useful data for handling pins
+ * @param {String} kingPosition - King's cell name
+ * @param {String} piecePosition - Possible pinned piece's cell name
+ * @returns
  */
-const cellsAreAligned = function (cellA, cellB) {
-  let resp = {
-    aligned: false,
-    mustBeEmpty: [],
+function computePin(kingPosition, piecePosition) {
+  const kingCellCoordinates = convertCellToCoordinates(kingPosition);
+  const pieceCellCoordinates = convertCellToCoordinates(piecePosition);
+
+  const pinData = {
+    isKingAlignedWithOwnPiece: false,
+    cellsThatMustBeEmpty: [],
     pieceToLookFor: null,
-    possibleCells: [],
+    possibleOpponentPieceCells: [],
   };
-  // Create a vect between the two cells
-  let vect = getDistanceVector(cellA, cellB);
+  // Create vectors between the two cells
+  const kingToPieceVector = getDistanceVector(kingCellCoordinates, pieceCellCoordinates);
+  const unitVector = getUnitVector(kingToPieceVector);
 
-  // Check for possible alignments
-  if (((vect[0] == 0) ^ (vect[1] == 0)) == 1) {
-    // Vertical or horizontal alignment
-    let unitVect = getUnitVector(vect);
-    resp.aligned = true;
-    resp.pieceToLookFor = ["R", "Q"];
-    resp.mustBeEmpty = getCellsBetween(cellA, cellB, vect, unitVect);
-    resp.possibleCells = getCellsFrom(cellB, unitVect);
-    // for (let i = 0, check = true; i<10 && check; i++) {
-    //   cellB = addVectors(cellB, unitVect);
-    //   if (cellB[0] > 8 || cellB[0] < 1 || cellB[1] > 8 || cellB[1] < 1) {
-    //     check = false
-    //   } else resp.possibleCells.push(convertCoordinatesToCell(cellB));
-    // }
-  } else if (Math.abs(vect[0]) == Math.abs(vect[1]) && vect[0] != 0) {
-    // Diagonally aligned
-    let unitVect = getUnitVector(vect);
-    resp.aligned = true;
-    resp.pieceToLookFor = ["B", "Q"];
-    resp.mustBeEmpty = getCellsBetween(cellA, cellB, vect, unitVect);
-    resp.possibleCells = getCellsFrom(cellB, unitVect);
-    // for (let i = 0, check = true; i<10 && check; i++) {
-    //   cellB = addVectors(cellB, unitVect);
-    //   if (cellB[0] > 8 || cellB[0] < 1 || cellB[1] > 8 || cellB[1] < 1) {
-    //     check = false
-    //   } else resp.possibleCells.push(convertCoordinatesToCell(cellB));
-    // }
+  if (isHorizontalOrVertical(kingToPieceVector)) {
+    pinData.isKingAlignedWithOwnPiece = true;
+    pinData.pieceToLookFor = ["R", "Q"];
+    pinData.cellsThatMustBeEmpty = getCellsBetween(
+      kingCellCoordinates,
+      pieceCellCoordinates,
+      kingToPieceVector,
+      unitVector
+    );
+    pinData.possibleOpponentPieceCells = getCellsFrom(pieceCellCoordinates, unitVector);
+  } else if (isDiagonal(kingToPieceVector)) {
+    pinData.isKingAlignedWithOwnPiece = true;
+    pinData.pieceToLookFor = ["B", "Q"];
+    pinData.cellsThatMustBeEmpty = getCellsBetween(
+      kingCellCoordinates,
+      pieceCellCoordinates,
+      kingToPieceVector,
+      unitVector
+    );
+    pinData.possibleOpponentPieceCells = getCellsFrom(pieceCellCoordinates, unitVector);
   }
-  return resp;
-};
 
-const mod = function (n, m) {
+  return pinData;
+}
+
+/**
+ * Determines if the given vector is horizontal or vertical
+ * @param {Number[]} vector - Vector to check
+ * @returns {Boolean} `true` if it is horizontal or vertical, `false` otherwise
+ */
+function isHorizontalOrVertical([dx, dy]) {
+  return ((dx === 0) ^ (dy === 0)) === 1;
+}
+
+/**
+ * Determines if the given vector follows a diagonal
+ * @param {Number[]} vector - Vector to check
+ * @returns {Boolean} `true` if it does, `false` otherwise
+ */
+function isDiagonal([dx, dy]) {
+  return dx + dy === 0 || dx - dy === 0;
+}
+
+/**
+ * Determines if the given vector looks like a queen move
+ * @param {Number[]} vector - Vector to check
+ * @returns {Boolean} `true` if it does, `false` otherwise
+ */
+function isQueen(vector) {
+  return isDiagonal(vector) || isHorizontalOrVertical(vector);
+}
+
+/**
+ * Determines if the given vector draws an L-shape
+ * @param {Number[]} vector - Vector to check
+ * @returns {Boolean} `true` if it does, `false` otherwise
+ */
+function isKnight([dx, dy]) {
+  return dx * dx + dy * dy === 5;
+}
+
+/**
+ * Determines if the given vector is within a distance of 1 on the board
+ * @param {Number[]} vector - Vector to check
+ * @returns {Boolean} `true` if it is, `false` otherwise
+ */
+function isKing([dx, dy]) {
+  return Math.abs(dx) < 2 && Math.abs(dy) < 2;
+}
+
+/**
+ * Determines if the given move can be a legal pawn move
+ * @param {Number} turn - 0 if white to move, 1 if black to move
+ * @param {Number[]} startCoordinates - Starting position
+ * @param {Number[]} endCoordinates - Ending position
+ * @param {Number[]} vector - Distance vector between the 2 positions
+ * @param {Set<String>} occupiedSquares - All currently occupied squares on the board
+ * @returns {Boolean} - `true` if it is, `false` otherwise
+ */
+function isLegalPawnMove(turn, startCoordinates, endCoordinates, vector, occupiedSquares) {
+  if (Math.abs(vector[0]) < 2 && vector[1] === (-1) ** turn) {
+    return true;
+  }
+  if (
+    vector[0] === 0 &&
+    vector[1] === 2 * (-1) ** turn &&
+    startCoordinates[1] === mod(2 * (-1) ** turn, 9)
+  ) {
+    return isPathEmpty(getCellsBetween(startCoordinates, endCoordinates, vector), occupiedSquares);
+  }
+}
+
+function mod(n, m) {
   return ((n % m) + m) % m;
-};
+}
+
+function pieceCanReachSquare(turn, type, from, to, occupiedSquares) {
+  const cellCoordinatesA = convertCellToCoordinates(from);
+  const cellCoordinatesB = convertCellToCoordinates(to);
+  const vector = getDistanceVector(cellCoordinatesA, cellCoordinatesB);
+
+  switch (type) {
+    case "N":
+      return isKnight(vector);
+
+    case "B":
+      return (
+        isDiagonal(vector) &&
+        isPathEmpty(getCellsBetween(cellCoordinatesA, cellCoordinatesB), occupiedSquares)
+      );
+
+    case "R":
+      return (
+        isHorizontalOrVertical(vector) &&
+        isPathEmpty(getCellsBetween(cellCoordinatesA, cellCoordinatesB), occupiedSquares)
+      );
+
+    case "Q":
+      return (
+        isQueen(vector) &&
+        isPathEmpty(getCellsBetween(cellCoordinatesA, cellCoordinatesB), occupiedSquares)
+      );
+
+    case "K":
+      return isKing(vector);
+
+    default:
+      return isLegalPawnMove(turn, cellCoordinatesA, cellCoordinatesB, vector, occupiedSquares);
+  }
+}
 
 module.exports = {
-  calculateMoveEffort,
   isPathEmpty,
   getCellsFrom,
-  computeEffort(from, to, withCapture) {
-    return (
-      calculateMoveEffort(convertCellToCoordinates(from), convertCellToCoordinates(to)) +
-      (withCapture ? config.effort.capture : 0.0)
-    );
-  },
-
-  pieceCanReachSquare(turn, type, from, to, occupiedSquares) {
-    let cellA = convertCellToCoordinates(from);
-    let cellB = convertCellToCoordinates(to);
-    let vect;
-    switch (type) {
-      case "N":
-        vect = getAbsoluteDistanceVector(cellA, cellB).sort();
-        if (vect[0] == 1 && vect[1] == 2) return true;
-        break;
-      case "B":
-        vect = getAbsoluteDistanceVector(cellA, cellB);
-        if (vect[0] == vect[1]) return isPathEmpty(getCellsBetween(cellA, cellB), occupiedSquares);
-        break;
-      case "R":
-        vect = getAbsoluteDistanceVector(cellA, cellB);
-        if (Math.min(...vect) == 0) {
-          // It can be reached, only if the path is empty
-          return isPathEmpty(getCellsBetween(cellA, cellB), occupiedSquares);
-        }
-        break;
-      case "K":
-        vect = getAbsoluteDistanceVector(cellA, cellB);
-        if (Math.max(...vect) == 1) return true;
-        break;
-      case "Q":
-        vect = getAbsoluteDistanceVector(cellA, cellB);
-        if (vect[0] == vect[1] || Math.min(...vect) == 0)
-          return isPathEmpty(getCellsBetween(cellA, cellB), occupiedSquares);
-        break;
-      default:
-        // Else we have a pawn
-        vect = getDistanceVector(cellA, cellB);
-        if ([1, 0, -1].includes(vect[0]) && vect[1] == (-1) ** turn) return true;
-        if (vect[0] == 0 && vect[1] == 2 * (-1) ** turn && cellA[1] == mod(2 * (-1) ** turn, 9))
-          return true;
-        break;
-    }
-    return false;
-  },
-
-  computePin(kingPosition, piecePosition) {
-    return cellsAreAligned(
-      convertCellToCoordinates(kingPosition),
-      convertCellToCoordinates(piecePosition)
-    );
-  },
+  computeEffort,
+  pieceCanReachSquare,
+  computePin,
 };
