@@ -42,8 +42,8 @@ function getAbsoluteMaximumValue(list) {
  * @returns {Number[]} A 2D-vector with only 3 possible values: -1, 0 and 1
  */
 function getUnitVector(vector) {
-  const longestAbsoluteDistance = getAbsoluteMaximumValue(vector);
-  return vector.map((distance) => ~~(distance / longestAbsoluteDistance));
+  const longestAbsoluteDistanceValue = getAbsoluteMaximumValue(vector);
+  return vector.map((distance) => ~~(distance / longestAbsoluteDistanceValue));
 }
 
 /**
