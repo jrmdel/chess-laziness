@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "NODE_PATH=. node ./main.js",
+    "start:e2e": "NODE_PATH=. node ./e2e.js",
     "test": "jest --runInBand",
     "test:cov": "jest --runInBand --coverage",
     "test:config": "jest --showConfig",
