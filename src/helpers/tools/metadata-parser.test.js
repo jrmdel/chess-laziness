@@ -1,9 +1,11 @@
 const { grepPgnValue, buildMetadata } = require("src/helpers/tools/metadata-parser");
+const { multipleLinesAndGamesOutput } = require("test/fixtures/game-parser/game-parser.fixture");
 const {
   partialMetadataObjectFixture,
   pgnMetadataWithMissingValues,
   pgnMetadataFixture,
   metadataObjectFromPgnFixture,
+  metadataForSingleLineFixture,
 } = require("test/fixtures/metadata-parser.fixture");
 
 describe("metadata parser", () => {
@@ -46,6 +48,13 @@ describe("metadata parser", () => {
       const result = buildMetadata(pgnMetadataWithMissingValues);
 
       expect(result).toEqual(partialMetadataObjectFixture);
+    });
+
+    it("should also work when metadata is on a single line", () => {
+      const metadata = multipleLinesAndGamesOutput[0].metadata;
+      const result = buildMetadata(metadata);
+
+      expect(result).toEqual(metadataForSingleLineFixture);
     });
 
     it("should return null when the variant is not standard", () => {

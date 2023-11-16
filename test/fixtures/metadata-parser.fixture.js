@@ -56,9 +56,24 @@ const partialMetadataObjectFixture = {
   result: "1-0",
 };
 
+const metadataForSingleLineFixture = {
+  white: {
+    name: "Adhiban, B.",
+    elo: NaN,
+  },
+  black: {
+    name: "Iturrizaga Bonelli, Eduardo",
+    elo: NaN,
+  },
+  opening: "",
+  eco: "",
+  result: "1-0",
+};
+
 module.exports = {
   pgnMetadataFixture,
   metadataObjectFromPgnFixture,
   pgnMetadataWithMissingValues,
   partialMetadataObjectFixture,
+  metadataForSingleLineFixture,
 };

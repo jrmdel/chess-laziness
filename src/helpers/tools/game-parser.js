@@ -1,3 +1,11 @@
+const { readFileSync } = require("fs");
+const { buildMetadata } = require("src/helpers/tools/metadata-parser");
+const { cleanAndParseMoves } = require("src/helpers/tools/move-parser");
+
+function readPgnFile(path) {
+  return readFileSync(path, "utf-8");
+}
+
 function splitGames(input) {
   const rawData = input.split("\n\n");
   const games = [];
@@ -19,6 +27,21 @@ function splitGames(input) {
   return games;
 }
 
+function getGamesDataFromPgn(input) {
+  if (!input) {
+    throw Error("No input");
+  }
+
+  const games = splitGames(input).map(({ metadata, moves }) => ({
+    metadata: buildMetadata(metadata),
+    moves: cleanAndParseMoves(moves),
+  }));
+
+  return games;
+}
+
 module.exports = {
+  readPgnFile,
   splitGames,
+  getGamesDataFromPgn,
 };

@@ -1,5 +1,5 @@
 function grepPgnValue(inputPgn, searchValue, defaultValue = "") {
-  const GREP_VALUE_BETWEEN_QUOTES_REGEX = new RegExp(`(?<=${searchValue} ").*(?=")+`, "gi");
+  const GREP_VALUE_BETWEEN_QUOTES_REGEX = new RegExp(`(?<=${searchValue} ").*?(?=")`, "gi");
 
   return inputPgn.match(GREP_VALUE_BETWEEN_QUOTES_REGEX)?.[0] || defaultValue;
 }
