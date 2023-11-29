@@ -59,7 +59,7 @@ function removeEverything(moves = "") {
 }
 
 function splitMoves(inputString) {
-  const MOVE_NUMBER_REGEX = new RegExp(/\d+\.\s/g);
+  const MOVE_NUMBER_REGEX = new RegExp(/\d+\.\s?/g);
 
   const listOfMoves = inputString.split(MOVE_NUMBER_REGEX);
   const listOfValidMoves = listOfMoves

@@ -15,7 +15,7 @@ const {
   removeEverything,
 } = require("src/helpers");
 
-describe("pgn parser", () => {
+describe("move parser", () => {
   describe("removeCurly", () => {
     it("should remove everything inside curly braces", () => {
       const result = removeCurly(
