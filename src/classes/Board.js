@@ -1,27 +1,16 @@
 const utils = require("../helpers");
 
 class Board {
-  constructor() {
+  constructor(moves = []) {
     this.variant = "standard";
-    // this.chessboard = this.#initBoard();
     this.turn = 0; // 0 = white to play, 1 = black to play
     this.pieces = {
       black: this.#initPieces(true),
       white: this.#initPieces(false),
     };
-  }
-
-  #initBoard() {
-    let pieces = ["r", "n", "b", "q", "k", "b", "n", "r"]; // black pieces are lowercase
-    let pawns = [...Array(8).keys()].map(() => "p");
-    let emptyRank = [...Array(8).keys()].map(() => ".");
-    return [
-      pieces,
-      pawns,
-      ...[...Array(4).keys()].map(() => emptyRank),
-      pawns.map((s) => s.toUpperCase()),
-      pieces.map((s) => s.toUpperCase()),
-    ];
+    for (const move of moves) {
+      this.setMove(move);
+    }
   }
 
   #initPieces(areBlack) {
@@ -49,16 +38,10 @@ class Board {
       isAlive: true,
       startedOn: position,
       history: [position],
-      isPromoted: ancestor != null,
+      ...(ancestor && { isPromoted: ancestor != null }),
       ancestor,
     };
   }
-
-  /*
-  getCurrentPosition() {
-    return this.chessboard;
-  };
-  */
 
   getPieces() {
     return this.pieces;
@@ -92,9 +75,11 @@ class Board {
   getLazyScore() {
     return {
       white: {
+        pieces: this.pieces.white,
         ...this.pieces.white.reduce(this.lazyReducer, { moves: 0, distance: 0, perMove: 0 }),
       },
       black: {
+        pieces: this.pieces.black,
         ...this.pieces.black.reduce(this.lazyReducer, { moves: 0, distance: 0, perMove: 0 }),
       },
     };
@@ -114,19 +99,19 @@ class Board {
     if (move === "O-O") this.applyShortCastle();
     else if (move === "O-O-O") this.applyLongCastle();
     else if (move.includes("=")) {
-      let splitMove = move.split("=");
-      let destination = splitMove[0].slice(-2);
+      const splitMove = move.split("=");
+      const destination = splitMove[0].slice(-2);
       this.applyPromotion(splitMove[0][0], destination, splitMove[0].match(/x/), splitMove[1]);
     }
     // Focus on simple cases
     else {
-      let destination = move.slice(-2);
-      if (move.length == 2) {
+      const destination = move.slice(-2);
+      if (move.length === 2) {
         // It's a pawn move
         this.findPieceAndApply(move[0], destination);
       } else {
-        let isCapture = move.includes("x");
-        let piece = isCapture ? move.match(/^.*(?=x)/g)[0] : move.slice(0, -2);
+        const isCapture = move.includes("x");
+        const piece = isCapture ? move.match(/^.*(?=x)/g)[0] : move.slice(0, -2);
         this.findPieceAndApply(piece[0], destination, isCapture, piece.slice(1));
       }
     }
@@ -138,9 +123,9 @@ class Board {
     // piece = Q, K, N, B, R, a, b, c, d, e, f, g, h
     // destination = g4, e1, a5 ...
     // from = "", "b", "f8"
-    console.log(`${piece} (${from})\t-->  ${destination} ${hasCaptured ? "and captured" : ""} `);
+    // console.log(`${piece} (${from})\t-->  ${destination} ${hasCaptured ? "and captured" : ""} `);
     let possiblePieces = this.#getOwnPieces().filter(
-      (p) => p.type == piece && p.position.match(from)
+      (p) => p.type === piece && p.position.match(from)
     );
 
     if (possiblePieces.length == 0) {
@@ -163,7 +148,7 @@ class Board {
     }
     // Multiple pieces can reach the destination square: how to select the right one?
     // First, deal with pawns, because it's easy: choose the closest
-    if (piece.toLowerCase() == piece) {
+    if (piece.toLowerCase() === piece) {
       let candidateMove = canReachSquare.sort(
         (a, b) =>
           utils.computeEffort(a.position, destination) -

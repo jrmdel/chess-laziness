@@ -22,6 +22,8 @@ function buildMetadata(inputPgn) {
     opening: grepPgnValue(inputPgn, "opening"),
     eco: grepPgnValue(inputPgn, "eco"),
     result: grepPgnValue(inputPgn, "result"),
+    date: grepPgnValue(inputPgn, "date"),
+    event: grepPgnValue(inputPgn, "event"),
   };
 }
 

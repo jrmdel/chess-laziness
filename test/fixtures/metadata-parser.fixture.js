@@ -27,6 +27,8 @@ const metadataObjectFromPgnFixture = {
   opening: "French Defense: Winawer Variation, Advance Variation",
   eco: "C18",
   result: "0-1",
+  date: "2022.12.26",
+  event: "WRBC 2022. Rapid Open",
 };
 
 const pgnMetadataWithMissingValues = `[Event "New Orleans"]
@@ -54,6 +56,8 @@ const partialMetadataObjectFixture = {
   opening: "",
   eco: "C20",
   result: "1-0",
+  date: "1848.??.??",
+  event: "New Orleans",
 };
 
 const metadataForSingleLineFixture = {
@@ -68,6 +72,8 @@ const metadataForSingleLineFixture = {
   opening: "",
   eco: "",
   result: "1-0",
+  date: "2023.10.30",
+  event: "Grand Suisse FIDE 2023",
 };
 
 module.exports = {
