@@ -8,6 +8,7 @@ const {
   getCellsBetween,
 } = require("src/helpers/coordinates");
 const config = require("../../config");
+const { INITIAL_SQUARE_COUNT } = require("src/helpers/common.constants");
 
 /**
  * Calculate how much effort is needed to go from one cell to another
@@ -232,10 +233,19 @@ function pieceCanReachSquare(turn, type, from, to, occupiedSquares) {
   }
 }
 
+function countSquares(list) {
+  const squares = INITIAL_SQUARE_COUNT;
+  for (const square of list) {
+    squares[square] += 1;
+  }
+  return squares;
+}
+
 module.exports = {
   isPathEmpty,
   getCellsFrom,
   computeEffort,
   pieceCanReachSquare,
   computePin,
+  countSquares,
 };
