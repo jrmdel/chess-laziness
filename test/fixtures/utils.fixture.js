@@ -33,10 +33,13 @@ const standardHorizontalPinDataFixture = {
   possibleOpponentPieceCells: ["h6"],
 };
 
+const listOfVisitedSquaresFixture = ["a1", "a3", "a1", "h8", "a3", "a1"];
+
 module.exports = {
   defaultPinDataFixture,
   standardDiagonalPinDataFixture,
   advancedDiagonalPinDataFixture,
   standardVerticalPinDataFixture,
   standardHorizontalPinDataFixture,
+  listOfVisitedSquaresFixture,
 };

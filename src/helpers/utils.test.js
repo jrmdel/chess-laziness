@@ -4,6 +4,7 @@ const {
   getCellsFrom,
   computePin,
   pieceCanReachSquare,
+  countSquares,
 } = require("src/helpers");
 const {
   standardDiagonalPinDataFixture,
@@ -11,6 +12,7 @@ const {
   standardVerticalPinDataFixture,
   standardHorizontalPinDataFixture,
   defaultPinDataFixture,
+  listOfVisitedSquaresFixture,
 } = require("test/fixtures/utils.fixture");
 
 jest.mock("config", () => {
@@ -201,6 +203,20 @@ describe("utils test", () => {
       expect(pawnResultB).toBeTruthy();
       expect(pawnResultC).toBeTruthy();
       expect(pawnResultD).toBeTruthy();
+    });
+  });
+
+  describe("countSquares", () => {
+    it("should sum up squares in an array", () => {
+      const result = countSquares(listOfVisitedSquaresFixture);
+
+      expect(result).toEqual(expect.objectContaining({ a1: 3, a3: 2, h8: 1 }));
+    });
+
+    it("should return default values when an empty array is passed", () => {
+      const result = countSquares([]);
+
+      expect(Object.values(result).reduce((acc, val) => acc + val)).toEqual(0);
     });
   });
 });

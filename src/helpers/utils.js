@@ -234,7 +234,7 @@ function pieceCanReachSquare(turn, type, from, to, occupiedSquares) {
 }
 
 function countSquares(list) {
-  const squares = INITIAL_SQUARE_COUNT;
+  const squares = Object.assign({}, INITIAL_SQUARE_COUNT);
   for (const square of list) {
     squares[square] += 1;
   }
