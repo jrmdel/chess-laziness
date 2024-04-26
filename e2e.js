@@ -1,4 +1,4 @@
-const { writeFileSync } = require("fs");
+const { writeFileSync, createWriteStream } = require("fs");
 const Board = require("src/classes/Board");
 const { readPgnFile, getGamesDataFromPgn, countSquares } = require("src/helpers");
 // const path = "examples/wrc-22.pgn";
@@ -20,9 +20,9 @@ const playerName = "Carlsen,Magnus";
 const squares = games
   .map(({ metadata }) => {
     if (metadata.white.name === playerName) {
-      return metadata.white.pieces.map((piece) => piece.history).flat();
+      return metadata.white.pieces.flatMap((piece) => piece.history);
     }
-    return metadata.black.pieces.map((piece) => piece.history).flat();
+    return metadata.black.pieces.flatMap((piece) => piece.history);
   })
   .reduce((acc, curr) => {
     acc.push(...curr);
@@ -31,4 +31,20 @@ const squares = games
 
 console.log(countSquares(squares));
 
-writeFileSync("result.json", JSON.stringify(games, null, 2));
+// writeFileSync("result.json", JSON.stringify(games));
+
+function saveArrayToFile(array, filePath) {
+  const stream = createWriteStream(filePath);
+  stream.write("[\n");
+  array.forEach((obj, i) => {
+    stream.write("\t" + JSON.stringify(obj));
+    if (i !== array.length - 1) {
+      stream.write(",");
+    }
+    stream.write("\n");
+  });
+  stream.write("]");
+  stream.end();
+}
+
+saveArrayToFile(games, "result.json");
