@@ -103,6 +103,16 @@ describe("utils test", () => {
       expect(resultB).toBeFalsy();
       expect(resultC).toBeFalsy();
     });
+
+    it("should return true if input path is empty or undefined", () => {
+      const occupiedSquares = new Set(["c4", "h8"]);
+
+      const resultA = isPathEmpty(undefined, occupiedSquares);
+      const resultB = isPathEmpty([], occupiedSquares);
+
+      expect(resultA).toBeTruthy();
+      expect(resultB).toBeTruthy();
+    });
   });
 
   describe("getCellsFrom", () => {
@@ -155,9 +165,9 @@ describe("utils test", () => {
   });
 
   describe("pieceCanReachSquare", () => {
-    it("should return true when it's a legal piece move and the board is empty", () => {
-      const emptyBoard = new Set([]);
+    const emptyBoard = new Set([]);
 
+    it("should return true when it's a legal piece move and the board is empty", () => {
       // Knight moves
       const knightResultA = pieceCanReachSquare(0, "N", "b1", "c3", emptyBoard);
       const knightResultB = pieceCanReachSquare(1, "N", "e4", "g5", emptyBoard);
@@ -198,11 +208,22 @@ describe("utils test", () => {
       const pawnResultB = pieceCanReachSquare(1, "b", "b7", "b5", emptyBoard);
       const pawnResultC = pieceCanReachSquare(0, "h", "g6", "g7", emptyBoard);
       const pawnResultD = pieceCanReachSquare(1, "c", "h6", "h5", emptyBoard);
+      const pawnResultE = pieceCanReachSquare(0, "a", "a6", "b7", emptyBoard);
 
       expect(pawnResultA).toBeTruthy();
       expect(pawnResultB).toBeTruthy();
       expect(pawnResultC).toBeTruthy();
       expect(pawnResultD).toBeTruthy();
+      expect(pawnResultE).toBeTruthy();
+    });
+
+    it("should return false if it is not a legal piece move", () => {
+      // Pawn moves
+      const pawnResultA = pieceCanReachSquare(1, "b", "b2", "b4", emptyBoard);
+      const pawnResultB = pieceCanReachSquare(1, "b", "b7", "c5", emptyBoard);
+
+      expect(pawnResultA).toBeFalsy();
+      expect(pawnResultB).toBeFalsy();
     });
   });
 

@@ -3,8 +3,12 @@ const { buildMetadata } = require("src/helpers/tools/metadata-parser");
 const { cleanAndParseMoves } = require("src/helpers/tools/move-parser");
 
 const DOUBLE_NEW_LINE_REGEX = new RegExp("\r?\n\r?\n");
+const PGN_EXTENSION_REGEX = new RegExp(".pgn$");
 
 function readPgnFile(path) {
+  if (!path || !PGN_EXTENSION_REGEX.test(path)) {
+    throw new Error("Path should be valid");
+  }
   return readFileSync(path, "utf-8");
 }
 

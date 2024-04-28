@@ -41,7 +41,7 @@ function removeNestedParentheses(inputString) {
   return resultString;
 }
 
-function removeEverything(moves = "") {
+function removeEverything(moves) {
   const pipeline = [
     removeCurly,
     removeNestedParentheses,
@@ -69,7 +69,7 @@ function splitMoves(inputString) {
   return listOfValidMoves.map((moves) => moves.split(" "));
 }
 
-function cleanAndParseMoves(dirtyInput = "") {
+function cleanAndParseMoves(dirtyInput) {
   const cleanSequenceOfMoves = removeEverything(dirtyInput);
   return splitMoves(cleanSequenceOfMoves);
 }
