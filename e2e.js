@@ -4,7 +4,9 @@ const { readPgnFile, getGamesDataFromPgn, countSquares } = require("src/helpers"
 // const path = "examples/wrc-22.pgn";
 // const path = "examples/wrc-22-r13.pgn";
 // const path = "examples/chesscom/ChessCom_erik_200910.pgn";
-const path = "examples/collections/Carlsen.pgn";
+// const path = "examples/collections/Carlsen.pgn";
+const path =
+  "examples/lichess/lichess_broadcast_fide-candidates-2024--open_wEuVhT9c_2024.04.22.pgn";
 
 const input = readPgnFile(path);
 const games = getGamesDataFromPgn(input);
@@ -17,21 +19,21 @@ games.forEach((game) => {
 });
 
 const playerName = "Carlsen,Magnus";
-const squares = games
-  .map(({ metadata }) => {
-    if (metadata.white.name === playerName) {
-      return metadata.white.pieces.flatMap((piece) => piece.history);
-    }
-    return metadata.black.pieces.flatMap((piece) => piece.history);
-  })
-  .reduce((acc, curr) => {
-    acc.push(...curr);
-    return acc;
-  }, []);
+const squares = games.flatMap(({ metadata }) => {
+  // if (metadata.white.name === playerName) {
+  //   return metadata.white.pieces.flatMap((piece) => piece.history);
+  // }
+  // return metadata.black.pieces.flatMap((piece) => piece.history);
+  return metadata.white.pieces
+    .flatMap((piece) => piece.history)
+    .concat(metadata.black.pieces.flatMap((piece) => piece.history));
+});
 
-console.log(countSquares(squares));
+const count = countSquares(squares);
+writeFileSync("data/count.json", JSON.stringify(count));
+console.log(count);
 
-// writeFileSync("result.json", JSON.stringify(games));
+writeFileSync("data/result.json", JSON.stringify(games, null, 2));
 
 function saveArrayToFile(array, filePath) {
   const stream = createWriteStream(filePath);
@@ -47,4 +49,4 @@ function saveArrayToFile(array, filePath) {
   stream.end();
 }
 
-saveArrayToFile(games, "result.json");
+// saveArrayToFile(games, "result.json");
