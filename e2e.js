@@ -30,7 +30,7 @@ const squares = games.flatMap(({ metadata }) => {
 });
 
 const count = countSquares(squares);
-writeFileSync("data/count.json", JSON.stringify(count));
+writeFileSync("data/cell-count/all.json", JSON.stringify(count));
 console.log(count);
 
 writeFileSync("data/result.json", JSON.stringify(games, null, 2));
