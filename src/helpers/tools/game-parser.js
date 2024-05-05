@@ -18,7 +18,7 @@ function splitGames(input) {
   const game = {};
 
   for (const data of rawData) {
-    const cleanString = data?.replace(/\r?\n/g, " ").trim();
+    const cleanString = data?.replace(/\r?\n/g, " ").replace(/{.*?}/g, "").trim();
 
     if (cleanString?.startsWith("1")) {
       game["moves"] = cleanString;

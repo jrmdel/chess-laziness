@@ -16,7 +16,7 @@ const simpleGameInput = `[Event "FIDE Grand Swiss 2023"]
 const simpleGameOutput = [
   {
     metadata: `[Event "FIDE Grand Swiss 2023"] [White "Adhiban, B."] [Black "Iturrizaga Bonelli, Eduardo"] [Result "1-0"] [WhiteElo "2551"] [BlackElo "2615"] [Variant "Standard"] [ECO "B42"] [Opening "Sicilian Defense: Kan Variation, Polugaevsky Variation"]`,
-    moves: `1. e4 { [%eval 0.36] [%clk 1:40:53] } 1... c5 { [%eval 0.32] [%clk 1:40:55] } 2. Nf3 { [%eval 0.0] [%clk 1:41:17] } 2... e6 { [%eval 0.0] [%clk 1:41:19] } 1-0`,
+    moves: `1. e4  1... c5  2. Nf3  2... e6  1-0`,
   },
 ];
 
@@ -65,7 +65,7 @@ const multipleLineGameInput = `[Event "FIDE Grand Swiss 2023"]
 const multipleLineGameOutput = [
   {
     metadata: `[Event "FIDE Grand Swiss 2023"] [White "Adhiban, B."] [Black "Iturrizaga Bonelli, Eduardo"] [Result "1-0"] [WhiteElo "2551"] [BlackElo "2615"] [Variant "Standard"] [ECO "B42"] [Opening "Sicilian Defense: Kan Variation, Polugaevsky Variation"]`,
-    moves: `1. e4 { [%eval 0.36] [%clk 1:40:53] } 1... c5 { [%eval 0.32] [%clk 1:40:55] } 2. Nf3 { [%eval 0.0]  [%clk 1:41:17] } 2... e6 { [%eval 0.0] [%clk 1:41:19] } 3. d4 { [%eval 0.42] [%clk 1:41:41] } 3... cxd4  { [%eval 0.26] [%clk 1:41:41] } 4. Nxd4 { [%eval 0.4] [%clk 1:42:09] } 4... a6 { [%eval 0.58]  [%clk 1:42:06] } 1-0`,
+    moves: `1. e4  1... c5  2. Nf3  2... e6  3. d4  3... cxd4   4. Nxd4  4... a6  1-0`,
   },
 ];
 
@@ -90,6 +90,7 @@ const multipleOneLinersGamesInput = `[Event "WRBC 2022. Rapid Open"]
 [Date "2022.12.28"]
 [Round "13.3"]
 
+{ Watch the stream live on Twitch: https://www.twitch.tv}
 1. e4 { [%eval 0.32] [%clk 0:15:19] } 1... e5 { [%eval 0.29] [%clk 0:15:19] } 2. Nf3 { [%eval 0.39] [%clk 0:15:27] } 2... Nc6 { [%eval 0.2] [%clk 0:15:28] } 3. Bb5 1/2-1/2
 
 `;
@@ -97,15 +98,15 @@ const multipleOneLinersGamesInput = `[Event "WRBC 2022. Rapid Open"]
 const multipleOneLinersGamesOutput = [
   {
     metadata: `[Event "WRBC 2022. Rapid Open"] [Site "Almaty, Kazakhstan"] [Date "2022.12.28"] [Round "13.1"]`,
-    moves: `1. e4 { [%eval 0.32] [%clk 0:15:19] } 1... c5 { [%eval 0.0] [%clk 0:15:03] } 2. Nf3 1-0`,
+    moves: `1. e4  1... c5  2. Nf3 1-0`,
   },
   {
     metadata: `[Event "WRBC 2022. Rapid Open"] [Site "Almaty, Kazakhstan"] [Date "2022.12.28"] [Round "13.2"]`,
-    moves: `1. e4 { [%eval 0.32] [%clk 0:15:18] } 1... e5 { [%eval 0.29] [%clk 0:15:18] } 2. Nf3 { [%eval 0.39] [%clk 0:15:26] } 2... Nc6 1-0`,
+    moves: `1. e4  1... e5  2. Nf3  2... Nc6 1-0`,
   },
   {
     metadata: `[Event "WRBC 2022. Rapid Open"] [Site "Almaty, Kazakhstan"] [Date "2022.12.28"] [Round "13.3"]`,
-    moves: `1. e4 { [%eval 0.32] [%clk 0:15:19] } 1... e5 { [%eval 0.29] [%clk 0:15:19] } 2. Nf3 { [%eval 0.39] [%clk 0:15:27] } 2... Nc6 { [%eval 0.2] [%clk 0:15:28] } 3. Bb5 1/2-1/2`,
+    moves: `1. e4  1... e5  2. Nf3  2... Nc6  3. Bb5 1/2-1/2`,
   },
 ];
 
@@ -138,7 +139,7 @@ Nbd7 8.dxc6 bxc6 9.Nf3 O-O 10.O-O h6 11.Bh4 Qc7 12.d4 exd4
 const multipleLinesAndGamesOutput = [
   {
     metadata: `[Event "Grand Suisse FIDE 2023"] [Date "2023.10.30"] [White "Adhiban, B."] [Black "Iturrizaga Bonelli, Eduardo"] [Result "1-0"]`,
-    moves: `1. e4 {[%clk 1:40:53]} 1... c5 {[%clk 1:40:55]} 2. Nf3 {[%clk 1:41:17]} 2... e6 {[%clk 1:41:19]} 3. d4 {[%clk 1:41:41]} 3... cxd4 {[%clk 1:41:41]} 4. Nxd4 {[%clk 1:42:09]} 4... a6 {[%clk 1:42:06]} 5. Bd3 {[%clk 1:42:23]} 5... Bc5`,
+    moves: `1. e4  1... c5  2. Nf3  2... e6  3. d4  3... cxd4  4. Nxd4  4... a6  5. Bd3  5... Bc5`,
   },
   {
     metadata: `[Event "New Orleans"] [Site "New Orleans, LA USA"] [Date "1848.??.??"] [Result "1-0"] [White "Paul Morphy"] [Black "NN"]`,

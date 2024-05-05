@@ -20509,6 +20509,5152 @@
   {
     "metadata": {
       "white": {
+        "name": "Vidit, Santosh Gujrathi",
+        "elo": 2727,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 1,
+            "distance": 2,
+            "position": "g1",
+            "isAlive": true,
+            "startedOn": "e1",
+            "history": [
+              "e1",
+              "g1"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 4,
+            "distance": 10,
+            "position": "f5",
+            "isAlive": true,
+            "startedOn": "d1",
+            "history": [
+              "d1",
+              "c2",
+              "d1",
+              "d7",
+              "f5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 4,
+            "distance": 8,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "c1",
+            "history": [
+              "c1",
+              "d2",
+              "a5",
+              "c3",
+              "e5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 3,
+            "distance": 5,
+            "position": "a2",
+            "isAlive": false,
+            "startedOn": "f1",
+            "history": [
+              "f1",
+              "c4",
+              "b3",
+              "a2"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 4,
+            "distance": 6,
+            "position": "d5",
+            "isAlive": false,
+            "startedOn": "b1",
+            "history": [
+              "b1",
+              "d2",
+              "c4",
+              "e3",
+              "d5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "e5",
+            "isAlive": true,
+            "startedOn": "g1",
+            "history": [
+              "g1",
+              "f3",
+              "e5"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 6,
+            "distance": 13,
+            "position": "g6",
+            "isAlive": true,
+            "startedOn": "a1",
+            "history": [
+              "a1",
+              "a2",
+              "a3",
+              "d3",
+              "d6",
+              "h6",
+              "g6"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 1,
+            "distance": 3,
+            "position": "e1",
+            "isAlive": true,
+            "startedOn": "h1",
+            "history": [
+              "h1",
+              "f1",
+              "e1"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 1,
+            "distance": 2,
+            "position": "a4",
+            "isAlive": true,
+            "startedOn": "a2",
+            "history": [
+              "a2",
+              "a4"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 2,
+            "distance": 3,
+            "position": "a5",
+            "isAlive": false,
+            "startedOn": "b2",
+            "history": [
+              "b2",
+              "b4",
+              "a5"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 3,
+            "distance": 3,
+            "position": "c5",
+            "isAlive": false,
+            "startedOn": "c2",
+            "history": [
+              "c2",
+              "c3",
+              "d4",
+              "c5"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 2,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "d2",
+            "history": [
+              "d2",
+              "d3",
+              "d4"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 2,
+            "distance": 3,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "e2",
+            "history": [
+              "e2",
+              "e4",
+              "e5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 0,
+            "distance": 0,
+            "position": "f2",
+            "isAlive": true,
+            "startedOn": "f2",
+            "history": [
+              "f2"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g2",
+            "isAlive": true,
+            "startedOn": "g2",
+            "history": [
+              "g2"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 1,
+            "distance": 1,
+            "position": "h3",
+            "isAlive": true,
+            "startedOn": "h2",
+            "history": [
+              "h2",
+              "h3"
+            ]
+          }
+        ],
+        "moves": 36,
+        "distance": 64,
+        "perMove": 1.778
+      },
+      "black": {
+        "name": "Nakamura, Hikaru",
+        "elo": 2789,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 1,
+            "distance": 2,
+            "position": "g8",
+            "isAlive": true,
+            "startedOn": "e8",
+            "history": [
+              "e8",
+              "g8"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 5,
+            "distance": 8,
+            "position": "b3",
+            "isAlive": true,
+            "startedOn": "d8",
+            "history": [
+              "d8",
+              "d7",
+              "e6",
+              "a2",
+              "b2",
+              "b3"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 6,
+            "position": "a2",
+            "isAlive": false,
+            "startedOn": "c8",
+            "history": [
+              "c8",
+              "e6",
+              "a2"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 3,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "f8",
+            "history": [
+              "f8",
+              "g7",
+              "e5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 4,
+            "distance": 6,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "b8",
+            "history": [
+              "b8",
+              "c6",
+              "e7",
+              "c6",
+              "e5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 6,
+            "distance": 9,
+            "position": "g6",
+            "isAlive": false,
+            "startedOn": "g8",
+            "history": [
+              "g8",
+              "f6",
+              "h5",
+              "f4",
+              "d5",
+              "f4",
+              "g6"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 4,
+            "distance": 10,
+            "position": "c8",
+            "isAlive": true,
+            "startedOn": "a8",
+            "history": [
+              "a8",
+              "d8",
+              "c8",
+              "c5",
+              "c8"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 1,
+            "distance": 3,
+            "position": "e8",
+            "isAlive": true,
+            "startedOn": "h8",
+            "history": [
+              "h8",
+              "f8",
+              "e8"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 1,
+            "distance": 2,
+            "position": "a5",
+            "isAlive": false,
+            "startedOn": "a7",
+            "history": [
+              "a7",
+              "a5"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 2,
+            "distance": 2,
+            "position": "a5",
+            "isAlive": false,
+            "startedOn": "b7",
+            "history": [
+              "b7",
+              "b6",
+              "a5"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 1,
+            "distance": 2,
+            "position": "c5",
+            "isAlive": false,
+            "startedOn": "c7",
+            "history": [
+              "c7",
+              "c5"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 2,
+            "position": "d5",
+            "isAlive": false,
+            "startedOn": "d7",
+            "history": [
+              "d7",
+              "d6",
+              "d5"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "e7",
+            "history": [
+              "e7",
+              "e5",
+              "d4"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 0,
+            "distance": 0,
+            "position": "f7",
+            "isAlive": true,
+            "startedOn": "f7",
+            "history": [
+              "f7"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 1,
+            "distance": 2,
+            "position": "g5",
+            "isAlive": true,
+            "startedOn": "g7",
+            "history": [
+              "g7",
+              "g5"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 1,
+            "distance": 1,
+            "position": "h6",
+            "isAlive": false,
+            "startedOn": "h7",
+            "history": [
+              "h7",
+              "h6"
+            ]
+          }
+        ],
+        "moves": 35,
+        "distance": 61,
+        "perMove": 1.743
+      },
+      "opening": "Italian Game: Two Knights Defense, Modern Bishop's Opening",
+      "eco": "C55",
+      "result": "1-0",
+      "date": "2024.04.14",
+      "event": "FIDE Candidates 2024"
+    },
+    "moves": [
+      [
+        "e4",
+        "e5"
+      ],
+      [
+        "Nf3",
+        "Nc6"
+      ],
+      [
+        "Bc4",
+        "Nf6"
+      ],
+      [
+        "d3",
+        "h6"
+      ],
+      [
+        "c3",
+        "d6"
+      ],
+      [
+        "O-O",
+        "g5"
+      ],
+      [
+        "Nbd2",
+        "Bg7"
+      ],
+      [
+        "Bb3",
+        "a5"
+      ],
+      [
+        "a4",
+        "O-O"
+      ],
+      [
+        "Nc4",
+        "Be6"
+      ],
+      [
+        "Re1",
+        "Re8"
+      ],
+      [
+        "h3",
+        "Qd7"
+      ],
+      [
+        "Bd2",
+        "Rad8"
+      ],
+      [
+        "Qc2",
+        "b6"
+      ],
+      [
+        "Ba2",
+        "Nh5"
+      ],
+      [
+        "Ne3",
+        "Bxa2"
+      ],
+      [
+        "Rxa2",
+        "Ne7"
+      ],
+      [
+        "d4",
+        "exd4"
+      ],
+      [
+        "cxd4",
+        "d5"
+      ],
+      [
+        "e5",
+        "Rc8"
+      ],
+      [
+        "Ra3",
+        "c5"
+      ],
+      [
+        "dxc5",
+        "Rxc5"
+      ],
+      [
+        "Qd1",
+        "Nf4"
+      ],
+      [
+        "b4",
+        "Rcc8"
+      ],
+      [
+        "bxa5",
+        "bxa5"
+      ],
+      [
+        "Bxa5",
+        "Nc6"
+      ],
+      [
+        "Bc3",
+        "Nxe5"
+      ],
+      [
+        "Bxe5",
+        "Bxe5"
+      ],
+      [
+        "Nxd5",
+        "Nxd5"
+      ],
+      [
+        "Nxe5",
+        "Qe6"
+      ],
+      [
+        "Rd3",
+        "Nf4"
+      ],
+      [
+        "Rd6",
+        "Qa2"
+      ],
+      [
+        "Rxh6",
+        "Qb2"
+      ],
+      [
+        "Qd7",
+        "Qb3"
+      ],
+      [
+        "Qf5",
+        "Ng6"
+      ],
+      [
+        "Rxg6"
+      ]
+    ]
+  },
+  {
+    "metadata": {
+      "white": {
+        "name": "Gukesh D",
+        "elo": 2743,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 2,
+            "distance": 3,
+            "position": "h2",
+            "isAlive": true,
+            "startedOn": "e1",
+            "history": [
+              "e1",
+              "g1",
+              "h2"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 4,
+            "distance": 8,
+            "position": "b2",
+            "isAlive": true,
+            "startedOn": "d1",
+            "history": [
+              "d1",
+              "c2",
+              "f2",
+              "e2",
+              "b2"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 4,
+            "distance": 8,
+            "position": "g3",
+            "isAlive": true,
+            "startedOn": "c1",
+            "history": [
+              "c1",
+              "g5",
+              "e3",
+              "f4",
+              "g3"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 3,
+            "distance": 7,
+            "position": "c6",
+            "isAlive": false,
+            "startedOn": "f1",
+            "history": [
+              "f1",
+              "b5",
+              "a4",
+              "c6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 3,
+            "distance": 4.5,
+            "position": "d6",
+            "isAlive": false,
+            "startedOn": "b1",
+            "history": [
+              "b1",
+              "d2",
+              "c4",
+              "d6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 7,
+            "distance": 10.5,
+            "position": "d5",
+            "isAlive": false,
+            "startedOn": "g1",
+            "history": [
+              "g1",
+              "f3",
+              "d2",
+              "f3",
+              "h2",
+              "g4",
+              "e3",
+              "d5"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 7,
+            "distance": 16,
+            "position": "b8",
+            "isAlive": true,
+            "startedOn": "a1",
+            "history": [
+              "a1",
+              "e1",
+              "b1",
+              "b2",
+              "b1",
+              "b3",
+              "b7",
+              "b8"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 1,
+            "distance": 6,
+            "position": "b1",
+            "isAlive": false,
+            "startedOn": "h1",
+            "history": [
+              "h1",
+              "f1",
+              "b1"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 2,
+            "distance": 2,
+            "position": "c4",
+            "isAlive": true,
+            "startedOn": "a2",
+            "history": [
+              "a2",
+              "b3",
+              "c4"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 1,
+            "distance": 1,
+            "position": "b3",
+            "isAlive": false,
+            "startedOn": "b2",
+            "history": [
+              "b2",
+              "b3"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 2,
+            "distance": 2,
+            "position": "c4",
+            "isAlive": false,
+            "startedOn": "c2",
+            "history": [
+              "c2",
+              "c3",
+              "c4"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 1,
+            "distance": 1,
+            "position": "d3",
+            "isAlive": true,
+            "startedOn": "d2",
+            "history": [
+              "d2",
+              "d3"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 3,
+            "position": "d5",
+            "isAlive": true,
+            "startedOn": "e2",
+            "history": [
+              "e2",
+              "e4",
+              "d5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 1,
+            "distance": 2,
+            "position": "f4",
+            "isAlive": false,
+            "startedOn": "f2",
+            "history": [
+              "f2",
+              "f4"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g2",
+            "isAlive": true,
+            "startedOn": "g2",
+            "history": [
+              "g2"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 1,
+            "distance": 1,
+            "position": "h3",
+            "isAlive": true,
+            "startedOn": "h2",
+            "history": [
+              "h2",
+              "h3"
+            ]
+          }
+        ],
+        "moves": 41,
+        "distance": 75,
+        "perMove": 1.829
+      },
+      "black": {
+        "name": "Praggnanandhaa R",
+        "elo": 2747,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 1,
+            "distance": 2,
+            "position": "g8",
+            "isAlive": true,
+            "startedOn": "e8",
+            "history": [
+              "e8",
+              "g8"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 4,
+            "distance": 9,
+            "position": "e7",
+            "isAlive": true,
+            "startedOn": "d8",
+            "history": [
+              "d8",
+              "e7",
+              "d7",
+              "a7",
+              "e7"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 5,
+            "distance": 7,
+            "position": "d5",
+            "isAlive": false,
+            "startedOn": "c8",
+            "history": [
+              "c8",
+              "a6",
+              "b7",
+              "c8",
+              "e6",
+              "d5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 4,
+            "position": "d6",
+            "isAlive": false,
+            "startedOn": "f8",
+            "history": [
+              "f8",
+              "c5",
+              "d6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 1,
+            "distance": 1.5,
+            "position": "c6",
+            "isAlive": false,
+            "startedOn": "b8",
+            "history": [
+              "b8",
+              "c6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 7,
+            "distance": 10.5,
+            "position": "e5",
+            "isAlive": true,
+            "startedOn": "g8",
+            "history": [
+              "g8",
+              "f6",
+              "d7",
+              "f6",
+              "d7",
+              "e5",
+              "g6",
+              "e5"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 4,
+            "distance": 8,
+            "position": "b1",
+            "isAlive": false,
+            "startedOn": "a8",
+            "history": [
+              "a8",
+              "a6",
+              "a3",
+              "a1",
+              "b1"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 2,
+            "distance": 5,
+            "position": "d7",
+            "isAlive": true,
+            "startedOn": "h8",
+            "history": [
+              "h8",
+              "f8",
+              "d8",
+              "d7"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 4,
+            "distance": 4,
+            "position": "b3",
+            "isAlive": false,
+            "startedOn": "a7",
+            "history": [
+              "a7",
+              "a6",
+              "a5",
+              "a4",
+              "b3"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 3,
+            "distance": 3,
+            "position": "c4",
+            "isAlive": false,
+            "startedOn": "b7",
+            "history": [
+              "b7",
+              "b6",
+              "b5",
+              "c4"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 1,
+            "distance": 1,
+            "position": "d6",
+            "isAlive": true,
+            "startedOn": "c7",
+            "history": [
+              "c7",
+              "d6"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 2,
+            "distance": 2,
+            "position": "c5",
+            "isAlive": true,
+            "startedOn": "d7",
+            "history": [
+              "d7",
+              "c6",
+              "c5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 2,
+            "distance": 3,
+            "position": "f4",
+            "isAlive": false,
+            "startedOn": "e7",
+            "history": [
+              "e7",
+              "e5",
+              "f4"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 1,
+            "distance": 1,
+            "position": "f6",
+            "isAlive": true,
+            "startedOn": "f7",
+            "history": [
+              "f7",
+              "f6"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g7",
+            "isAlive": true,
+            "startedOn": "g7",
+            "history": [
+              "g7"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 1,
+            "distance": 1,
+            "position": "h6",
+            "isAlive": true,
+            "startedOn": "h7",
+            "history": [
+              "h7",
+              "h6"
+            ]
+          }
+        ],
+        "moves": 40,
+        "distance": 62,
+        "perMove": 1.55
+      },
+      "opening": "Ruy Lopez: Morphy Defense, Anderssen Variation",
+      "eco": "C77",
+      "result": "1/2-1/2",
+      "date": "2024.04.14",
+      "event": "FIDE Candidates 2024"
+    },
+    "moves": [
+      [
+        "e4",
+        "e5"
+      ],
+      [
+        "Nf3",
+        "Nc6"
+      ],
+      [
+        "Bb5",
+        "a6"
+      ],
+      [
+        "Ba4",
+        "Nf6"
+      ],
+      [
+        "d3",
+        "Bc5"
+      ],
+      [
+        "Bxc6",
+        "dxc6"
+      ],
+      [
+        "c3",
+        "Qe7"
+      ],
+      [
+        "h3",
+        "Bd6"
+      ],
+      [
+        "Nbd2",
+        "a5"
+      ],
+      [
+        "O-O",
+        "Nd7"
+      ],
+      [
+        "Nc4",
+        "b6"
+      ],
+      [
+        "Nxd6",
+        "cxd6"
+      ],
+      [
+        "Bg5",
+        "Nf6"
+      ],
+      [
+        "Nd2",
+        "h6"
+      ],
+      [
+        "Be3",
+        "Ba6"
+      ],
+      [
+        "Qc2",
+        "Nd7"
+      ],
+      [
+        "f4",
+        "exf4"
+      ],
+      [
+        "Bxf4",
+        "O-O"
+      ],
+      [
+        "Rae1",
+        "Ne5"
+      ],
+      [
+        "c4",
+        "b5"
+      ],
+      [
+        "b3",
+        "c5"
+      ],
+      [
+        "Nf3",
+        "Ng6"
+      ],
+      [
+        "Bg3",
+        "Qd7"
+      ],
+      [
+        "Nh2",
+        "a4"
+      ],
+      [
+        "Ng4",
+        "axb3"
+      ],
+      [
+        "axb3",
+        "bxc4"
+      ],
+      [
+        "bxc4",
+        "Bb7"
+      ],
+      [
+        "Rb1",
+        "Ra6"
+      ],
+      [
+        "Qf2",
+        "Bc8"
+      ],
+      [
+        "Ne3",
+        "Qa7"
+      ],
+      [
+        "Rb2",
+        "Rd8"
+      ],
+      [
+        "Kh2",
+        "Ra3"
+      ],
+      [
+        "Qe2",
+        "Be6"
+      ],
+      [
+        "Nd5",
+        "Ra1"
+      ],
+      [
+        "Rfb1",
+        "Rxb1"
+      ],
+      [
+        "Rxb1",
+        "f6"
+      ],
+      [
+        "Rb3",
+        "Ne5"
+      ],
+      [
+        "Qb2",
+        "Bxd5"
+      ],
+      [
+        "exd5",
+        "Qe7"
+      ],
+      [
+        "Rb7",
+        "Rd7"
+      ],
+      [
+        "Rb8"
+      ]
+    ]
+  },
+  {
+    "metadata": {
+      "white": {
+        "name": "Firouzja, Alireza",
+        "elo": 2760,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 2,
+            "distance": 3,
+            "position": "h2",
+            "isAlive": true,
+            "startedOn": "e1",
+            "history": [
+              "e1",
+              "g1",
+              "h2"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 6,
+            "distance": 8,
+            "position": "g4",
+            "isAlive": true,
+            "startedOn": "d1",
+            "history": [
+              "d1",
+              "f3",
+              "g4",
+              "f3",
+              "f2",
+              "g2",
+              "g4"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 7,
+            "distance": 13,
+            "position": "h4",
+            "isAlive": true,
+            "startedOn": "c1",
+            "history": [
+              "c1",
+              "b2",
+              "e5",
+              "b2",
+              "c1",
+              "d2",
+              "e1",
+              "h4"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 3,
+            "distance": 6,
+            "position": "d7",
+            "isAlive": false,
+            "startedOn": "f1",
+            "history": [
+              "f1",
+              "g2",
+              "h3",
+              "d7"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 3,
+            "distance": 4.5,
+            "position": "d6",
+            "isAlive": false,
+            "startedOn": "b1",
+            "history": [
+              "b1",
+              "d2",
+              "c4",
+              "d6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "g1",
+            "history": [
+              "g1",
+              "f3",
+              "e5"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 3,
+            "distance": 13,
+            "position": "f1",
+            "isAlive": true,
+            "startedOn": "a1",
+            "history": [
+              "a1",
+              "f1",
+              "f5",
+              "f1"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 5,
+            "distance": 12,
+            "position": "g6",
+            "isAlive": false,
+            "startedOn": "h1",
+            "history": [
+              "h1",
+              "f1",
+              "e1",
+              "e2",
+              "h2",
+              "g2",
+              "g6"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 1,
+            "distance": 2,
+            "position": "a4",
+            "isAlive": true,
+            "startedOn": "a2",
+            "history": [
+              "a2",
+              "a4"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 1,
+            "distance": 1,
+            "position": "b3",
+            "isAlive": true,
+            "startedOn": "b2",
+            "history": [
+              "b2",
+              "b3"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 0,
+            "distance": 0,
+            "position": "c2",
+            "isAlive": true,
+            "startedOn": "c2",
+            "history": [
+              "c2"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 1,
+            "distance": 1,
+            "position": "d3",
+            "isAlive": true,
+            "startedOn": "d2",
+            "history": [
+              "d2",
+              "d3"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 1,
+            "distance": 2,
+            "position": "e4",
+            "isAlive": true,
+            "startedOn": "e2",
+            "history": [
+              "e2",
+              "e4"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 3,
+            "distance": 4,
+            "position": "g6",
+            "isAlive": true,
+            "startedOn": "f2",
+            "history": [
+              "f2",
+              "f4",
+              "f5",
+              "g6"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 4,
+            "distance": 4,
+            "position": "f6",
+            "isAlive": false,
+            "startedOn": "g2",
+            "history": [
+              "g2",
+              "g3",
+              "g4",
+              "g5",
+              "f6"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 2,
+            "distance": 3,
+            "position": "h5",
+            "isAlive": true,
+            "startedOn": "h2",
+            "history": [
+              "h2",
+              "h4",
+              "h5"
+            ]
+          }
+        ],
+        "moves": 44,
+        "distance": 79.5,
+        "perMove": 1.807
+      },
+      "black": {
+        "name": "Nepomniachtchi, Ian",
+        "elo": 2758,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 9,
+            "distance": 10,
+            "position": "a6",
+            "isAlive": true,
+            "startedOn": "e8",
+            "history": [
+              "e8",
+              "g8",
+              "f7",
+              "e7",
+              "d6",
+              "c7",
+              "d6",
+              "c7",
+              "b7",
+              "a6"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 6,
+            "distance": 7,
+            "position": "g7",
+            "isAlive": true,
+            "startedOn": "d8",
+            "history": [
+              "d8",
+              "c7",
+              "c6",
+              "d6",
+              "d7",
+              "e7",
+              "g7"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 5,
+            "distance": 8,
+            "position": "g6",
+            "isAlive": false,
+            "startedOn": "c8",
+            "history": [
+              "c8",
+              "f5",
+              "h7",
+              "g8",
+              "f7",
+              "g6"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 2,
+            "position": "d6",
+            "isAlive": false,
+            "startedOn": "f8",
+            "history": [
+              "f8",
+              "e7",
+              "d6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "b8",
+            "history": [
+              "b8",
+              "c6",
+              "e5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "d7",
+            "isAlive": false,
+            "startedOn": "g8",
+            "history": [
+              "g8",
+              "f6",
+              "d7"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 6,
+            "distance": 13,
+            "position": "d6",
+            "isAlive": true,
+            "startedOn": "a8",
+            "history": [
+              "a8",
+              "e8",
+              "g8",
+              "e8",
+              "e6",
+              "c6",
+              "d6"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 2,
+            "distance": 6,
+            "position": "f8",
+            "isAlive": true,
+            "startedOn": "h8",
+            "history": [
+              "h8",
+              "f8",
+              "h8",
+              "f8"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 1,
+            "distance": 2,
+            "position": "a5",
+            "isAlive": true,
+            "startedOn": "a7",
+            "history": [
+              "a7",
+              "a5"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 1,
+            "distance": 1,
+            "position": "b6",
+            "isAlive": true,
+            "startedOn": "b7",
+            "history": [
+              "b7",
+              "b6"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 1,
+            "distance": 2,
+            "position": "c5",
+            "isAlive": true,
+            "startedOn": "c7",
+            "history": [
+              "c7",
+              "c5"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": true,
+            "startedOn": "d7",
+            "history": [
+              "d7",
+              "d5",
+              "d4"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 2,
+            "distance": 2,
+            "position": "e5",
+            "isAlive": true,
+            "startedOn": "e7",
+            "history": [
+              "e7",
+              "e6",
+              "e5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 1,
+            "distance": 1,
+            "position": "f6",
+            "isAlive": false,
+            "startedOn": "f7",
+            "history": [
+              "f7",
+              "f6"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 1,
+            "distance": 1,
+            "position": "f6",
+            "isAlive": true,
+            "startedOn": "g7",
+            "history": [
+              "g7",
+              "f6"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 1,
+            "distance": 1,
+            "position": "h6",
+            "isAlive": true,
+            "startedOn": "h7",
+            "history": [
+              "h7",
+              "h6"
+            ]
+          }
+        ],
+        "moves": 44,
+        "distance": 65,
+        "perMove": 1.477
+      },
+      "opening": "Nimzo-Larsen Attack: Classical Variation",
+      "eco": "A06",
+      "result": "1/2-1/2",
+      "date": "2024.04.14",
+      "event": "FIDE Candidates 2024"
+    },
+    "moves": [
+      [
+        "Nf3",
+        "d5"
+      ],
+      [
+        "b3",
+        "Nf6"
+      ],
+      [
+        "Bb2",
+        "Bf5"
+      ],
+      [
+        "g3",
+        "c5"
+      ],
+      [
+        "Bg2",
+        "Nc6"
+      ],
+      [
+        "O-O",
+        "e6"
+      ],
+      [
+        "d3",
+        "Be7"
+      ],
+      [
+        "Nbd2",
+        "O-O"
+      ],
+      [
+        "Re1",
+        "h6"
+      ],
+      [
+        "e4",
+        "Bh7"
+      ],
+      [
+        "Ne5",
+        "Nxe5"
+      ],
+      [
+        "Bxe5",
+        "Nd7"
+      ],
+      [
+        "Bb2",
+        "d4"
+      ],
+      [
+        "a4",
+        "e5"
+      ],
+      [
+        "f4",
+        "Qc7"
+      ],
+      [
+        "Qf3",
+        "b6"
+      ],
+      [
+        "Bh3",
+        "Rae8"
+      ],
+      [
+        "Nc4",
+        "Bd6"
+      ],
+      [
+        "Bc1",
+        "Qc6"
+      ],
+      [
+        "Nxd6",
+        "Qxd6"
+      ],
+      [
+        "Bxd7",
+        "Qxd7"
+      ],
+      [
+        "f5",
+        "f6"
+      ],
+      [
+        "g4",
+        "Kf7"
+      ],
+      [
+        "h4",
+        "Ke7"
+      ],
+      [
+        "Re2",
+        "Kd6"
+      ],
+      [
+        "Bd2",
+        "a5"
+      ],
+      [
+        "Rh2",
+        "Kc7"
+      ],
+      [
+        "Rf1",
+        "Rh8"
+      ],
+      [
+        "g5",
+        "Bg8"
+      ],
+      [
+        "gxf6",
+        "gxf6"
+      ],
+      [
+        "h5",
+        "Bf7"
+      ],
+      [
+        "Rg2",
+        "Reg8"
+      ],
+      [
+        "Rg6",
+        "Bxg6"
+      ],
+      [
+        "fxg6",
+        "Re8"
+      ],
+      [
+        "Be1",
+        "Re6"
+      ],
+      [
+        "Bh4",
+        "Rf8"
+      ],
+      [
+        "Qg4",
+        "Qe7"
+      ],
+      [
+        "Kh2",
+        "Kd6"
+      ],
+      [
+        "Rf5",
+        "Qg7"
+      ],
+      [
+        "Qf3",
+        "Kc7"
+      ],
+      [
+        "Qf2",
+        "Kb7"
+      ],
+      [
+        "Qg2",
+        "Rc6"
+      ],
+      [
+        "Qg4",
+        "Ka6"
+      ],
+      [
+        "Rf1",
+        "Rd6"
+      ]
+    ]
+  },
+  {
+    "metadata": {
+      "white": {
+        "name": "Abasov, Nijat",
+        "elo": 2632,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 9,
+            "distance": 9,
+            "position": "g3",
+            "isAlive": true,
+            "startedOn": "e1",
+            "history": [
+              "e1",
+              "d1",
+              "e1",
+              "e2",
+              "f3",
+              "f4",
+              "e5",
+              "e4",
+              "f3",
+              "g3"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 0,
+            "distance": 0,
+            "position": "d1",
+            "isAlive": false,
+            "startedOn": "d1",
+            "history": [
+              "d1"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 6,
+            "distance": 11,
+            "position": "f4",
+            "isAlive": true,
+            "startedOn": "c1",
+            "history": [
+              "c1",
+              "b2",
+              "c3",
+              "e5",
+              "g3",
+              "d6",
+              "f4"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 4,
+            "distance": 6,
+            "position": "d3",
+            "isAlive": false,
+            "startedOn": "f1",
+            "history": [
+              "f1",
+              "d3",
+              "c4",
+              "e2",
+              "d3"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 1,
+            "distance": 1.5,
+            "position": "c3",
+            "isAlive": false,
+            "startedOn": "b1",
+            "history": [
+              "b1",
+              "c3"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "d2",
+            "isAlive": false,
+            "startedOn": "g1",
+            "history": [
+              "g1",
+              "f3",
+              "d2"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 8,
+            "distance": 13,
+            "position": "d7",
+            "isAlive": false,
+            "startedOn": "a1",
+            "history": [
+              "a1",
+              "b1",
+              "b5",
+              "b7",
+              "c7",
+              "c6",
+              "c5",
+              "c7",
+              "d7"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 4,
+            "distance": 15,
+            "position": "c7",
+            "isAlive": true,
+            "startedOn": "h1",
+            "history": [
+              "h1",
+              "c1",
+              "c3",
+              "c1",
+              "c7"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 3,
+            "distance": 3,
+            "position": "a5",
+            "isAlive": false,
+            "startedOn": "a2",
+            "history": [
+              "a2",
+              "a3",
+              "a4",
+              "a5"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 2,
+            "distance": 2,
+            "position": "c4",
+            "isAlive": false,
+            "startedOn": "b2",
+            "history": [
+              "b2",
+              "c3",
+              "c4"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 1,
+            "distance": 2,
+            "position": "c4",
+            "isAlive": false,
+            "startedOn": "c2",
+            "history": [
+              "c2",
+              "c4"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 2,
+            "distance": 3,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "d2",
+            "history": [
+              "d2",
+              "d4",
+              "e5"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 1,
+            "distance": 1,
+            "position": "e3",
+            "isAlive": true,
+            "startedOn": "e2",
+            "history": [
+              "e2",
+              "e3"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 0,
+            "distance": 0,
+            "position": "f2",
+            "isAlive": true,
+            "startedOn": "f2",
+            "history": [
+              "f2"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g2",
+            "isAlive": true,
+            "startedOn": "g2",
+            "history": [
+              "g2"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 1,
+            "distance": 2,
+            "position": "h4",
+            "isAlive": true,
+            "startedOn": "h2",
+            "history": [
+              "h2",
+              "h4"
+            ]
+          }
+        ],
+        "moves": 44,
+        "distance": 71.5,
+        "perMove": 1.625
+      },
+      "black": {
+        "name": "Caruana, Fabiano",
+        "elo": 2803,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 2,
+            "distance": 3,
+            "position": "h7",
+            "isAlive": true,
+            "startedOn": "e8",
+            "history": [
+              "e8",
+              "g8",
+              "h7"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 1,
+            "distance": 7,
+            "position": "d1",
+            "isAlive": false,
+            "startedOn": "d8",
+            "history": [
+              "d8",
+              "d1"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 5,
+            "distance": 9,
+            "position": "f7",
+            "isAlive": true,
+            "startedOn": "c8",
+            "history": [
+              "c8",
+              "e6",
+              "f5",
+              "e6",
+              "c4",
+              "f7"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 5,
+            "position": "c3",
+            "isAlive": false,
+            "startedOn": "f8",
+            "history": [
+              "f8",
+              "b4",
+              "c3"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "b8",
+            "history": [
+              "b8",
+              "c6",
+              "e5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 4,
+            "distance": 6,
+            "position": "d3",
+            "isAlive": false,
+            "startedOn": "g8",
+            "history": [
+              "g8",
+              "f6",
+              "g4",
+              "e5",
+              "d3"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 6,
+            "distance": 20,
+            "position": "d7",
+            "isAlive": false,
+            "startedOn": "a8",
+            "history": [
+              "a8",
+              "d8",
+              "d2",
+              "b2",
+              "d2",
+              "d8",
+              "d7"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 11,
+            "distance": 33,
+            "position": "d7",
+            "isAlive": true,
+            "startedOn": "h8",
+            "history": [
+              "h8",
+              "f8",
+              "d8",
+              "d3",
+              "d8",
+              "d7",
+              "d2",
+              "a2",
+              "a5",
+              "a4",
+              "b4",
+              "b7",
+              "d7"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 1,
+            "distance": 1,
+            "position": "a6",
+            "isAlive": true,
+            "startedOn": "a7",
+            "history": [
+              "a7",
+              "a6"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 0,
+            "distance": 0,
+            "position": "b7",
+            "isAlive": false,
+            "startedOn": "b7",
+            "history": [
+              "b7"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 2,
+            "distance": 2,
+            "position": "c5",
+            "isAlive": false,
+            "startedOn": "c7",
+            "history": [
+              "c7",
+              "c6",
+              "c5"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 2,
+            "distance": 3,
+            "position": "c4",
+            "isAlive": false,
+            "startedOn": "d7",
+            "history": [
+              "d7",
+              "d5",
+              "c4"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 2,
+            "distance": 2,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "e7",
+            "history": [
+              "e7",
+              "e6",
+              "e5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 1,
+            "distance": 1,
+            "position": "f6",
+            "isAlive": true,
+            "startedOn": "f7",
+            "history": [
+              "f7",
+              "f6"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g7",
+            "isAlive": true,
+            "startedOn": "g7",
+            "history": [
+              "g7"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 2,
+            "distance": 2,
+            "position": "h5",
+            "isAlive": true,
+            "startedOn": "h7",
+            "history": [
+              "h7",
+              "h6",
+              "h5"
+            ]
+          }
+        ],
+        "moves": 43,
+        "distance": 97,
+        "perMove": 2.256
+      },
+      "opening": "Queen's Gambit Declined: Queen's Knight Variation",
+      "eco": "D31",
+      "result": "1/2-1/2",
+      "date": "2024.04.14",
+      "event": "FIDE Candidates 2024"
+    },
+    "moves": [
+      [
+        "d4",
+        "d5"
+      ],
+      [
+        "c4",
+        "e6"
+      ],
+      [
+        "Nc3",
+        "Bb4"
+      ],
+      [
+        "a3",
+        "Bxc3"
+      ],
+      [
+        "bxc3",
+        "Nf6"
+      ],
+      [
+        "e3",
+        "c6"
+      ],
+      [
+        "a4",
+        "O-O"
+      ],
+      [
+        "Bd3",
+        "e5"
+      ],
+      [
+        "dxe5",
+        "dxc4"
+      ],
+      [
+        "Bxc4",
+        "Qxd1"
+      ],
+      [
+        "Kxd1",
+        "Ng4"
+      ],
+      [
+        "Ke1",
+        "Nxe5"
+      ],
+      [
+        "Be2",
+        "Rd8"
+      ],
+      [
+        "Nf3",
+        "Nd3"
+      ],
+      [
+        "Bxd3",
+        "Rxd3"
+      ],
+      [
+        "Bb2",
+        "Be6"
+      ],
+      [
+        "Ke2",
+        "Rd8"
+      ],
+      [
+        "Nd2",
+        "c5"
+      ],
+      [
+        "c4",
+        "Nc6"
+      ],
+      [
+        "a5",
+        "Rd7"
+      ],
+      [
+        "Bc3",
+        "Rad8"
+      ],
+      [
+        "Rhc1",
+        "h6"
+      ],
+      [
+        "Rab1",
+        "Bf5"
+      ],
+      [
+        "Rb5",
+        "Ne5"
+      ],
+      [
+        "Bxe5",
+        "Rxd2"
+      ],
+      [
+        "Kf3",
+        "Ra2"
+      ],
+      [
+        "Rxb7",
+        "Rdd2"
+      ],
+      [
+        "Bg3",
+        "a6"
+      ],
+      [
+        "Rc7",
+        "Rxa5"
+      ],
+      [
+        "h4",
+        "h5"
+      ],
+      [
+        "Kf4",
+        "Be6"
+      ],
+      [
+        "Ke5",
+        "Kh7"
+      ],
+      [
+        "Ke4",
+        "Rb2"
+      ],
+      [
+        "Rc3",
+        "Rd2"
+      ],
+      [
+        "Rc1",
+        "Rd8"
+      ],
+      [
+        "Rc6",
+        "Rd7"
+      ],
+      [
+        "Bd6",
+        "Ra4"
+      ],
+      [
+        "Kf3",
+        "f6"
+      ],
+      [
+        "Kg3",
+        "Bxc4"
+      ],
+      [
+        "Rxc5",
+        "Bf7"
+      ],
+      [
+        "Bf4",
+        "Rb4"
+      ],
+      [
+        "Rc7",
+        "Rb7"
+      ],
+      [
+        "Rxd7",
+        "Rxd7"
+      ],
+      [
+        "Rc7"
+      ]
+    ]
+  },
+  {
+    "metadata": {
+      "white": {
+        "name": "Praggnanandhaa R",
+        "elo": 2747,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 3,
+            "distance": 4,
+            "position": "g3",
+            "isAlive": true,
+            "startedOn": "e1",
+            "history": [
+              "e1",
+              "g1",
+              "f2",
+              "g3"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 6,
+            "distance": 10,
+            "position": "g3",
+            "isAlive": false,
+            "startedOn": "d1",
+            "history": [
+              "d1",
+              "e2",
+              "d2",
+              "f2",
+              "f5",
+              "h3",
+              "g3"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 3,
+            "distance": 4,
+            "position": "c3",
+            "isAlive": true,
+            "startedOn": "c1",
+            "history": [
+              "c1",
+              "e3",
+              "d2",
+              "c3"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 5,
+            "position": "c6",
+            "isAlive": false,
+            "startedOn": "f1",
+            "history": [
+              "f1",
+              "b5",
+              "c6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 4,
+            "distance": 6,
+            "position": "e6",
+            "isAlive": false,
+            "startedOn": "b1",
+            "history": [
+              "b1",
+              "c3",
+              "e2",
+              "f4",
+              "e6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 4,
+            "distance": 6,
+            "position": "d6",
+            "isAlive": false,
+            "startedOn": "g1",
+            "history": [
+              "g1",
+              "f3",
+              "d2",
+              "c4",
+              "d6"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 3,
+            "distance": 12,
+            "position": "e1",
+            "isAlive": true,
+            "startedOn": "a1",
+            "history": [
+              "a1",
+              "e1",
+              "a1",
+              "e1"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 7,
+            "distance": 11,
+            "position": "f2",
+            "isAlive": true,
+            "startedOn": "h1",
+            "history": [
+              "h1",
+              "f1",
+              "f2",
+              "f4",
+              "f2",
+              "e2",
+              "f2",
+              "e2",
+              "f2"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 1,
+            "distance": 2,
+            "position": "a4",
+            "isAlive": true,
+            "startedOn": "a2",
+            "history": [
+              "a2",
+              "a4"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 1,
+            "distance": 1,
+            "position": "b3",
+            "isAlive": true,
+            "startedOn": "b2",
+            "history": [
+              "b2",
+              "b3"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 0,
+            "distance": 0,
+            "position": "c2",
+            "isAlive": true,
+            "startedOn": "c2",
+            "history": [
+              "c2"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 1,
+            "distance": 1,
+            "position": "d3",
+            "isAlive": true,
+            "startedOn": "d2",
+            "history": [
+              "d2",
+              "d3"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 1,
+            "distance": 2,
+            "position": "e4",
+            "isAlive": true,
+            "startedOn": "e2",
+            "history": [
+              "e2",
+              "e4"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 1,
+            "distance": 2,
+            "position": "f4",
+            "isAlive": false,
+            "startedOn": "f2",
+            "history": [
+              "f2",
+              "f4"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g2",
+            "isAlive": true,
+            "startedOn": "g2",
+            "history": [
+              "g2"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 2,
+            "distance": 2,
+            "position": "g4",
+            "isAlive": true,
+            "startedOn": "h2",
+            "history": [
+              "h2",
+              "g3",
+              "g4"
+            ]
+          }
+        ],
+        "moves": 39,
+        "distance": 68,
+        "perMove": 1.744
+      },
+      "black": {
+        "name": "Vidit, Santosh Gujrathi",
+        "elo": 2727,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 7,
+            "distance": 8,
+            "position": "b7",
+            "isAlive": true,
+            "startedOn": "e8",
+            "history": [
+              "e8",
+              "c8",
+              "b8",
+              "b7",
+              "c6",
+              "b7",
+              "c6",
+              "b7"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 5,
+            "distance": 7,
+            "position": "g3",
+            "isAlive": false,
+            "startedOn": "d8",
+            "history": [
+              "d8",
+              "e7",
+              "d6",
+              "e6",
+              "d6",
+              "g3"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 8,
+            "distance": 9,
+            "position": "d7",
+            "isAlive": true,
+            "startedOn": "c8",
+            "history": [
+              "c8",
+              "b7",
+              "c8",
+              "e6",
+              "d7",
+              "e6",
+              "d7",
+              "c8",
+              "d7"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 4,
+            "position": "d6",
+            "isAlive": false,
+            "startedOn": "f8",
+            "history": [
+              "f8",
+              "c5",
+              "d6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 1,
+            "distance": 1.5,
+            "position": "c6",
+            "isAlive": false,
+            "startedOn": "b8",
+            "history": [
+              "b8",
+              "c6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 4,
+            "distance": 6,
+            "position": "e6",
+            "isAlive": false,
+            "startedOn": "g8",
+            "history": [
+              "g8",
+              "f6",
+              "d7",
+              "c5",
+              "e6"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 2,
+            "distance": 5,
+            "position": "e7",
+            "isAlive": true,
+            "startedOn": "a8",
+            "history": [
+              "a8",
+              "d8",
+              "d7",
+              "e7"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 2,
+            "distance": 3,
+            "position": "e8",
+            "isAlive": true,
+            "startedOn": "h8",
+            "history": [
+              "h8",
+              "f8",
+              "e8"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 1,
+            "distance": 2,
+            "position": "a5",
+            "isAlive": true,
+            "startedOn": "a7",
+            "history": [
+              "a7",
+              "a5"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 1,
+            "distance": 1,
+            "position": "b6",
+            "isAlive": true,
+            "startedOn": "b7",
+            "history": [
+              "b7",
+              "b6"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 0,
+            "distance": 0,
+            "position": "c7",
+            "isAlive": true,
+            "startedOn": "c7",
+            "history": [
+              "c7"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 2,
+            "distance": 2,
+            "position": "c5",
+            "isAlive": true,
+            "startedOn": "d7",
+            "history": [
+              "d7",
+              "c6",
+              "c5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 2,
+            "distance": 3,
+            "position": "f4",
+            "isAlive": false,
+            "startedOn": "e7",
+            "history": [
+              "e7",
+              "e5",
+              "f4"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 1,
+            "distance": 1,
+            "position": "f6",
+            "isAlive": true,
+            "startedOn": "f7",
+            "history": [
+              "f7",
+              "f6"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g7",
+            "isAlive": true,
+            "startedOn": "g7",
+            "history": [
+              "g7"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 1,
+            "distance": 1,
+            "position": "h6",
+            "isAlive": true,
+            "startedOn": "h7",
+            "history": [
+              "h7",
+              "h6"
+            ]
+          }
+        ],
+        "moves": 39,
+        "distance": 53.5,
+        "perMove": 1.372
+      },
+      "opening": "Ruy Lopez: Berlin Defense",
+      "eco": "C65",
+      "result": "1/2-1/2",
+      "date": "2024.04.15",
+      "event": "FIDE Candidates 2024"
+    },
+    "moves": [
+      [
+        "e4",
+        "e5"
+      ],
+      [
+        "Nf3",
+        "Nc6"
+      ],
+      [
+        "Bb5",
+        "Nf6"
+      ],
+      [
+        "d3",
+        "Bc5"
+      ],
+      [
+        "Bxc6",
+        "dxc6"
+      ],
+      [
+        "Qe2",
+        "Nd7"
+      ],
+      [
+        "Be3",
+        "Qe7"
+      ],
+      [
+        "Nc3",
+        "Bd6"
+      ],
+      [
+        "Nd2",
+        "Nc5"
+      ],
+      [
+        "Nc4",
+        "Ne6"
+      ],
+      [
+        "Qd2",
+        "f6"
+      ],
+      [
+        "Nxd6",
+        "Qxd6"
+      ],
+      [
+        "Ne2",
+        "b6"
+      ],
+      [
+        "f4",
+        "exf4"
+      ],
+      [
+        "Nxf4",
+        "c5"
+      ],
+      [
+        "Qf2",
+        "Bb7"
+      ],
+      [
+        "Nxe6",
+        "Qxe6"
+      ],
+      [
+        "b3",
+        "O-O-O"
+      ],
+      [
+        "O-O",
+        "Kb8"
+      ],
+      [
+        "Rae1",
+        "Rhf8"
+      ],
+      [
+        "Qf5",
+        "Qd6"
+      ],
+      [
+        "Qh3",
+        "h6"
+      ],
+      [
+        "Rf2",
+        "Bc8"
+      ],
+      [
+        "Qg3",
+        "Qxg3"
+      ],
+      [
+        "hxg3",
+        "Be6"
+      ],
+      [
+        "a4",
+        "a5"
+      ],
+      [
+        "Bd2",
+        "Rfe8"
+      ],
+      [
+        "Bc3",
+        "Rd7"
+      ],
+      [
+        "Rf4",
+        "Kb7"
+      ],
+      [
+        "Kf2",
+        "Rde7"
+      ],
+      [
+        "g4",
+        "Bd7"
+      ],
+      [
+        "Ra1",
+        "Be6"
+      ],
+      [
+        "Kg3",
+        "Bd7"
+      ],
+      [
+        "Rf2",
+        "Bc8"
+      ],
+      [
+        "Re1",
+        "Bd7"
+      ],
+      [
+        "Rfe2",
+        "Kc6"
+      ],
+      [
+        "Rf2",
+        "Kb7"
+      ],
+      [
+        "Rfe2",
+        "Kc6"
+      ],
+      [
+        "Rf2",
+        "Kb7"
+      ]
+    ]
+  },
+  {
+    "metadata": {
+      "white": {
+        "name": "Nakamura, Hikaru",
+        "elo": 2789,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 6,
+            "distance": 7,
+            "position": "f1",
+            "isAlive": true,
+            "startedOn": "e1",
+            "history": [
+              "e1",
+              "g1",
+              "f1",
+              "f2",
+              "f3",
+              "g2",
+              "f1"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 6,
+            "distance": 9,
+            "position": "e3",
+            "isAlive": false,
+            "startedOn": "d1",
+            "history": [
+              "d1",
+              "f3",
+              "g3",
+              "e3",
+              "d2",
+              "c1",
+              "e3"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 6,
+            "distance": 12,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "c1",
+            "history": [
+              "c1",
+              "g5",
+              "h4",
+              "g3",
+              "f4",
+              "h2",
+              "e5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 3,
+            "distance": 6,
+            "position": "f5",
+            "isAlive": false,
+            "startedOn": "f1",
+            "history": [
+              "f1",
+              "d3",
+              "c2",
+              "f5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 6,
+            "distance": 9,
+            "position": "f5",
+            "isAlive": true,
+            "startedOn": "b1",
+            "history": [
+              "b1",
+              "d2",
+              "f1",
+              "g3",
+              "e2",
+              "d4",
+              "f5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 5,
+            "distance": 7.5,
+            "position": "g4",
+            "isAlive": false,
+            "startedOn": "g1",
+            "history": [
+              "g1",
+              "f3",
+              "e5",
+              "f3",
+              "e5",
+              "g4"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 9,
+            "distance": 33,
+            "position": "a8",
+            "isAlive": true,
+            "startedOn": "a1",
+            "history": [
+              "a1",
+              "b1",
+              "b7",
+              "b8",
+              "b1",
+              "b8",
+              "b5",
+              "a5",
+              "a3",
+              "a8"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 2,
+            "distance": 8,
+            "position": "e6",
+            "isAlive": false,
+            "startedOn": "h1",
+            "history": [
+              "h1",
+              "f1",
+              "e1",
+              "e6"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 2,
+            "distance": 3,
+            "position": "a5",
+            "isAlive": true,
+            "startedOn": "a2",
+            "history": [
+              "a2",
+              "a4",
+              "a5"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 2,
+            "distance": 2,
+            "position": "a4",
+            "isAlive": false,
+            "startedOn": "b2",
+            "history": [
+              "b2",
+              "b3",
+              "a4"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 1,
+            "distance": 1,
+            "position": "c3",
+            "isAlive": false,
+            "startedOn": "c2",
+            "history": [
+              "c2",
+              "c3"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 3,
+            "distance": 3,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "d2",
+            "history": [
+              "d2",
+              "d3",
+              "d4",
+              "e5"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 1,
+            "distance": 2,
+            "position": "e4",
+            "isAlive": false,
+            "startedOn": "e2",
+            "history": [
+              "e2",
+              "e4"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 2,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "f2",
+            "history": [
+              "f2",
+              "e3",
+              "d4"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 1,
+            "distance": 1,
+            "position": "h3",
+            "isAlive": false,
+            "startedOn": "g2",
+            "history": [
+              "g2",
+              "h3"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 3,
+            "distance": 3,
+            "position": "g5",
+            "isAlive": false,
+            "startedOn": "h2",
+            "history": [
+              "h2",
+              "h3",
+              "g4",
+              "g5"
+            ]
+          }
+        ],
+        "moves": 58,
+        "distance": 108.5,
+        "perMove": 1.871
+      },
+      "black": {
+        "name": "Abasov, Nijat",
+        "elo": 2632,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 3,
+            "distance": 4,
+            "position": "g8",
+            "isAlive": true,
+            "startedOn": "e8",
+            "history": [
+              "e8",
+              "g8",
+              "h7",
+              "g8"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 7,
+            "distance": 9,
+            "position": "e3",
+            "isAlive": false,
+            "startedOn": "d8",
+            "history": [
+              "d8",
+              "e8",
+              "c6",
+              "d7",
+              "e7",
+              "e6",
+              "e5",
+              "e3"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 5,
+            "distance": 7,
+            "position": "f5",
+            "isAlive": false,
+            "startedOn": "c8",
+            "history": [
+              "c8",
+              "e6",
+              "g4",
+              "h3",
+              "g4",
+              "f5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 9,
+            "distance": 13,
+            "position": "g5",
+            "isAlive": true,
+            "startedOn": "f8",
+            "history": [
+              "f8",
+              "d6",
+              "c7",
+              "a5",
+              "c3",
+              "d4",
+              "e3",
+              "g5",
+              "h4",
+              "g5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 6,
+            "distance": 9,
+            "position": "f8",
+            "isAlive": true,
+            "startedOn": "b8",
+            "history": [
+              "b8",
+              "c6",
+              "e7",
+              "c8",
+              "e7",
+              "g6",
+              "f8"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 4,
+            "distance": 6,
+            "position": "g4",
+            "isAlive": false,
+            "startedOn": "g8",
+            "history": [
+              "g8",
+              "f6",
+              "e4",
+              "f6",
+              "g4"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 2,
+            "distance": 6,
+            "position": "e6",
+            "isAlive": false,
+            "startedOn": "a8",
+            "history": [
+              "a8",
+              "a6",
+              "e6"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 3,
+            "distance": 12,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "h8",
+            "history": [
+              "h8",
+              "f8",
+              "e8",
+              "e2",
+              "e5"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 2,
+            "distance": 3,
+            "position": "a4",
+            "isAlive": false,
+            "startedOn": "a7",
+            "history": [
+              "a7",
+              "a5",
+              "a4"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 3,
+            "distance": 4,
+            "position": "a3",
+            "isAlive": false,
+            "startedOn": "b7",
+            "history": [
+              "b7",
+              "b5",
+              "a4",
+              "a3"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 2,
+            "distance": 3,
+            "position": "c4",
+            "isAlive": true,
+            "startedOn": "c7",
+            "history": [
+              "c7",
+              "c5",
+              "c4"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 3,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "d7",
+            "history": [
+              "d7",
+              "d6",
+              "d5",
+              "d4"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 1,
+            "distance": 2,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "e7",
+            "history": [
+              "e7",
+              "e5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 3,
+            "distance": 4,
+            "position": "f3",
+            "isAlive": true,
+            "startedOn": "f7",
+            "history": [
+              "f7",
+              "f5",
+              "f4",
+              "f3"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g7",
+            "isAlive": true,
+            "startedOn": "g7",
+            "history": [
+              "g7"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 4,
+            "distance": 4,
+            "position": "h3",
+            "isAlive": false,
+            "startedOn": "h7",
+            "history": [
+              "h7",
+              "h6",
+              "h5",
+              "h4",
+              "h3"
+            ]
+          }
+        ],
+        "moves": 57,
+        "distance": 89,
+        "perMove": 1.561
+      },
+      "opening": "Russian Game: French Attack",
+      "eco": "C42",
+      "result": "1-0",
+      "date": "2024.04.15",
+      "event": "FIDE Candidates 2024"
+    },
+    "moves": [
+      [
+        "e4",
+        "e5"
+      ],
+      [
+        "Nf3",
+        "Nf6"
+      ],
+      [
+        "Nxe5",
+        "d6"
+      ],
+      [
+        "Nf3",
+        "Nxe4"
+      ],
+      [
+        "d3",
+        "Nf6"
+      ],
+      [
+        "d4",
+        "d5"
+      ],
+      [
+        "Bd3",
+        "c5"
+      ],
+      [
+        "c3",
+        "c4"
+      ],
+      [
+        "Bc2",
+        "Bd6"
+      ],
+      [
+        "O-O",
+        "O-O"
+      ],
+      [
+        "h3",
+        "Nc6"
+      ],
+      [
+        "Bg5",
+        "h6"
+      ],
+      [
+        "Bh4",
+        "b5"
+      ],
+      [
+        "Re1",
+        "a5"
+      ],
+      [
+        "Ne5",
+        "Ra6"
+      ],
+      [
+        "Nd2",
+        "Bc7"
+      ],
+      [
+        "Qf3",
+        "Ne7"
+      ],
+      [
+        "b3",
+        "a4"
+      ],
+      [
+        "bxa4",
+        "bxa4"
+      ],
+      [
+        "Nf1",
+        "a3"
+      ],
+      [
+        "Rab1",
+        "Re6"
+      ],
+      [
+        "Ng4",
+        "Nxg4"
+      ],
+      [
+        "hxg4",
+        "Qe8"
+      ],
+      [
+        "Bg3",
+        "Ba5"
+      ],
+      [
+        "Rxe6",
+        "Bxe6"
+      ],
+      [
+        "Rb7",
+        "Nc8"
+      ],
+      [
+        "Bf4",
+        "Qc6"
+      ],
+      [
+        "Rb8",
+        "Ne7"
+      ],
+      [
+        "Rb1",
+        "Qd7"
+      ],
+      [
+        "g5",
+        "Bg4"
+      ],
+      [
+        "Qg3",
+        "h5"
+      ],
+      [
+        "Qe3",
+        "Ng6"
+      ],
+      [
+        "Bh2",
+        "Re8"
+      ],
+      [
+        "Qd2",
+        "Re2"
+      ],
+      [
+        "Rb8",
+        "Kh7"
+      ],
+      [
+        "Qc1",
+        "Qe7"
+      ],
+      [
+        "Be5",
+        "Qe6"
+      ],
+      [
+        "Ng3",
+        "Rxe5"
+      ],
+      [
+        "dxe5",
+        "Qxe5"
+      ],
+      [
+        "Rb5",
+        "Bxc3"
+      ],
+      [
+        "Qe3",
+        "Qxe3"
+      ],
+      [
+        "fxe3",
+        "d4"
+      ],
+      [
+        "exd4",
+        "Bxd4"
+      ],
+      [
+        "Kf1",
+        "h4"
+      ],
+      [
+        "Ne2",
+        "Be3"
+      ],
+      [
+        "Ra5",
+        "Kg8"
+      ],
+      [
+        "Rxa3",
+        "Bxg5"
+      ],
+      [
+        "Ra8",
+        "Nf8"
+      ],
+      [
+        "a4",
+        "f5"
+      ],
+      [
+        "Nd4",
+        "h3"
+      ],
+      [
+        "gxh3",
+        "Bxh3"
+      ],
+      [
+        "Kf2",
+        "Bh4"
+      ],
+      [
+        "Kf3",
+        "Bg4"
+      ],
+      [
+        "Kg2",
+        "f4"
+      ],
+      [
+        "Bf5",
+        "f3"
+      ],
+      [
+        "Kf1",
+        "Bxf5"
+      ],
+      [
+        "Nxf5",
+        "Bg5"
+      ],
+      [
+        "a5"
+      ]
+    ]
+  },
+  {
+    "metadata": {
+      "white": {
+        "name": "Nepomniachtchi, Ian",
+        "elo": 2758,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 2,
+            "distance": 3,
+            "position": "h2",
+            "isAlive": true,
+            "startedOn": "e1",
+            "history": [
+              "e1",
+              "g1",
+              "h2"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 7,
+            "distance": 16,
+            "position": "a7",
+            "isAlive": false,
+            "startedOn": "d1",
+            "history": [
+              "d1",
+              "d4",
+              "e3",
+              "g3",
+              "f4",
+              "b4",
+              "d4",
+              "a7"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 1,
+            "distance": 3,
+            "position": "f4",
+            "isAlive": false,
+            "startedOn": "c1",
+            "history": [
+              "c1",
+              "f4"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 3,
+            "distance": 6,
+            "position": "b3",
+            "isAlive": false,
+            "startedOn": "f1",
+            "history": [
+              "f1",
+              "b5",
+              "a4",
+              "b3"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "d5",
+            "isAlive": false,
+            "startedOn": "b1",
+            "history": [
+              "b1",
+              "c3",
+              "d5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "g1",
+            "history": [
+              "g1",
+              "f3",
+              "d4"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 8,
+            "distance": 25,
+            "position": "a4",
+            "isAlive": true,
+            "startedOn": "a1",
+            "history": [
+              "a1",
+              "e1",
+              "e8",
+              "a8",
+              "a6",
+              "d6",
+              "b6",
+              "b4",
+              "a4"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 5,
+            "distance": 13,
+            "position": "c3",
+            "isAlive": false,
+            "startedOn": "h1",
+            "history": [
+              "h1",
+              "f1",
+              "d1",
+              "d3",
+              "g3",
+              "d3",
+              "c3"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 2,
+            "distance": 2,
+            "position": "b4",
+            "isAlive": false,
+            "startedOn": "a2",
+            "history": [
+              "a2",
+              "b3",
+              "b4"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 1,
+            "distance": 2,
+            "position": "b4",
+            "isAlive": false,
+            "startedOn": "b2",
+            "history": [
+              "b2",
+              "b4"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 1,
+            "distance": 1,
+            "position": "c3",
+            "isAlive": false,
+            "startedOn": "c2",
+            "history": [
+              "c2",
+              "c3"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 1,
+            "distance": 2,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "d2",
+            "history": [
+              "d2",
+              "d4"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 3,
+            "distance": 4,
+            "position": "d6",
+            "isAlive": false,
+            "startedOn": "e2",
+            "history": [
+              "e2",
+              "e4",
+              "d5",
+              "d6"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 0,
+            "distance": 0,
+            "position": "f2",
+            "isAlive": true,
+            "startedOn": "f2",
+            "history": [
+              "f2"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g2",
+            "isAlive": true,
+            "startedOn": "g2",
+            "history": [
+              "g2"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 2,
+            "distance": 2,
+            "position": "h4",
+            "isAlive": true,
+            "startedOn": "h2",
+            "history": [
+              "h2",
+              "h3",
+              "h4"
+            ]
+          }
+        ],
+        "moves": 40,
+        "distance": 85,
+        "perMove": 2.125
+      },
+      "black": {
+        "name": "Gukesh D",
+        "elo": 2743,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 3,
+            "distance": 4,
+            "position": "h7",
+            "isAlive": true,
+            "startedOn": "e8",
+            "history": [
+              "e8",
+              "g8",
+              "h8",
+              "h7"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 2,
+            "distance": 4,
+            "position": "a7",
+            "isAlive": false,
+            "startedOn": "d8",
+            "history": [
+              "d8",
+              "d7",
+              "a7"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 3,
+            "position": "d5",
+            "isAlive": false,
+            "startedOn": "c8",
+            "history": [
+              "c8",
+              "e6",
+              "d5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 3,
+            "distance": 4,
+            "position": "f4",
+            "isAlive": false,
+            "startedOn": "f8",
+            "history": [
+              "f8",
+              "e7",
+              "d6",
+              "f4"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "b8",
+            "history": [
+              "b8",
+              "c6",
+              "d4"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 4,
+            "distance": 6,
+            "position": "b3",
+            "isAlive": false,
+            "startedOn": "g8",
+            "history": [
+              "g8",
+              "e7",
+              "c6",
+              "a5",
+              "b3"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 3,
+            "distance": 7,
+            "position": "c3",
+            "isAlive": false,
+            "startedOn": "a8",
+            "history": [
+              "a8",
+              "a7",
+              "c7",
+              "c3"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 10,
+            "distance": 24,
+            "position": "d6",
+            "isAlive": true,
+            "startedOn": "h8",
+            "history": [
+              "h8",
+              "f8",
+              "e8",
+              "e5",
+              "e2",
+              "c2",
+              "c3",
+              "c4",
+              "b4",
+              "b1",
+              "d1",
+              "d6"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 1,
+            "distance": 1,
+            "position": "a6",
+            "isAlive": false,
+            "startedOn": "a7",
+            "history": [
+              "a7",
+              "a6"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 2,
+            "distance": 3,
+            "position": "b4",
+            "isAlive": false,
+            "startedOn": "b7",
+            "history": [
+              "b7",
+              "b5",
+              "b4"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 2,
+            "distance": 3,
+            "position": "b4",
+            "isAlive": false,
+            "startedOn": "c7",
+            "history": [
+              "c7",
+              "c5",
+              "b4"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 1,
+            "distance": 1,
+            "position": "d6",
+            "isAlive": false,
+            "startedOn": "d7",
+            "history": [
+              "d7",
+              "d6"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "e7",
+            "history": [
+              "e7",
+              "e5",
+              "d4"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 0,
+            "distance": 0,
+            "position": "f7",
+            "isAlive": true,
+            "startedOn": "f7",
+            "history": [
+              "f7"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 1,
+            "distance": 1,
+            "position": "g6",
+            "isAlive": true,
+            "startedOn": "g7",
+            "history": [
+              "g7",
+              "g6"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 2,
+            "distance": 2,
+            "position": "h5",
+            "isAlive": true,
+            "startedOn": "h7",
+            "history": [
+              "h7",
+              "h6",
+              "h5"
+            ]
+          }
+        ],
+        "moves": 40,
+        "distance": 69,
+        "perMove": 1.725
+      },
+      "opening": "Ruy Lopez: Morphy Defense, Cozio Defense",
+      "eco": "C70",
+      "result": "1/2-1/2",
+      "date": "2024.04.15",
+      "event": "FIDE Candidates 2024"
+    },
+    "moves": [
+      [
+        "e4",
+        "e5"
+      ],
+      [
+        "Nf3",
+        "Nc6"
+      ],
+      [
+        "Bb5",
+        "a6"
+      ],
+      [
+        "Ba4",
+        "Nge7"
+      ],
+      [
+        "d4",
+        "exd4"
+      ],
+      [
+        "Nxd4",
+        "Nxd4"
+      ],
+      [
+        "Qxd4",
+        "Nc6"
+      ],
+      [
+        "Qe3",
+        "Be7"
+      ],
+      [
+        "Nc3",
+        "O-O"
+      ],
+      [
+        "Nd5",
+        "b5"
+      ],
+      [
+        "Bb3",
+        "Na5"
+      ],
+      [
+        "Qg3",
+        "Bd6"
+      ],
+      [
+        "Bf4",
+        "Bxf4"
+      ],
+      [
+        "Qxf4",
+        "d6"
+      ],
+      [
+        "O-O",
+        "Be6"
+      ],
+      [
+        "Rfd1",
+        "Re8"
+      ],
+      [
+        "h3",
+        "h6"
+      ],
+      [
+        "Rd3",
+        "c5"
+      ],
+      [
+        "Rg3",
+        "Kh8"
+      ],
+      [
+        "c3",
+        "Nxb3"
+      ],
+      [
+        "axb3",
+        "Bxd5"
+      ],
+      [
+        "exd5",
+        "Qd7"
+      ],
+      [
+        "b4",
+        "cxb4"
+      ],
+      [
+        "Qxb4",
+        "Re5"
+      ],
+      [
+        "Qd4",
+        "Qa7"
+      ],
+      [
+        "Rd3",
+        "Re2"
+      ],
+      [
+        "Qxa7",
+        "Rxa7"
+      ],
+      [
+        "b4",
+        "Rc2"
+      ],
+      [
+        "Re1",
+        "Kh7"
+      ],
+      [
+        "Re8",
+        "Rc7"
+      ],
+      [
+        "Ra8",
+        "R7xc3"
+      ],
+      [
+        "Rxc3",
+        "Rxc3"
+      ],
+      [
+        "Rxa6",
+        "Rc4"
+      ],
+      [
+        "Rxd6",
+        "Rxb4"
+      ],
+      [
+        "Rb6",
+        "Rb1"
+      ],
+      [
+        "Kh2",
+        "b4"
+      ],
+      [
+        "d6",
+        "Rd1"
+      ],
+      [
+        "Rxb4",
+        "Rxd6"
+      ],
+      [
+        "Ra4",
+        "h5"
+      ],
+      [
+        "h4",
+        "g6"
+      ]
+    ]
+  },
+  {
+    "metadata": {
+      "white": {
+        "name": "Caruana, Fabiano",
+        "elo": 2803,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 6,
+            "distance": 7,
+            "position": "g1",
+            "isAlive": true,
+            "startedOn": "e1",
+            "history": [
+              "e1",
+              "c1",
+              "d2",
+              "d1",
+              "e1",
+              "f2",
+              "g1"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 2,
+            "distance": 4,
+            "position": "g5",
+            "isAlive": false,
+            "startedOn": "d1",
+            "history": [
+              "d1",
+              "d2",
+              "g5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 1,
+            "distance": 4,
+            "position": "g5",
+            "isAlive": false,
+            "startedOn": "c1",
+            "history": [
+              "c1",
+              "g5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 9,
+            "distance": 16,
+            "position": "d7",
+            "isAlive": true,
+            "startedOn": "f1",
+            "history": [
+              "f1",
+              "c4",
+              "e2",
+              "d3",
+              "f1",
+              "c4",
+              "d3",
+              "b5",
+              "c6",
+              "d7"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 4,
+            "distance": 6,
+            "position": "f5",
+            "isAlive": false,
+            "startedOn": "b1",
+            "history": [
+              "b1",
+              "c3",
+              "d5",
+              "e7",
+              "f5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 4,
+            "distance": 6,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "g1",
+            "history": [
+              "g1",
+              "f3",
+              "d4",
+              "b3",
+              "d4"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 2,
+            "distance": 8,
+            "position": "d6",
+            "isAlive": false,
+            "startedOn": "a1",
+            "history": [
+              "a1",
+              "d1",
+              "d4",
+              "d6"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 9,
+            "distance": 16,
+            "position": "c6",
+            "isAlive": false,
+            "startedOn": "h1",
+            "history": [
+              "h1",
+              "g1",
+              "f1",
+              "e1",
+              "e7",
+              "e5",
+              "e6",
+              "e7",
+              "c7",
+              "c6"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 1,
+            "distance": 1,
+            "position": "a3",
+            "isAlive": true,
+            "startedOn": "a2",
+            "history": [
+              "a2",
+              "a3"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 0,
+            "distance": 0,
+            "position": "b2",
+            "isAlive": true,
+            "startedOn": "b2",
+            "history": [
+              "b2"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 3,
+            "distance": 4,
+            "position": "d6",
+            "isAlive": false,
+            "startedOn": "c2",
+            "history": [
+              "c2",
+              "c4",
+              "c5",
+              "d6"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 1,
+            "distance": 2,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "d2",
+            "history": [
+              "d2",
+              "d4"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 1,
+            "distance": 2,
+            "position": "e4",
+            "isAlive": false,
+            "startedOn": "e2",
+            "history": [
+              "e2",
+              "e4"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 1,
+            "distance": 2,
+            "position": "f4",
+            "isAlive": true,
+            "startedOn": "f2",
+            "history": [
+              "f2",
+              "f4"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g2",
+            "isAlive": true,
+            "startedOn": "g2",
+            "history": [
+              "g2"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 3,
+            "distance": 4,
+            "position": "f6",
+            "isAlive": false,
+            "startedOn": "h2",
+            "history": [
+              "h2",
+              "h4",
+              "g5",
+              "f6"
+            ]
+          }
+        ],
+        "moves": 47,
+        "distance": 82,
+        "perMove": 1.745
+      },
+      "black": {
+        "name": "Firouzja, Alireza",
+        "elo": 2760,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 7,
+            "distance": 7,
+            "position": "g6",
+            "isAlive": true,
+            "startedOn": "e8",
+            "history": [
+              "e8",
+              "f8",
+              "g7",
+              "g6",
+              "f7",
+              "g7",
+              "f6",
+              "g6"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 2,
+            "distance": 9,
+            "position": "g5",
+            "isAlive": false,
+            "startedOn": "d8",
+            "history": [
+              "d8",
+              "a5",
+              "g5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 6,
+            "distance": 11,
+            "position": "b3",
+            "isAlive": true,
+            "startedOn": "c8",
+            "history": [
+              "c8",
+              "e6",
+              "d7",
+              "c6",
+              "d5",
+              "f7",
+              "b3"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 3,
+            "distance": 3,
+            "position": "g5",
+            "isAlive": false,
+            "startedOn": "f8",
+            "history": [
+              "f8",
+              "g7",
+              "h6",
+              "g5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "b8",
+            "history": [
+              "b8",
+              "c6",
+              "d4"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 6,
+            "distance": 9,
+            "position": "f5",
+            "isAlive": false,
+            "startedOn": "g8",
+            "history": [
+              "g8",
+              "f6",
+              "g4",
+              "f6",
+              "e4",
+              "g3",
+              "f5"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 4,
+            "distance": 9,
+            "position": "d6",
+            "isAlive": false,
+            "startedOn": "a8",
+            "history": [
+              "a8",
+              "c8",
+              "f8",
+              "f6",
+              "d6"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 5,
+            "distance": 13,
+            "position": "c6",
+            "isAlive": false,
+            "startedOn": "h8",
+            "history": [
+              "h8",
+              "h5",
+              "h8",
+              "d8",
+              "d6",
+              "c6"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 2,
+            "distance": 2,
+            "position": "a5",
+            "isAlive": true,
+            "startedOn": "a7",
+            "history": [
+              "a7",
+              "a6",
+              "a5"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 1,
+            "distance": 2,
+            "position": "b5",
+            "isAlive": false,
+            "startedOn": "b7",
+            "history": [
+              "b7",
+              "b5"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "c7",
+            "history": [
+              "c7",
+              "c5",
+              "d4"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 1,
+            "distance": 1,
+            "position": "d6",
+            "isAlive": false,
+            "startedOn": "d7",
+            "history": [
+              "d7",
+              "d6"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 0,
+            "distance": 0,
+            "position": "e7",
+            "isAlive": false,
+            "startedOn": "e7",
+            "history": [
+              "e7"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 1,
+            "distance": 2,
+            "position": "f5",
+            "isAlive": false,
+            "startedOn": "f7",
+            "history": [
+              "f7",
+              "f5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 2,
+            "distance": 2,
+            "position": "f5",
+            "isAlive": true,
+            "startedOn": "g7",
+            "history": [
+              "g7",
+              "g6",
+              "f5"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 2,
+            "distance": 3,
+            "position": "h4",
+            "isAlive": true,
+            "startedOn": "h7",
+            "history": [
+              "h7",
+              "h5",
+              "h4"
+            ]
+          }
+        ],
+        "moves": 46,
+        "distance": 79,
+        "perMove": 1.717
+      },
+      "opening": "Sicilian Defense: Najdorf Variation, Freak Attack",
+      "eco": "B90",
+      "result": "1-0",
+      "date": "2024.04.15",
+      "event": "FIDE Candidates 2024"
+    },
+    "moves": [
+      [
+        "e4",
+        "c5"
+      ],
+      [
+        "Nf3",
+        "d6"
+      ],
+      [
+        "d4",
+        "cxd4"
+      ],
+      [
+        "Nxd4",
+        "Nf6"
+      ],
+      [
+        "Nc3",
+        "a6"
+      ],
+      [
+        "Rg1",
+        "h5"
+      ],
+      [
+        "Bc4",
+        "g6"
+      ],
+      [
+        "Bg5",
+        "Bg7"
+      ],
+      [
+        "Qd2",
+        "Qa5"
+      ],
+      [
+        "O-O-O",
+        "Nc6"
+      ],
+      [
+        "Nb3",
+        "Qxg5"
+      ],
+      [
+        "Qxg5",
+        "Bh6"
+      ],
+      [
+        "h4",
+        "Be6"
+      ],
+      [
+        "Be2",
+        "Kf8"
+      ],
+      [
+        "Nd4",
+        "Nxd4"
+      ],
+      [
+        "Rxd4",
+        "Rc8"
+      ],
+      [
+        "f4",
+        "Bxg5"
+      ],
+      [
+        "hxg5",
+        "Ng4"
+      ],
+      [
+        "Rf1",
+        "Bd7"
+      ],
+      [
+        "Kd2",
+        "Bc6"
+      ],
+      [
+        "Nd5",
+        "f5"
+      ],
+      [
+        "gxf6",
+        "Nxf6"
+      ],
+      [
+        "c4",
+        "Kg7"
+      ],
+      [
+        "Nxe7",
+        "Nxe4"
+      ],
+      [
+        "Kd1",
+        "Ng3"
+      ],
+      [
+        "Re1",
+        "Nf5"
+      ],
+      [
+        "Nxf5",
+        "gxf5"
+      ],
+      [
+        "Bd3",
+        "Rcf8"
+      ],
+      [
+        "Rxd6",
+        "Rf6"
+      ],
+      [
+        "c5",
+        "h4"
+      ],
+      [
+        "Re7",
+        "Kg6"
+      ],
+      [
+        "Re5",
+        "Rh5"
+      ],
+      [
+        "Bf1",
+        "Rxd6"
+      ],
+      [
+        "cxd6",
+        "Rh8"
+      ],
+      [
+        "Re6",
+        "Kf7"
+      ],
+      [
+        "Bc4",
+        "Rd8"
+      ],
+      [
+        "Ke1",
+        "Kg7"
+      ],
+      [
+        "Kf2",
+        "a5"
+      ],
+      [
+        "a3",
+        "b5"
+      ],
+      [
+        "Bd3",
+        "Bd5"
+      ],
+      [
+        "Re7",
+        "Bf7"
+      ],
+      [
+        "Bxb5",
+        "Kf6"
+      ],
+      [
+        "Rc7",
+        "Rxd6"
+      ],
+      [
+        "Rc6",
+        "Rxc6"
+      ],
+      [
+        "Bxc6",
+        "Bb3"
+      ],
+      [
+        "Bd7",
+        "Kg6"
+      ],
+      [
+        "Kg1"
+      ]
+    ]
+  },
+  {
+    "metadata": {
+      "white": {
         "name": "Praggnanandhaa R",
         "elo": 2747,
         "pieces": [
@@ -25963,6 +31109,2820 @@
       ],
       [
         "Rxd8"
+      ]
+    ]
+  },
+  {
+    "metadata": {
+      "white": {
+        "name": "Nepomniachtchi, Ian",
+        "elo": 2758,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 1,
+            "distance": 2,
+            "position": "g1",
+            "isAlive": true,
+            "startedOn": "e1",
+            "history": [
+              "e1",
+              "g1"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 0,
+            "distance": 0,
+            "position": "d1",
+            "isAlive": true,
+            "startedOn": "d1",
+            "history": [
+              "d1"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 3,
+            "distance": 7,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "c1",
+            "history": [
+              "c1",
+              "g5",
+              "e3",
+              "d4"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 4,
+            "distance": 8,
+            "position": "b3",
+            "isAlive": true,
+            "startedOn": "f1",
+            "history": [
+              "f1",
+              "b5",
+              "a4",
+              "c2",
+              "b3"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 10,
+            "distance": 15,
+            "position": "f3",
+            "isAlive": true,
+            "startedOn": "b1",
+            "history": [
+              "b1",
+              "d2",
+              "e4",
+              "c5",
+              "d3",
+              "e5",
+              "f3",
+              "e5",
+              "f3",
+              "e5",
+              "f3"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "g1",
+            "history": [
+              "g1",
+              "f3",
+              "d4"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 0,
+            "distance": 0,
+            "position": "a1",
+            "isAlive": true,
+            "startedOn": "a1",
+            "history": [
+              "a1"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 1,
+            "distance": 3,
+            "position": "e1",
+            "isAlive": true,
+            "startedOn": "h1",
+            "history": [
+              "h1",
+              "f1",
+              "e1"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 0,
+            "distance": 0,
+            "position": "a2",
+            "isAlive": true,
+            "startedOn": "a2",
+            "history": [
+              "a2"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 0,
+            "distance": 0,
+            "position": "b2",
+            "isAlive": true,
+            "startedOn": "b2",
+            "history": [
+              "b2"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 3,
+            "distance": 3,
+            "position": "d5",
+            "isAlive": true,
+            "startedOn": "c2",
+            "history": [
+              "c2",
+              "c3",
+              "d4",
+              "d5"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 1,
+            "distance": 2,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "d2",
+            "history": [
+              "d2",
+              "d4"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 3,
+            "position": "d5",
+            "isAlive": false,
+            "startedOn": "e2",
+            "history": [
+              "e2",
+              "e4",
+              "d5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 0,
+            "distance": 0,
+            "position": "f2",
+            "isAlive": true,
+            "startedOn": "f2",
+            "history": [
+              "f2"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g2",
+            "isAlive": true,
+            "startedOn": "g2",
+            "history": [
+              "g2"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 0,
+            "distance": 0,
+            "position": "h2",
+            "isAlive": true,
+            "startedOn": "h2",
+            "history": [
+              "h2"
+            ]
+          }
+        ],
+        "moves": 27,
+        "distance": 46,
+        "perMove": 1.704
+      },
+      "black": {
+        "name": "Nakamura, Hikaru",
+        "elo": 2789,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 2,
+            "distance": 3,
+            "position": "h8",
+            "isAlive": true,
+            "startedOn": "e8",
+            "history": [
+              "e8",
+              "g8",
+              "h8"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 7,
+            "distance": 13,
+            "position": "g5",
+            "isAlive": true,
+            "startedOn": "d8",
+            "history": [
+              "d8",
+              "d5",
+              "d8",
+              "g5",
+              "h5",
+              "g5",
+              "h5",
+              "g5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 1,
+            "distance": 1,
+            "position": "b7",
+            "isAlive": true,
+            "startedOn": "c8",
+            "history": [
+              "c8",
+              "b7"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 3,
+            "distance": 8,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "f8",
+            "history": [
+              "f8",
+              "c5",
+              "a7",
+              "d4"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "b8",
+            "history": [
+              "b8",
+              "c6",
+              "d4"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "g6",
+            "isAlive": true,
+            "startedOn": "g8",
+            "history": [
+              "g8",
+              "e7",
+              "g6"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 1,
+            "distance": 3,
+            "position": "d8",
+            "isAlive": true,
+            "startedOn": "a8",
+            "history": [
+              "a8",
+              "d8"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 0,
+            "distance": 2,
+            "position": "f8",
+            "isAlive": true,
+            "startedOn": "h8",
+            "history": [
+              "h8",
+              "f8"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 1,
+            "distance": 1,
+            "position": "a6",
+            "isAlive": true,
+            "startedOn": "a7",
+            "history": [
+              "a7",
+              "a6"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 1,
+            "distance": 1,
+            "position": "b6",
+            "isAlive": true,
+            "startedOn": "b7",
+            "history": [
+              "b7",
+              "b6"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 1,
+            "distance": 2,
+            "position": "c5",
+            "isAlive": true,
+            "startedOn": "c7",
+            "history": [
+              "c7",
+              "c5"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 1,
+            "distance": 2,
+            "position": "d5",
+            "isAlive": false,
+            "startedOn": "d7",
+            "history": [
+              "d7",
+              "d5"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "e7",
+            "history": [
+              "e7",
+              "e5",
+              "d4"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 2,
+            "distance": 2,
+            "position": "f5",
+            "isAlive": true,
+            "startedOn": "f7",
+            "history": [
+              "f7",
+              "f6",
+              "f5"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g7",
+            "isAlive": true,
+            "startedOn": "g7",
+            "history": [
+              "g7"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 0,
+            "distance": 0,
+            "position": "h7",
+            "isAlive": true,
+            "startedOn": "h7",
+            "history": [
+              "h7"
+            ]
+          }
+        ],
+        "moves": 26,
+        "distance": 47,
+        "perMove": 1.808
+      },
+      "opening": "Ruy Lopez: Morphy Defense, Classical Defense Deferred",
+      "eco": "C70",
+      "result": "1/2-1/2",
+      "date": "2024.04.20",
+      "event": "FIDE Candidates 2024"
+    },
+    "moves": [
+      [
+        "e4",
+        "e5"
+      ],
+      [
+        "Nf3",
+        "Nc6"
+      ],
+      [
+        "Bb5",
+        "a6"
+      ],
+      [
+        "Ba4",
+        "Bc5"
+      ],
+      [
+        "O-O",
+        "Nge7"
+      ],
+      [
+        "c3",
+        "Ng6"
+      ],
+      [
+        "d4",
+        "Ba7"
+      ],
+      [
+        "Bg5",
+        "f6"
+      ],
+      [
+        "Be3",
+        "O-O"
+      ],
+      [
+        "Nbd2",
+        "Kh8"
+      ],
+      [
+        "Re1",
+        "exd4"
+      ],
+      [
+        "Nxd4",
+        "Nxd4"
+      ],
+      [
+        "Bxd4",
+        "Bxd4"
+      ],
+      [
+        "cxd4",
+        "d5"
+      ],
+      [
+        "exd5",
+        "Qxd5"
+      ],
+      [
+        "Ne4",
+        "Qd8"
+      ],
+      [
+        "Bc2",
+        "f5"
+      ],
+      [
+        "Nc5",
+        "b6"
+      ],
+      [
+        "Nd3",
+        "Bb7"
+      ],
+      [
+        "Ne5",
+        "Qg5"
+      ],
+      [
+        "d5",
+        "Rad8"
+      ],
+      [
+        "Bb3",
+        "c5"
+      ],
+      [
+        "Nf3",
+        "Qh5"
+      ],
+      [
+        "Ne5",
+        "Qg5"
+      ],
+      [
+        "Nf3",
+        "Qh5"
+      ],
+      [
+        "Ne5",
+        "Qg5"
+      ],
+      [
+        "Nf3"
+      ]
+    ]
+  },
+  {
+    "metadata": {
+      "white": {
+        "name": "Praggnanandhaa R",
+        "elo": 2747,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 12,
+            "distance": 13,
+            "position": "f7",
+            "isAlive": true,
+            "startedOn": "e1",
+            "history": [
+              "e1",
+              "g1",
+              "h1",
+              "g1",
+              "f1",
+              "e2",
+              "f3",
+              "g3",
+              "f3",
+              "f4",
+              "f5",
+              "g6",
+              "f7"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 14,
+            "distance": 20,
+            "position": "h5",
+            "isAlive": false,
+            "startedOn": "d1",
+            "history": [
+              "d1",
+              "g4",
+              "f5",
+              "h3",
+              "e3",
+              "e2",
+              "d1",
+              "e1",
+              "e2",
+              "d1",
+              "e1",
+              "d1",
+              "e2",
+              "f3",
+              "h5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 10,
+            "distance": 14,
+            "position": "a1",
+            "isAlive": false,
+            "startedOn": "c1",
+            "history": [
+              "c1",
+              "a3",
+              "b2",
+              "c3",
+              "d2",
+              "e3",
+              "c5",
+              "a3",
+              "c1",
+              "b2",
+              "a1"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 5,
+            "position": "c6",
+            "isAlive": false,
+            "startedOn": "f1",
+            "history": [
+              "f1",
+              "b5",
+              "c6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "c4",
+            "isAlive": false,
+            "startedOn": "b1",
+            "history": [
+              "b1",
+              "d2",
+              "c4"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 10,
+            "distance": 15,
+            "position": "e3",
+            "isAlive": false,
+            "startedOn": "g1",
+            "history": [
+              "g1",
+              "f3",
+              "g5",
+              "f3",
+              "d2",
+              "f1",
+              "e3",
+              "f5",
+              "e3",
+              "c4",
+              "e3"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 19,
+            "distance": 45,
+            "position": "a6",
+            "isAlive": false,
+            "startedOn": "a1",
+            "history": [
+              "a1",
+              "b1",
+              "b3",
+              "b1",
+              "b3",
+              "b1",
+              "b2",
+              "b1",
+              "f1",
+              "a1",
+              "a4",
+              "a3",
+              "a2",
+              "a1",
+              "c1",
+              "c8",
+              "e8",
+              "a8",
+              "a5",
+              "a6"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 1,
+            "distance": 3,
+            "position": "e1",
+            "isAlive": false,
+            "startedOn": "h1",
+            "history": [
+              "h1",
+              "f1",
+              "e1"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 1,
+            "distance": 2,
+            "position": "a4",
+            "isAlive": false,
+            "startedOn": "a2",
+            "history": [
+              "a2",
+              "a4"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 3,
+            "distance": 3,
+            "position": "b5",
+            "isAlive": false,
+            "startedOn": "b2",
+            "history": [
+              "b2",
+              "b3",
+              "c4",
+              "b5"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 4,
+            "distance": 4,
+            "position": "e6",
+            "isAlive": false,
+            "startedOn": "c2",
+            "history": [
+              "c2",
+              "c3",
+              "d4",
+              "e5",
+              "e6"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 2,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "d2",
+            "history": [
+              "d2",
+              "d3",
+              "d4"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 2,
+            "distance": 3,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "e2",
+            "history": [
+              "e2",
+              "e4",
+              "e5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 1,
+            "distance": 1,
+            "position": "f3",
+            "isAlive": false,
+            "startedOn": "f2",
+            "history": [
+              "f2",
+              "f3"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 6,
+            "distance": 6,
+            "position": "g8",
+            "isAlive": false,
+            "startedOn": "g2",
+            "history": [
+              "g2",
+              "g3",
+              "g4",
+              "g5",
+              "g6",
+              "g7",
+              "g8"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 0,
+            "distance": 0,
+            "position": "h2",
+            "isAlive": true,
+            "startedOn": "h2",
+            "history": [
+              "h2"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 0,
+            "distance": 0,
+            "position": "g8",
+            "isAlive": true,
+            "startedOn": "g8",
+            "history": [
+              "g8"
+            ],
+            "isPromoted": true,
+            "ancestor": "g2"
+          }
+        ],
+        "moves": 89,
+        "distance": 139,
+        "perMove": 1.562
+      },
+      "black": {
+        "name": "Caruana, Fabiano",
+        "elo": 2803,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 8,
+            "distance": 9,
+            "position": "a6",
+            "isAlive": true,
+            "startedOn": "e8",
+            "history": [
+              "e8",
+              "c8",
+              "b8",
+              "a8",
+              "a7",
+              "a6",
+              "b6",
+              "b7",
+              "a6"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 7,
+            "distance": 10,
+            "position": "h5",
+            "isAlive": false,
+            "startedOn": "d8",
+            "history": [
+              "d8",
+              "c7",
+              "e7",
+              "d7",
+              "d8",
+              "d7",
+              "e8",
+              "h5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 4,
+            "position": "c4",
+            "isAlive": false,
+            "startedOn": "c8",
+            "history": [
+              "c8",
+              "e6",
+              "c4"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 20,
+            "distance": 29,
+            "position": "e7",
+            "isAlive": true,
+            "startedOn": "f8",
+            "history": [
+              "f8",
+              "e7",
+              "d6",
+              "f8",
+              "d6",
+              "c7",
+              "d6",
+              "f8",
+              "e7",
+              "d8",
+              "c7",
+              "d8",
+              "b6",
+              "d4",
+              "c3",
+              "b4",
+              "e1",
+              "d2",
+              "e3",
+              "c5",
+              "e7"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 1,
+            "distance": 1.5,
+            "position": "c6",
+            "isAlive": false,
+            "startedOn": "b8",
+            "history": [
+              "b8",
+              "c6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 7,
+            "distance": 10.5,
+            "position": "e1",
+            "isAlive": false,
+            "startedOn": "g8",
+            "history": [
+              "g8",
+              "f6",
+              "d7",
+              "f8",
+              "e6",
+              "d4",
+              "f3",
+              "e1"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 9,
+            "distance": 25,
+            "position": "a1",
+            "isAlive": false,
+            "startedOn": "a8",
+            "history": [
+              "a8",
+              "d8",
+              "g8",
+              "b8",
+              "c8",
+              "c6",
+              "c7",
+              "d7",
+              "c7",
+              "c1",
+              "a1"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 13,
+            "distance": 31,
+            "position": "a6",
+            "isAlive": false,
+            "startedOn": "h8",
+            "history": [
+              "h8",
+              "h7",
+              "g7",
+              "g5",
+              "h5",
+              "h7",
+              "h5",
+              "h7",
+              "b7",
+              "b5",
+              "b3",
+              "e3",
+              "e6",
+              "a6"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 5,
+            "distance": 6,
+            "position": "a1",
+            "isAlive": false,
+            "startedOn": "a7",
+            "history": [
+              "a7",
+              "a5",
+              "a4",
+              "a3",
+              "a2",
+              "a1"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 2,
+            "distance": 2,
+            "position": "b5",
+            "isAlive": false,
+            "startedOn": "b7",
+            "history": [
+              "b7",
+              "b6",
+              "b5"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 1,
+            "distance": 2,
+            "position": "c5",
+            "isAlive": false,
+            "startedOn": "c7",
+            "history": [
+              "c7",
+              "c5"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 3,
+            "distance": 3,
+            "position": "a4",
+            "isAlive": false,
+            "startedOn": "d7",
+            "history": [
+              "d7",
+              "c6",
+              "b5",
+              "a4"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "e7",
+            "history": [
+              "e7",
+              "e5",
+              "d4"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 2,
+            "distance": 2,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "f7",
+            "history": [
+              "f7",
+              "f6",
+              "e5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 3,
+            "distance": 4,
+            "position": "f3",
+            "isAlive": false,
+            "startedOn": "g7",
+            "history": [
+              "g7",
+              "g5",
+              "g4",
+              "f3"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 3,
+            "distance": 4,
+            "position": "h3",
+            "isAlive": true,
+            "startedOn": "h7",
+            "history": [
+              "h7",
+              "h5",
+              "h4",
+              "h3"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 1,
+            "distance": 1,
+            "position": "a2",
+            "isAlive": true,
+            "startedOn": "a1",
+            "history": [
+              "a1",
+              "a2"
+            ],
+            "isPromoted": true,
+            "ancestor": "a7"
+          }
+        ],
+        "moves": 89,
+        "distance": 147,
+        "perMove": 1.652
+      },
+      "opening": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack",
+      "eco": "B30",
+      "result": "0-1",
+      "date": "2024.04.20",
+      "event": "FIDE Candidates 2024"
+    },
+    "moves": [
+      [
+        "e4",
+        "c5"
+      ],
+      [
+        "Nf3",
+        "Nc6"
+      ],
+      [
+        "Bb5",
+        "Nf6"
+      ],
+      [
+        "Bxc6",
+        "dxc6"
+      ],
+      [
+        "d3",
+        "Qc7"
+      ],
+      [
+        "Nbd2",
+        "e5"
+      ],
+      [
+        "a4",
+        "Be6"
+      ],
+      [
+        "b3",
+        "Be7"
+      ],
+      [
+        "Nc4",
+        "Nd7"
+      ],
+      [
+        "Ng5",
+        "Bxc4"
+      ],
+      [
+        "bxc4",
+        "Nf8"
+      ],
+      [
+        "Qg4",
+        "h5"
+      ],
+      [
+        "Qf5",
+        "Bd6"
+      ],
+      [
+        "O-O",
+        "Qe7"
+      ],
+      [
+        "Qh3",
+        "f6"
+      ],
+      [
+        "Nf3",
+        "g5"
+      ],
+      [
+        "Nd2",
+        "Ne6"
+      ],
+      [
+        "Re1",
+        "g4"
+      ],
+      [
+        "Qe3",
+        "O-O-O"
+      ],
+      [
+        "Qe2",
+        "Rdg8"
+      ],
+      [
+        "Nf1",
+        "h4"
+      ],
+      [
+        "Ne3",
+        "Nd4"
+      ],
+      [
+        "Qd1",
+        "h3"
+      ],
+      [
+        "g3",
+        "Nf3"
+      ],
+      [
+        "Kh1",
+        "Nxe1"
+      ],
+      [
+        "Qxe1",
+        "Qd7"
+      ],
+      [
+        "Rb1",
+        "Bf8"
+      ],
+      [
+        "Ba3",
+        "Kb8"
+      ],
+      [
+        "Qe2",
+        "Ka8"
+      ],
+      [
+        "Kg1",
+        "Rh7"
+      ],
+      [
+        "Qd1",
+        "Rhg7"
+      ],
+      [
+        "Kf1",
+        "Qd8"
+      ],
+      [
+        "Qe1",
+        "Rg5"
+      ],
+      [
+        "Rb3",
+        "Rh5"
+      ],
+      [
+        "Rb1",
+        "Bd6"
+      ],
+      [
+        "Bb2",
+        "Bc7"
+      ],
+      [
+        "Bc3",
+        "Qd7"
+      ],
+      [
+        "Qd1",
+        "Bd6"
+      ],
+      [
+        "Qe2",
+        "Bf8"
+      ],
+      [
+        "f3",
+        "gxf3"
+      ],
+      [
+        "Qxf3",
+        "Rh7"
+      ],
+      [
+        "Nf5",
+        "Qe8"
+      ],
+      [
+        "Bd2",
+        "Qh5"
+      ],
+      [
+        "Qxh5",
+        "Rxh5"
+      ],
+      [
+        "Ke2",
+        "b6"
+      ],
+      [
+        "Kf3",
+        "Rh7"
+      ],
+      [
+        "g4",
+        "Be7"
+      ],
+      [
+        "Kg3",
+        "Bd8"
+      ],
+      [
+        "Be3",
+        "a5"
+      ],
+      [
+        "Rb3",
+        "Ka7"
+      ],
+      [
+        "Rb1",
+        "Ka6"
+      ],
+      [
+        "Rb2",
+        "Bc7"
+      ],
+      [
+        "Rb1",
+        "Rb8"
+      ],
+      [
+        "Rf1",
+        "b5"
+      ],
+      [
+        "cxb5",
+        "cxb5"
+      ],
+      [
+        "Bxc5",
+        "bxa4"
+      ],
+      [
+        "Ne3",
+        "Bd8"
+      ],
+      [
+        "Ba3",
+        "Rc8"
+      ],
+      [
+        "Nc4",
+        "Rc6"
+      ],
+      [
+        "Ra1",
+        "Bb6"
+      ],
+      [
+        "Bc1",
+        "Bd4"
+      ],
+      [
+        "Rxa4",
+        "Bc3"
+      ],
+      [
+        "Ra3",
+        "Bb4"
+      ],
+      [
+        "Ra2",
+        "Be1"
+      ],
+      [
+        "Kf3",
+        "Rb7"
+      ],
+      [
+        "Bb2",
+        "Rb5"
+      ],
+      [
+        "c3",
+        "Rc7"
+      ],
+      [
+        "Ba1",
+        "Rd7"
+      ],
+      [
+        "d4",
+        "Rc7"
+      ],
+      [
+        "Ne3",
+        "exd4"
+      ],
+      [
+        "cxd4",
+        "Rb3"
+      ],
+      [
+        "Kf4",
+        "Rc1"
+      ],
+      [
+        "e5",
+        "fxe5"
+      ],
+      [
+        "dxe5",
+        "Rxa1"
+      ],
+      [
+        "Rxa1",
+        "Bd2"
+      ],
+      [
+        "e6",
+        "Bxe3"
+      ],
+      [
+        "Kf5",
+        "Bc5"
+      ],
+      [
+        "Rc1",
+        "Kb6"
+      ],
+      [
+        "g5",
+        "Be7"
+      ],
+      [
+        "Kg6",
+        "a4"
+      ],
+      [
+        "Rc8",
+        "Re3"
+      ],
+      [
+        "Re8",
+        "a3"
+      ],
+      [
+        "Ra8",
+        "Kb7"
+      ],
+      [
+        "Ra5",
+        "Rxe6"
+      ],
+      [
+        "Kf7",
+        "Ra6"
+      ],
+      [
+        "Rxa6",
+        "Kxa6"
+      ],
+      [
+        "g6",
+        "a2"
+      ],
+      [
+        "g7",
+        "a1=Q"
+      ],
+      [
+        "g8=Q",
+        "Qa2"
+      ]
+    ]
+  },
+  {
+    "metadata": {
+      "white": {
+        "name": "Vidit, Santosh Gujrathi",
+        "elo": 2727,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 6,
+            "distance": 7,
+            "position": "g2",
+            "isAlive": true,
+            "startedOn": "e1",
+            "history": [
+              "e1",
+              "g1",
+              "g2",
+              "g1",
+              "g2",
+              "g1",
+              "g2"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 3,
+            "distance": 4,
+            "position": "d3",
+            "isAlive": true,
+            "startedOn": "d1",
+            "history": [
+              "d1",
+              "d3",
+              "e2",
+              "d3"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 3,
+            "distance": 4,
+            "position": "e5",
+            "isAlive": true,
+            "startedOn": "c1",
+            "history": [
+              "c1",
+              "d2",
+              "f4",
+              "e5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 5,
+            "position": "g6",
+            "isAlive": false,
+            "startedOn": "f1",
+            "history": [
+              "f1",
+              "d3",
+              "g6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 1,
+            "distance": 1.5,
+            "position": "d2",
+            "isAlive": false,
+            "startedOn": "b1",
+            "history": [
+              "b1",
+              "d2"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 3,
+            "distance": 4.5,
+            "position": "f3",
+            "isAlive": true,
+            "startedOn": "g1",
+            "history": [
+              "g1",
+              "f3",
+              "e5",
+              "f3"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 2,
+            "distance": 6,
+            "position": "e3",
+            "isAlive": true,
+            "startedOn": "a1",
+            "history": [
+              "a1",
+              "e1",
+              "e3"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 2,
+            "distance": 4,
+            "position": "f1",
+            "isAlive": true,
+            "startedOn": "h1",
+            "history": [
+              "h1",
+              "f1",
+              "e1",
+              "f1"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 2,
+            "distance": 3,
+            "position": "a5",
+            "isAlive": true,
+            "startedOn": "a2",
+            "history": [
+              "a2",
+              "a4",
+              "a5"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 1,
+            "distance": 2,
+            "position": "b4",
+            "isAlive": true,
+            "startedOn": "b2",
+            "history": [
+              "b2",
+              "b4"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 1,
+            "distance": 1,
+            "position": "c3",
+            "isAlive": true,
+            "startedOn": "c2",
+            "history": [
+              "c2",
+              "c3"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 1,
+            "distance": 2,
+            "position": "d4",
+            "isAlive": true,
+            "startedOn": "d2",
+            "history": [
+              "d2",
+              "d4"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 1,
+            "distance": 2,
+            "position": "e4",
+            "isAlive": false,
+            "startedOn": "e2",
+            "history": [
+              "e2",
+              "e4"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 0,
+            "distance": 0,
+            "position": "f2",
+            "isAlive": true,
+            "startedOn": "f2",
+            "history": [
+              "f2"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 2,
+            "distance": 2,
+            "position": "g4",
+            "isAlive": true,
+            "startedOn": "g2",
+            "history": [
+              "g2",
+              "g3",
+              "g4"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 1,
+            "distance": 1,
+            "position": "h3",
+            "isAlive": true,
+            "startedOn": "h2",
+            "history": [
+              "h2",
+              "h3"
+            ]
+          }
+        ],
+        "moves": 31,
+        "distance": 49,
+        "perMove": 1.581
+      },
+      "black": {
+        "name": "Abasov, Nijat",
+        "elo": 2632,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 1,
+            "distance": 2,
+            "position": "g8",
+            "isAlive": true,
+            "startedOn": "e8",
+            "history": [
+              "e8",
+              "g8"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 3,
+            "distance": 3,
+            "position": "d7",
+            "isAlive": true,
+            "startedOn": "d8",
+            "history": [
+              "d8",
+              "d7",
+              "d8",
+              "d7"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 3,
+            "distance": 6,
+            "position": "g6",
+            "isAlive": false,
+            "startedOn": "c8",
+            "history": [
+              "c8",
+              "g4",
+              "h5",
+              "g6"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 2,
+            "position": "d6",
+            "isAlive": true,
+            "startedOn": "f8",
+            "history": [
+              "f8",
+              "e7",
+              "d6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 8,
+            "distance": 12,
+            "position": "e7",
+            "isAlive": true,
+            "startedOn": "b8",
+            "history": [
+              "b8",
+              "c6",
+              "a7",
+              "c8",
+              "e7",
+              "c6",
+              "e7",
+              "c6",
+              "e7"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 3,
+            "distance": 4.5,
+            "position": "d2",
+            "isAlive": false,
+            "startedOn": "g8",
+            "history": [
+              "g8",
+              "f6",
+              "e4",
+              "d2"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 1,
+            "distance": 5,
+            "position": "f8",
+            "isAlive": true,
+            "startedOn": "a8",
+            "history": [
+              "a8",
+              "f8"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 3,
+            "distance": 7,
+            "position": "f7",
+            "isAlive": true,
+            "startedOn": "h8",
+            "history": [
+              "h8",
+              "f8",
+              "f7",
+              "f5",
+              "f7"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 1,
+            "distance": 1,
+            "position": "a6",
+            "isAlive": true,
+            "startedOn": "a7",
+            "history": [
+              "a7",
+              "a6"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 0,
+            "distance": 0,
+            "position": "b7",
+            "isAlive": true,
+            "startedOn": "b7",
+            "history": [
+              "b7"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 0,
+            "distance": 0,
+            "position": "c7",
+            "isAlive": true,
+            "startedOn": "c7",
+            "history": [
+              "c7"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 2,
+            "position": "d5",
+            "isAlive": true,
+            "startedOn": "d7",
+            "history": [
+              "d7",
+              "d6",
+              "d5"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 1,
+            "distance": 2,
+            "position": "e5",
+            "isAlive": false,
+            "startedOn": "e7",
+            "history": [
+              "e7",
+              "e5"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 2,
+            "distance": 2,
+            "position": "g5",
+            "isAlive": true,
+            "startedOn": "f7",
+            "history": [
+              "f7",
+              "g6",
+              "g5"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 0,
+            "distance": 0,
+            "position": "g7",
+            "isAlive": true,
+            "startedOn": "g7",
+            "history": [
+              "g7"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 1,
+            "distance": 1,
+            "position": "h6",
+            "isAlive": true,
+            "startedOn": "h7",
+            "history": [
+              "h7",
+              "h6"
+            ]
+          }
+        ],
+        "moves": 31,
+        "distance": 49.5,
+        "perMove": 1.597
+      },
+      "opening": "Russian Game: Classical Attack, Mason-Showalter Variation",
+      "eco": "C42",
+      "result": "1/2-1/2",
+      "date": "2024.04.20",
+      "event": "FIDE Candidates 2024"
+    },
+    "moves": [
+      [
+        "e4",
+        "e5"
+      ],
+      [
+        "Nf3",
+        "Nf6"
+      ],
+      [
+        "Nxe5",
+        "d6"
+      ],
+      [
+        "Nf3",
+        "Nxe4"
+      ],
+      [
+        "d4",
+        "d5"
+      ],
+      [
+        "Bd3",
+        "Nc6"
+      ],
+      [
+        "O-O",
+        "Be7"
+      ],
+      [
+        "Nbd2",
+        "Nxd2"
+      ],
+      [
+        "Bxd2",
+        "Bg4"
+      ],
+      [
+        "c3",
+        "O-O"
+      ],
+      [
+        "h3",
+        "Bh5"
+      ],
+      [
+        "g3",
+        "Qd7"
+      ],
+      [
+        "Kg2",
+        "Bg6"
+      ],
+      [
+        "Bxg6",
+        "fxg6"
+      ],
+      [
+        "Bf4",
+        "h6"
+      ],
+      [
+        "Qd3",
+        "g5"
+      ],
+      [
+        "Be5",
+        "Rf7"
+      ],
+      [
+        "Rae1",
+        "Raf8"
+      ],
+      [
+        "Re3",
+        "a6"
+      ],
+      [
+        "Qe2",
+        "Rf5"
+      ],
+      [
+        "b4",
+        "R5f7"
+      ],
+      [
+        "a4",
+        "Na7"
+      ],
+      [
+        "g4",
+        "Nc8"
+      ],
+      [
+        "a5",
+        "Bd6"
+      ],
+      [
+        "Re1",
+        "Qd8"
+      ],
+      [
+        "Rf1",
+        "Ne7"
+      ],
+      [
+        "Qd3",
+        "Qd7"
+      ],
+      [
+        "Kg1",
+        "Nc6"
+      ],
+      [
+        "Kg2",
+        "Ne7"
+      ],
+      [
+        "Kg1",
+        "Nc6"
+      ],
+      [
+        "Kg2",
+        "Ne7"
+      ]
+    ]
+  },
+  {
+    "metadata": {
+      "white": {
+        "name": "Gukesh D",
+        "elo": 2743,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 9,
+            "distance": 10,
+            "position": "g3",
+            "isAlive": true,
+            "startedOn": "e1",
+            "history": [
+              "e1",
+              "g1",
+              "h2",
+              "g1",
+              "f2",
+              "g2",
+              "f2",
+              "g2",
+              "f2",
+              "g3"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 6,
+            "distance": 8,
+            "position": "g6",
+            "isAlive": false,
+            "startedOn": "d1",
+            "history": [
+              "d1",
+              "f3",
+              "e2",
+              "f2",
+              "h4",
+              "g5",
+              "g6"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 2,
+            "distance": 4,
+            "position": "c5",
+            "isAlive": false,
+            "startedOn": "c1",
+            "history": [
+              "c1",
+              "e3",
+              "c5"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 7,
+            "distance": 13,
+            "position": "e6",
+            "isAlive": false,
+            "startedOn": "f1",
+            "history": [
+              "f1",
+              "b5",
+              "c4",
+              "b3",
+              "c2",
+              "a4",
+              "b3",
+              "e6"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 6,
+            "distance": 9,
+            "position": "d5",
+            "isAlive": true,
+            "startedOn": "b1",
+            "history": [
+              "b1",
+              "d2",
+              "c4",
+              "e3",
+              "f1",
+              "e3",
+              "d5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "g1",
+            "history": [
+              "g1",
+              "f3",
+              "d4"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 11,
+            "distance": 30,
+            "position": "c7",
+            "isAlive": true,
+            "startedOn": "a1",
+            "history": [
+              "a1",
+              "d1",
+              "d5",
+              "d2",
+              "d5",
+              "d6",
+              "g6",
+              "b6",
+              "b7",
+              "e7",
+              "b7",
+              "c7"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 5,
+            "distance": 13,
+            "position": "g1",
+            "isAlive": false,
+            "startedOn": "h1",
+            "history": [
+              "h1",
+              "f1",
+              "e1",
+              "d1",
+              "g1",
+              "d1",
+              "g1"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 0,
+            "distance": 0,
+            "position": "a2",
+            "isAlive": true,
+            "startedOn": "a2",
+            "history": [
+              "a2"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 4,
+            "distance": 4,
+            "position": "b6",
+            "isAlive": true,
+            "startedOn": "b2",
+            "history": [
+              "b2",
+              "b3",
+              "b4",
+              "b5",
+              "b6"
+            ]
+          },
+          {
+            "type": "c",
+            "moves": 3,
+            "distance": 3,
+            "position": "c5",
+            "isAlive": true,
+            "startedOn": "c2",
+            "history": [
+              "c2",
+              "c3",
+              "c4",
+              "c5"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 2,
+            "distance": 2,
+            "position": "e4",
+            "isAlive": false,
+            "startedOn": "d2",
+            "history": [
+              "d2",
+              "d3",
+              "e4"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 3,
+            "position": "d5",
+            "isAlive": false,
+            "startedOn": "e2",
+            "history": [
+              "e2",
+              "e4",
+              "d5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 1,
+            "distance": 2,
+            "position": "f4",
+            "isAlive": false,
+            "startedOn": "f2",
+            "history": [
+              "f2",
+              "f4"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 2,
+            "distance": 2,
+            "position": "f4",
+            "isAlive": true,
+            "startedOn": "g2",
+            "history": [
+              "g2",
+              "g3",
+              "f4"
+            ]
+          },
+          {
+            "type": "h",
+            "moves": 1,
+            "distance": 1,
+            "position": "h3",
+            "isAlive": false,
+            "startedOn": "h2",
+            "history": [
+              "h2",
+              "h3"
+            ]
+          }
+        ],
+        "moves": 63,
+        "distance": 107,
+        "perMove": 1.698
+      },
+      "black": {
+        "name": "Firouzja, Alireza",
+        "elo": 2760,
+        "pieces": [
+          {
+            "type": "K",
+            "moves": 4,
+            "distance": 5,
+            "position": "f8",
+            "isAlive": true,
+            "startedOn": "e8",
+            "history": [
+              "e8",
+              "g8",
+              "h8",
+              "g8",
+              "f8"
+            ]
+          },
+          {
+            "type": "Q",
+            "moves": 5,
+            "distance": 7,
+            "position": "g6",
+            "isAlive": false,
+            "startedOn": "d8",
+            "history": [
+              "d8",
+              "c7",
+              "c5",
+              "e7",
+              "f7",
+              "g6"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 1,
+            "distance": 2,
+            "position": "e6",
+            "isAlive": false,
+            "startedOn": "c8",
+            "history": [
+              "c8",
+              "e6"
+            ]
+          },
+          {
+            "type": "B",
+            "moves": 5,
+            "distance": 9,
+            "position": "c5",
+            "isAlive": false,
+            "startedOn": "f8",
+            "history": [
+              "f8",
+              "c5",
+              "d4",
+              "b6",
+              "a7",
+              "c5"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 2,
+            "distance": 3,
+            "position": "d4",
+            "isAlive": false,
+            "startedOn": "b8",
+            "history": [
+              "b8",
+              "c6",
+              "d4"
+            ]
+          },
+          {
+            "type": "N",
+            "moves": 9,
+            "distance": 13.5,
+            "position": "d4",
+            "isAlive": true,
+            "startedOn": "g8",
+            "history": [
+              "g8",
+              "f6",
+              "h5",
+              "f6",
+              "h5",
+              "g7",
+              "e6",
+              "d4",
+              "c2",
+              "d4"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 12,
+            "distance": 27,
+            "position": "h2",
+            "isAlive": true,
+            "startedOn": "a8",
+            "history": [
+              "a8",
+              "f8",
+              "g8",
+              "e8",
+              "e6",
+              "h6",
+              "g6",
+              "h6",
+              "h3",
+              "h6",
+              "g6",
+              "h6",
+              "h2"
+            ]
+          },
+          {
+            "type": "R",
+            "moves": 9,
+            "distance": 16,
+            "position": "g1",
+            "isAlive": false,
+            "startedOn": "h8",
+            "history": [
+              "h8",
+              "f8",
+              "e8",
+              "e7",
+              "e6",
+              "g6",
+              "h6",
+              "g6",
+              "h6",
+              "g6",
+              "g1"
+            ]
+          },
+          {
+            "type": "a",
+            "moves": 3,
+            "distance": 4,
+            "position": "a3",
+            "isAlive": true,
+            "startedOn": "a7",
+            "history": [
+              "a7",
+              "a5",
+              "a4",
+              "a3"
+            ]
+          },
+          {
+            "type": "b",
+            "moves": 0,
+            "distance": 0,
+            "position": "b7",
+            "isAlive": false,
+            "startedOn": "b7",
+            "history": [
+              "b7"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 3,
+            "distance": 3,
+            "position": "e4",
+            "isAlive": true,
+            "startedOn": "c7",
+            "history": [
+              "c7",
+              "c6",
+              "d5",
+              "e4"
+            ]
+          },
+          {
+            "type": "d",
+            "moves": 2,
+            "distance": 2,
+            "position": "d5",
+            "isAlive": false,
+            "startedOn": "d7",
+            "history": [
+              "d7",
+              "d6",
+              "d5"
+            ]
+          },
+          {
+            "type": "e",
+            "moves": 2,
+            "distance": 3,
+            "position": "e4",
+            "isAlive": false,
+            "startedOn": "e7",
+            "history": [
+              "e7",
+              "e5",
+              "e4"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 1,
+            "distance": 2,
+            "position": "f5",
+            "isAlive": true,
+            "startedOn": "f7",
+            "history": [
+              "f7",
+              "f5"
+            ]
+          },
+          {
+            "type": "f",
+            "moves": 3,
+            "distance": 3,
+            "position": "f4",
+            "isAlive": false,
+            "startedOn": "g7",
+            "history": [
+              "g7",
+              "g6",
+              "g5",
+              "f4"
+            ]
+          },
+          {
+            "type": "g",
+            "moves": 1,
+            "distance": 1,
+            "position": "g6",
+            "isAlive": false,
+            "startedOn": "h7",
+            "history": [
+              "h7",
+              "g6"
+            ]
+          }
+        ],
+        "moves": 62,
+        "distance": 100.5,
+        "perMove": 1.621
+      },
+      "opening": "Ruy Lopez: Berlin Defense",
+      "eco": "C65",
+      "result": "1-0",
+      "date": "2024.04.20",
+      "event": "FIDE Candidates 2024"
+    },
+    "moves": [
+      [
+        "e4",
+        "e5"
+      ],
+      [
+        "Nf3",
+        "Nc6"
+      ],
+      [
+        "Bb5",
+        "Nf6"
+      ],
+      [
+        "d3",
+        "Bc5"
+      ],
+      [
+        "O-O",
+        "Nd4"
+      ],
+      [
+        "Nxd4",
+        "Bxd4"
+      ],
+      [
+        "Nd2",
+        "c6"
+      ],
+      [
+        "Bc4",
+        "d6"
+      ],
+      [
+        "c3",
+        "Bb6"
+      ],
+      [
+        "Bb3",
+        "a5"
+      ],
+      [
+        "Nc4",
+        "Ba7"
+      ],
+      [
+        "Ne3",
+        "O-O"
+      ],
+      [
+        "Qf3",
+        "d5"
+      ],
+      [
+        "Bc2",
+        "g6"
+      ],
+      [
+        "Re1",
+        "Be6"
+      ],
+      [
+        "exd5",
+        "cxd5"
+      ],
+      [
+        "h3",
+        "Re8"
+      ],
+      [
+        "Ba4",
+        "e4"
+      ],
+      [
+        "dxe4",
+        "dxe4"
+      ],
+      [
+        "Qe2",
+        "Re7"
+      ],
+      [
+        "Nf1",
+        "Qc7"
+      ],
+      [
+        "Bb3",
+        "a4"
+      ],
+      [
+        "Bxe6",
+        "Rxe6"
+      ],
+      [
+        "Be3",
+        "a3"
+      ],
+      [
+        "c4",
+        "Nh5"
+      ],
+      [
+        "g3",
+        "Bc5"
+      ],
+      [
+        "b3",
+        "f5"
+      ],
+      [
+        "Bxc5",
+        "Qxc5"
+      ],
+      [
+        "Rad1",
+        "Rf8"
+      ],
+      [
+        "Rd5",
+        "Qe7"
+      ],
+      [
+        "f4",
+        "Nf6"
+      ],
+      [
+        "Rd2",
+        "g5"
+      ],
+      [
+        "Ne3",
+        "gxf4"
+      ],
+      [
+        "gxf4",
+        "Qf7"
+      ],
+      [
+        "Kh2",
+        "Nh5"
+      ],
+      [
+        "Qf2",
+        "Rg6"
+      ],
+      [
+        "Rd5",
+        "Ng7"
+      ],
+      [
+        "Red1",
+        "Rh6"
+      ],
+      [
+        "Rg1",
+        "Rg6"
+      ],
+      [
+        "Rgd1",
+        "Rh6"
+      ],
+      [
+        "Rg1",
+        "Rg6"
+      ],
+      [
+        "Qh4",
+        "Rxg1"
+      ],
+      [
+        "Kxg1",
+        "Kh8"
+      ],
+      [
+        "Kf2",
+        "Rg8"
+      ],
+      [
+        "Qg5",
+        "Qg6"
+      ],
+      [
+        "Qxg6",
+        "hxg6"
+      ],
+      [
+        "Rd6",
+        "Re8"
+      ],
+      [
+        "Rxg6",
+        "Ne6"
+      ],
+      [
+        "Nd5",
+        "Nd4"
+      ],
+      [
+        "Rb6",
+        "Nc2"
+      ],
+      [
+        "Rxb7",
+        "Re6"
+      ],
+      [
+        "Re7",
+        "Rh6"
+      ],
+      [
+        "c5",
+        "Nd4"
+      ],
+      [
+        "Kg2",
+        "Rg6"
+      ],
+      [
+        "Kf2",
+        "Rh6"
+      ],
+      [
+        "b4",
+        "Rxh3"
+      ],
+      [
+        "Kg2",
+        "Rh6"
+      ],
+      [
+        "Rb7",
+        "Kg8"
+      ],
+      [
+        "b5",
+        "Kf8"
+      ],
+      [
+        "b6",
+        "Rg6"
+      ],
+      [
+        "Kf2",
+        "Rh6"
+      ],
+      [
+        "Rc7",
+        "Rh2"
+      ],
+      [
+        "Kg3"
       ]
     ]
   },

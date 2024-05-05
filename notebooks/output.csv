@@ -1,0 +1,113 @@
+index,opening,eco,date,event,player_name,opponent_name,color,result,moves,rating,rating_difference,distance,distance_difference,effort,effort_difference
+0,Sicilian Defense: Venice Attack,B56,2024.04.04,FIDE Candidates 2024,"Caruana, Fabiano","Nakamura, Hikaru",1,0,41,2803,14,85.5,-7.5,2.08,-0.18
+0,Sicilian Defense: Venice Attack,B56,2024.04.04,FIDE Candidates 2024,"Nakamura, Hikaru","Caruana, Fabiano",0,0,41,2789,-14,93.0,7.5,2.27,0.18
+1,Queen's Gambit Declined,D53,2024.04.04,FIDE Candidates 2024,"Abasov, Nijat","Nepomniachtchi, Ian",1,0,34,2632,-126,58.0,-6.0,1.71,-0.23
+1,Queen's Gambit Declined,D53,2024.04.04,FIDE Candidates 2024,"Nepomniachtchi, Ian","Abasov, Nijat",0,0,34,2758,126,64.0,6.0,1.94,0.23
+2,"Ruy Lopez: Open, Classical Defense",C83,2024.04.04,FIDE Candidates 2024,"Firouzja, Alireza",Praggnanandhaa R,1,0,39,2760,13,60.0,-13.0,1.54,-0.38
+2,"Ruy Lopez: Open, Classical Defense",C83,2024.04.04,FIDE Candidates 2024,Praggnanandhaa R,"Firouzja, Alireza",0,0,39,2747,-13,73.0,13.0,1.92,0.38
+3,Tarrasch Defense: Symmetrical Variation,D32,2024.04.04,FIDE Candidates 2024,Gukesh D,"Vidit, Santosh Gujrathi",1,0,21,2743,16,28.0,-7.0,1.33,-0.33
+3,Tarrasch Defense: Symmetrical Variation,D32,2024.04.04,FIDE Candidates 2024,"Vidit, Santosh Gujrathi",Gukesh D,0,0,21,2727,-16,35.0,7.0,1.67,0.33
+4,Queen's Gambit Declined,D30,2024.04.04,FIDE Candidates 2024,Praggnanandhaa R,Gukesh D,1,-1,33,2747,4,57.0,0.5,1.73,0.01
+4,Queen's Gambit Declined,D30,2024.04.04,FIDE Candidates 2024,Gukesh D,Praggnanandhaa R,0,1,33,2743,-4,56.5,-0.5,1.71,-0.01
+5,Ruy Lopez: Berlin Defense,C65,2024.04.04,FIDE Candidates 2024,"Nakamura, Hikaru","Vidit, Santosh Gujrathi",1,-1,29,2789,62,50.0,-2.0,1.72,-0.07
+5,Ruy Lopez: Berlin Defense,C65,2024.04.04,FIDE Candidates 2024,"Vidit, Santosh Gujrathi","Nakamura, Hikaru",0,1,29,2727,-62,52.0,2.0,1.79,0.07
+6,Ruy Lopez: Berlin Defense,C65,2024.04.04,FIDE Candidates 2024,"Nepomniachtchi, Ian","Firouzja, Alireza",1,1,45,2758,-2,77.0,-10.0,1.71,-0.27
+6,Ruy Lopez: Berlin Defense,C65,2024.04.04,FIDE Candidates 2024,"Firouzja, Alireza","Nepomniachtchi, Ian",0,-1,45,2760,2,87.0,10.0,1.98,0.27
+7,Sicilian Defense: Nyezhmetdinov-Rossolimo Attack,B30,2024.04.04,FIDE Candidates 2024,"Caruana, Fabiano","Abasov, Nijat",1,1,37,2803,171,78.0,23.0,2.11,0.58
+7,Sicilian Defense: Nyezhmetdinov-Rossolimo Attack,B30,2024.04.04,FIDE Candidates 2024,"Abasov, Nijat","Caruana, Fabiano",0,-1,37,2632,-171,55.0,-23.0,1.53,-0.58
+8,Catalan Opening: Closed,E01,2024.04.05,FIDE Candidates 2024,Gukesh D,"Nepomniachtchi, Ian",1,0,40,2743,-15,68.0,-4.5,1.7,-0.11
+8,Catalan Opening: Closed,E01,2024.04.05,FIDE Candidates 2024,"Nepomniachtchi, Ian",Gukesh D,0,0,40,2758,15,72.5,4.5,1.81,0.11
+9,Slav Defense: Exchange Variation,D10,2024.04.05,FIDE Candidates 2024,"Abasov, Nijat","Nakamura, Hikaru",1,0,29,2632,-157,56.5,3.0,1.95,0.04
+9,Slav Defense: Exchange Variation,D10,2024.04.05,FIDE Candidates 2024,"Nakamura, Hikaru","Abasov, Nijat",0,0,29,2789,157,53.5,-3.0,1.91,-0.04
+10,Sicilian Defense: Nyezhmetdinov-Rossolimo Attack,B30,2024.04.05,FIDE Candidates 2024,"Firouzja, Alireza","Caruana, Fabiano",1,0,38,2760,-43,77.0,4.0,2.03,0.1
+10,Sicilian Defense: Nyezhmetdinov-Rossolimo Attack,B30,2024.04.05,FIDE Candidates 2024,"Caruana, Fabiano","Firouzja, Alireza",0,0,38,2803,43,73.0,-4.0,1.92,-0.1
+11,"Ruy Lopez: Morphy Defense, Schliemann Defense Deferred",C70,2024.04.05,FIDE Candidates 2024,"Vidit, Santosh Gujrathi",Praggnanandhaa R,1,-1,45,2727,-20,83.5,16.0,1.86,0.36
+11,"Ruy Lopez: Morphy Defense, Schliemann Defense Deferred",C70,2024.04.05,FIDE Candidates 2024,Praggnanandhaa R,"Vidit, Santosh Gujrathi",0,1,45,2747,20,67.5,-16.0,1.5,-0.36
+12,"Ruy Lopez: Morphy Defense, Anderssen Variation",C77,2024.04.07,FIDE Candidates 2024,"Nakamura, Hikaru",Praggnanandhaa R,1,0,24,2789,42,47.5,-10.5,1.98,-0.54
+12,"Ruy Lopez: Morphy Defense, Anderssen Variation",C77,2024.04.07,FIDE Candidates 2024,Praggnanandhaa R,"Nakamura, Hikaru",0,0,24,2747,-42,58.0,10.5,2.52,0.54
+13,"Ruy Lopez: Berlin Defense, Berlin Wall",C67,2024.04.07,FIDE Candidates 2024,"Nepomniachtchi, Ian","Vidit, Santosh Gujrathi",1,1,44,2758,31,83.0,13.5,1.89,0.27
+13,"Ruy Lopez: Berlin Defense, Berlin Wall",C67,2024.04.07,FIDE Candidates 2024,"Vidit, Santosh Gujrathi","Nepomniachtchi, Ian",0,-1,44,2727,-31,69.5,-13.5,1.62,-0.27
+14,"Italian Game: Classical Variation, Giuoco Pianissimo",C54,2024.04.07,FIDE Candidates 2024,"Caruana, Fabiano",Gukesh D,1,0,74,2803,60,114.0,-34.5,1.54,-0.49
+14,"Italian Game: Classical Variation, Giuoco Pianissimo",C54,2024.04.07,FIDE Candidates 2024,Gukesh D,"Caruana, Fabiano",0,0,74,2743,-60,148.5,34.5,2.03,0.49
+15,Nimzo-Indian Defense: Classical Variation,E32,2024.04.07,FIDE Candidates 2024,"Abasov, Nijat","Firouzja, Alireza",1,0,64,2632,-128,128.0,35.0,2.0,0.52
+15,Nimzo-Indian Defense: Classical Variation,E32,2024.04.07,FIDE Candidates 2024,"Firouzja, Alireza","Abasov, Nijat",0,0,64,2760,128,93.0,-35.0,1.48,-0.52
+16,"Russian Game: Classical Attack, Staunton Variation",C42,2024.04.09,FIDE Candidates 2024,Praggnanandhaa R,"Nepomniachtchi, Ian",1,0,44,2747,-11,83.0,4.0,1.89,0.09
+16,"Russian Game: Classical Attack, Staunton Variation",C42,2024.04.09,FIDE Candidates 2024,"Nepomniachtchi, Ian",Praggnanandhaa R,0,0,44,2758,11,79.0,-4.0,1.8,-0.09
+17,"Italian Game: Classical Variation, Giuoco Pianissimo",C54,2024.04.09,FIDE Candidates 2024,"Firouzja, Alireza","Nakamura, Hikaru",1,-1,63,2760,-29,106.0,11.0,1.68,0.18
+17,"Italian Game: Classical Variation, Giuoco Pianissimo",C54,2024.04.09,FIDE Candidates 2024,"Nakamura, Hikaru","Firouzja, Alireza",0,1,63,2789,29,95.0,-11.0,1.51,-0.18
+18,"Russian Game: Modern Attack, Center Variation",C43,2024.04.09,FIDE Candidates 2024,Gukesh D,"Abasov, Nijat",1,1,87,2743,111,126.0,-24.0,1.45,-0.3
+18,"Russian Game: Modern Attack, Center Variation",C43,2024.04.09,FIDE Candidates 2024,"Abasov, Nijat",Gukesh D,0,-1,87,2632,-111,150.0,24.0,1.74,0.3
+19,Sicilian Defense: Nyezhmetdinov-Rossolimo Attack,B30,2024.04.09,FIDE Candidates 2024,"Vidit, Santosh Gujrathi","Caruana, Fabiano",1,0,30,2727,-76,60.0,12.0,2.0,0.4
+19,Sicilian Defense: Nyezhmetdinov-Rossolimo Attack,B30,2024.04.09,FIDE Candidates 2024,"Caruana, Fabiano","Vidit, Santosh Gujrathi",0,0,30,2803,76,48.0,-12.0,1.6,-0.4
+20,Four Knights Game: Scotch Variation Accepted,C47,2024.04.10,FIDE Candidates 2024,"Nepomniachtchi, Ian","Caruana, Fabiano",1,0,41,2758,-45,91.5,18.5,2.23,0.41
+20,Four Knights Game: Scotch Variation Accepted,C47,2024.04.10,FIDE Candidates 2024,"Caruana, Fabiano","Nepomniachtchi, Ian",0,0,41,2803,45,73.0,-18.5,1.83,-0.41
+21,Sicilian Defense: Hyperaccelerated Dragon,B27,2024.04.10,FIDE Candidates 2024,Gukesh D,"Nakamura, Hikaru",1,0,40,2743,-46,69.0,-0.0,1.72,-0.0
+21,Sicilian Defense: Hyperaccelerated Dragon,B27,2024.04.10,FIDE Candidates 2024,"Nakamura, Hikaru",Gukesh D,0,0,40,2789,46,69.0,0.0,1.72,0.0
+22,"Sicilian Defense: Classical Variation, Anti-Sozin Variation",B57,2024.04.10,FIDE Candidates 2024,"Vidit, Santosh Gujrathi","Firouzja, Alireza",1,1,40,2727,-33,80.0,10.5,2.0,0.22
+22,"Sicilian Defense: Classical Variation, Anti-Sozin Variation",B57,2024.04.10,FIDE Candidates 2024,"Firouzja, Alireza","Vidit, Santosh Gujrathi",0,-1,40,2760,33,69.5,-10.5,1.78,-0.22
+23,Tarrasch Defense: Symmetrical Variation,D32,2024.04.10,FIDE Candidates 2024,Praggnanandhaa R,"Abasov, Nijat",1,1,45,2747,115,76.5,3.0,1.7,0.03
+23,Tarrasch Defense: Symmetrical Variation,D32,2024.04.10,FIDE Candidates 2024,"Abasov, Nijat",Praggnanandhaa R,0,-1,45,2632,-115,73.5,-3.0,1.67,-0.03
+24,Indian Defense,A45,2024.04.11,FIDE Candidates 2024,"Firouzja, Alireza",Gukesh D,1,1,40,2760,17,62.0,-2.5,1.55,-0.1
+24,Indian Defense,A45,2024.04.11,FIDE Candidates 2024,Gukesh D,"Firouzja, Alireza",0,-1,40,2743,-17,64.5,2.5,1.65,0.1
+25,"Russian Game: Classical Attack, Staunton Variation",C42,2024.04.11,FIDE Candidates 2024,"Nakamura, Hikaru","Nepomniachtchi, Ian",1,0,40,2789,31,65.5,-3.5,1.64,-0.09
+25,"Russian Game: Classical Attack, Staunton Variation",C42,2024.04.11,FIDE Candidates 2024,"Nepomniachtchi, Ian","Nakamura, Hikaru",0,0,40,2758,-31,69.0,3.5,1.72,0.09
+26,"French Defense: Advance Variation, Main Line",C02,2024.04.11,FIDE Candidates 2024,"Caruana, Fabiano",Praggnanandhaa R,1,0,41,2803,56,59.5,-14.0,1.45,-0.34
+26,"French Defense: Advance Variation, Main Line",C02,2024.04.11,FIDE Candidates 2024,Praggnanandhaa R,"Caruana, Fabiano",0,0,41,2747,-56,73.5,14.0,1.79,0.34
+27,Ruy Lopez: Berlin Defense,C65,2024.04.11,FIDE Candidates 2024,"Abasov, Nijat","Vidit, Santosh Gujrathi",1,0,51,2632,-95,88.5,12.5,1.74,0.21
+27,Ruy Lopez: Berlin Defense,C65,2024.04.11,FIDE Candidates 2024,"Vidit, Santosh Gujrathi","Abasov, Nijat",0,0,51,2727,95,76.0,-12.5,1.52,-0.21
+28,"Sicilian Defense: Taimanov Variation, Bastrikov Variation",B47,2024.04.13,FIDE Candidates 2024,Praggnanandhaa R,"Firouzja, Alireza",1,0,40,2747,-13,72.0,8.0,1.8,0.2
+28,"Sicilian Defense: Taimanov Variation, Bastrikov Variation",B47,2024.04.13,FIDE Candidates 2024,"Firouzja, Alireza",Praggnanandhaa R,0,0,40,2760,13,64.0,-8.0,1.6,-0.2
+29,"Italian Game: Two Knights Defense, Modern Bishop's Opening",C55,2024.04.13,FIDE Candidates 2024,"Vidit, Santosh Gujrathi",Gukesh D,1,-1,38,2727,-16,61.5,-20.0,1.62,-0.53
+29,"Italian Game: Two Knights Defense, Modern Bishop's Opening",C55,2024.04.13,FIDE Candidates 2024,Gukesh D,"Vidit, Santosh Gujrathi",0,1,38,2743,16,81.5,20.0,2.14,0.53
+30,"Ruy Lopez: Morphy Defense, Anderssen Variation",C77,2024.04.13,FIDE Candidates 2024,"Nakamura, Hikaru","Caruana, Fabiano",1,1,35,2789,-14,56.0,1.5,1.6,-0.0
+30,"Ruy Lopez: Morphy Defense, Anderssen Variation",C77,2024.04.13,FIDE Candidates 2024,"Caruana, Fabiano","Nakamura, Hikaru",0,-1,35,2803,14,54.5,-1.5,1.6,0.0
+31,Russian Game: French Attack,C42,2024.04.13,FIDE Candidates 2024,"Nepomniachtchi, Ian","Abasov, Nijat",1,0,63,2758,126,99.5,-7.5,1.58,-0.15
+31,Russian Game: French Attack,C42,2024.04.13,FIDE Candidates 2024,"Abasov, Nijat","Nepomniachtchi, Ian",0,0,63,2632,-126,107.0,7.5,1.73,0.15
+32,"Italian Game: Two Knights Defense, Modern Bishop's Opening",C55,2024.04.14,FIDE Candidates 2024,"Vidit, Santosh Gujrathi","Nakamura, Hikaru",1,1,36,2727,-62,64.0,3.0,1.78,0.04
+32,"Italian Game: Two Knights Defense, Modern Bishop's Opening",C55,2024.04.14,FIDE Candidates 2024,"Nakamura, Hikaru","Vidit, Santosh Gujrathi",0,-1,36,2789,62,61.0,-3.0,1.74,-0.04
+33,"Ruy Lopez: Morphy Defense, Anderssen Variation",C77,2024.04.14,FIDE Candidates 2024,Gukesh D,Praggnanandhaa R,1,0,41,2743,-4,75.0,13.0,1.83,0.28
+33,"Ruy Lopez: Morphy Defense, Anderssen Variation",C77,2024.04.14,FIDE Candidates 2024,Praggnanandhaa R,Gukesh D,0,0,41,2747,4,62.0,-13.0,1.55,-0.28
+34,Nimzo-Larsen Attack: Classical Variation,A06,2024.04.14,FIDE Candidates 2024,"Firouzja, Alireza","Nepomniachtchi, Ian",1,0,44,2760,2,79.5,14.5,1.81,0.33
+34,Nimzo-Larsen Attack: Classical Variation,A06,2024.04.14,FIDE Candidates 2024,"Nepomniachtchi, Ian","Firouzja, Alireza",0,0,44,2758,-2,65.0,-14.5,1.48,-0.33
+35,Queen's Gambit Declined: Queen's Knight Variation,D31,2024.04.14,FIDE Candidates 2024,"Abasov, Nijat","Caruana, Fabiano",1,0,44,2632,-171,71.5,-25.5,1.62,-0.63
+35,Queen's Gambit Declined: Queen's Knight Variation,D31,2024.04.14,FIDE Candidates 2024,"Caruana, Fabiano","Abasov, Nijat",0,0,44,2803,171,97.0,25.5,2.26,0.63
+36,Ruy Lopez: Berlin Defense,C65,2024.04.15,FIDE Candidates 2024,Praggnanandhaa R,"Vidit, Santosh Gujrathi",1,0,39,2747,20,68.0,14.5,1.74,0.37
+36,Ruy Lopez: Berlin Defense,C65,2024.04.15,FIDE Candidates 2024,"Vidit, Santosh Gujrathi",Praggnanandhaa R,0,0,39,2727,-20,53.5,-14.5,1.37,-0.37
+37,Russian Game: French Attack,C42,2024.04.15,FIDE Candidates 2024,"Nakamura, Hikaru","Abasov, Nijat",1,1,58,2789,157,108.5,19.5,1.87,0.31
+37,Russian Game: French Attack,C42,2024.04.15,FIDE Candidates 2024,"Abasov, Nijat","Nakamura, Hikaru",0,-1,58,2632,-157,89.0,-19.5,1.56,-0.31
+38,"Ruy Lopez: Morphy Defense, Cozio Defense",C70,2024.04.15,FIDE Candidates 2024,"Nepomniachtchi, Ian",Gukesh D,1,0,40,2758,15,85.0,16.0,2.12,0.4
+38,"Ruy Lopez: Morphy Defense, Cozio Defense",C70,2024.04.15,FIDE Candidates 2024,Gukesh D,"Nepomniachtchi, Ian",0,0,40,2743,-15,69.0,-16.0,1.72,-0.4
+39,"Sicilian Defense: Najdorf Variation, Freak Attack",B90,2024.04.15,FIDE Candidates 2024,"Caruana, Fabiano","Firouzja, Alireza",1,1,47,2803,43,82.0,3.0,1.74,0.03
+39,"Sicilian Defense: Najdorf Variation, Freak Attack",B90,2024.04.15,FIDE Candidates 2024,"Firouzja, Alireza","Caruana, Fabiano",0,-1,47,2760,-43,79.0,-3.0,1.72,-0.03
+40,Queen's Pawn Game: Symmetrical Variation,D02,2024.04.17,FIDE Candidates 2024,Praggnanandhaa R,"Nakamura, Hikaru",1,-1,54,2747,-42,83.0,-15.0,1.54,-0.28
+40,Queen's Pawn Game: Symmetrical Variation,D02,2024.04.17,FIDE Candidates 2024,"Nakamura, Hikaru",Praggnanandhaa R,0,1,54,2789,42,98.0,15.0,1.82,0.28
+41,Russian Game: Paulsen Attack,C42,2024.04.17,FIDE Candidates 2024,"Vidit, Santosh Gujrathi","Nepomniachtchi, Ian",1,-1,67,2727,-31,117.5,14.5,1.75,0.22
+41,Russian Game: Paulsen Attack,C42,2024.04.17,FIDE Candidates 2024,"Nepomniachtchi, Ian","Vidit, Santosh Gujrathi",0,1,67,2758,31,103.0,-14.5,1.54,-0.22
+42,Queen's Gambit Declined: Barmen Variation,D37,2024.04.17,FIDE Candidates 2024,Gukesh D,"Caruana, Fabiano",1,0,40,2743,-60,67.5,-6.0,1.69,-0.15
+42,Queen's Gambit Declined: Barmen Variation,D37,2024.04.17,FIDE Candidates 2024,"Caruana, Fabiano",Gukesh D,0,0,40,2803,60,73.5,6.0,1.84,0.15
+43,Zukertort Opening: Nimzo-Larsen Variation,A05,2024.04.17,FIDE Candidates 2024,"Firouzja, Alireza","Abasov, Nijat",1,1,24,2760,128,46.5,4.5,1.94,0.11
+43,Zukertort Opening: Nimzo-Larsen Variation,A05,2024.04.17,FIDE Candidates 2024,"Abasov, Nijat","Firouzja, Alireza",0,-1,24,2632,-128,42.0,-4.5,1.83,-0.11
+44,French Defense: Exchange Variation,C01,2024.04.18,FIDE Candidates 2024,"Nepomniachtchi, Ian",Praggnanandhaa R,1,0,55,2758,11,80.0,-5.0,1.46,-0.12
+44,French Defense: Exchange Variation,C01,2024.04.18,FIDE Candidates 2024,Praggnanandhaa R,"Nepomniachtchi, Ian",0,0,55,2747,-11,85.0,5.0,1.57,0.12
+45,French Defense: Exchange Variation,C01,2024.04.18,FIDE Candidates 2024,"Nakamura, Hikaru","Firouzja, Alireza",1,1,52,2789,29,89.0,-2.5,1.71,-0.08
+45,French Defense: Exchange Variation,C01,2024.04.18,FIDE Candidates 2024,"Firouzja, Alireza","Nakamura, Hikaru",0,-1,52,2760,-29,91.5,2.5,1.79,0.08
+46,Nimzo-Indian Defense: Classical Variation,E32,2024.04.18,FIDE Candidates 2024,"Abasov, Nijat",Gukesh D,1,-1,57,2632,-111,86.0,-4.0,1.51,-0.07
+46,Nimzo-Indian Defense: Classical Variation,E32,2024.04.18,FIDE Candidates 2024,Gukesh D,"Abasov, Nijat",0,1,57,2743,111,90.0,4.0,1.58,0.07
+47,"Italian Game: Classical Variation, Giuoco Pianissimo",C54,2024.04.18,FIDE Candidates 2024,"Caruana, Fabiano","Vidit, Santosh Gujrathi",1,1,52,2803,76,100.5,14.0,1.93,0.24
+47,"Italian Game: Classical Variation, Giuoco Pianissimo",C54,2024.04.18,FIDE Candidates 2024,"Vidit, Santosh Gujrathi","Caruana, Fabiano",0,-1,52,2727,-76,86.5,-14.0,1.7,-0.24
+48,"Ruy Lopez: Morphy Defense, Classical Defense Deferred",C70,2024.04.20,FIDE Candidates 2024,"Nepomniachtchi, Ian","Nakamura, Hikaru",1,0,27,2758,-31,46.0,-1.0,1.7,-0.1
+48,"Ruy Lopez: Morphy Defense, Classical Defense Deferred",C70,2024.04.20,FIDE Candidates 2024,"Nakamura, Hikaru","Nepomniachtchi, Ian",0,0,27,2789,31,47.0,1.0,1.81,0.1
+49,Sicilian Defense: Nyezhmetdinov-Rossolimo Attack,B30,2024.04.20,FIDE Candidates 2024,Praggnanandhaa R,"Caruana, Fabiano",1,-1,89,2747,-56,139.0,-8.0,1.56,-0.09
+49,Sicilian Defense: Nyezhmetdinov-Rossolimo Attack,B30,2024.04.20,FIDE Candidates 2024,"Caruana, Fabiano",Praggnanandhaa R,0,1,89,2803,56,147.0,8.0,1.65,0.09
+50,"Russian Game: Classical Attack, Mason-Showalter Variation",C42,2024.04.20,FIDE Candidates 2024,"Vidit, Santosh Gujrathi","Abasov, Nijat",1,0,31,2727,95,49.0,-0.5,1.58,-0.02
+50,"Russian Game: Classical Attack, Mason-Showalter Variation",C42,2024.04.20,FIDE Candidates 2024,"Abasov, Nijat","Vidit, Santosh Gujrathi",0,0,31,2632,-95,49.5,0.5,1.6,0.02
+51,Ruy Lopez: Berlin Defense,C65,2024.04.20,FIDE Candidates 2024,Gukesh D,"Firouzja, Alireza",1,1,63,2743,-17,107.0,6.5,1.7,0.08
+51,Ruy Lopez: Berlin Defense,C65,2024.04.20,FIDE Candidates 2024,"Firouzja, Alireza",Gukesh D,0,-1,63,2760,17,100.5,-6.5,1.62,-0.08
+52,"Queen's Gambit Accepted: Normal Variation, Traditional System",D26,2024.04.21,FIDE Candidates 2024,"Nakamura, Hikaru",Gukesh D,1,0,71,2789,46,129.0,1.5,1.82,-0.0
+52,"Queen's Gambit Accepted: Normal Variation, Traditional System",D26,2024.04.21,FIDE Candidates 2024,Gukesh D,"Nakamura, Hikaru",0,0,71,2743,-46,127.5,-1.5,1.82,0.0
+53,"Queen's Gambit Declined: Exchange Variation, Positional Variation",D35,2024.04.21,FIDE Candidates 2024,"Caruana, Fabiano","Nepomniachtchi, Ian",1,0,109,2803,45,212.0,37.0,1.94,0.32
+53,"Queen's Gambit Declined: Exchange Variation, Positional Variation",D35,2024.04.21,FIDE Candidates 2024,"Nepomniachtchi, Ian","Caruana, Fabiano",0,0,109,2758,-45,175.0,-37.0,1.62,-0.32
+54,"Ruy Lopez: Open Berlin Defense, l'Hermet Variation",C67,2024.04.21,FIDE Candidates 2024,"Firouzja, Alireza","Vidit, Santosh Gujrathi",1,0,14,2760,33,26.0,5.5,1.86,0.39
+54,"Ruy Lopez: Open Berlin Defense, l'Hermet Variation",C67,2024.04.21,FIDE Candidates 2024,"Vidit, Santosh Gujrathi","Firouzja, Alireza",0,0,14,2727,-33,20.5,-5.5,1.46,-0.39
+55,"King's Indian Defense: Fianchetto Variation, Classical Variation",E68,2024.04.21,FIDE Candidates 2024,"Abasov, Nijat",Praggnanandhaa R,1,-1,53,2632,-115,85.0,-13.0,1.6,-0.24
+55,"King's Indian Defense: Fianchetto Variation, Classical Variation",E68,2024.04.21,FIDE Candidates 2024,Praggnanandhaa R,"Abasov, Nijat",0,1,53,2747,115,98.0,13.0,1.85,0.24
